@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EB0AE6C-E1F7-47C2-8724-0BC591A4BE98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinBase</RootNamespace>
+    <AssemblyName>WinBase</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\MigraDoc.RtfRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WC.PdfDocumentClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WC.PdfDocumentClass\bin\Release\WC.PdfDocumentClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attendance.cs" />
+    <Compile Include="CCEManager.cs" />
+    <Compile Include="CCEUtility.cs" />
+    <Compile Include="CentralDataBase.cs" />
+    <Compile Include="ClassOrganiser.cs" />
+    <Compile Include="CLogging.cs" />
+    <Compile Include="CommentManagementClass.cs" />
+    <Compile Include="CommonEnum.cs" />
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="DBLogClass.cs" />
+    <Compile Include="EmailManager.cs" />
+    <Compile Include="EventArguments.cs" />
+    <Compile Include="ExamManage.cs" />
+    <Compile Include="FeeManage.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="GroupManager.cs" />
+    <Compile Include="HouseManager.cs" />
+    <Compile Include="Incident.cs" />
+    <Compile Include="Inventory.cs" />
+    <Compile Include="KnowinEncryption.cs" />
+    <Compile Include="KnowinGen.cs" />
+    <Compile Include="KnowinGroup.cs" />
+    <Compile Include="KnowinRole.cs" />
+    <Compile Include="KnowinUser.cs" />
+    <Compile Include="KnowinUserAction.cs" />
+    <Compile Include="LibraryManagClass.cs" />
+    <Compile Include="Lisencesing.cs" />
+    <Compile Include="MysqlClass.cs" />
+    <Compile Include="ParentLogin.cs" />
+    <Compile Include="Payroll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationClass.cs" />
+    <Compile Include="Reports.cs" />
+    <Compile Include="SchoolClass.cs" />
+    <Compile Include="SMSManager.cs" />
+    <Compile Include="StaffManager.cs" />
+    <Compile Include="StudentManagerClass.cs" />
+    <Compile Include="TimeTable.cs" />
+    <Compile Include="TransportationClass.cs" />
+    <Compile Include="UserInfoClass.cs" />
+    <Compile Include="WinerConstants.cs" />
+    <Compile Include="WinErSearch.cs" />
+    <Compile Include="WinerUtlity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\WinBase.dll" />
+    <Content Include="bin\Debug\WinBase.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

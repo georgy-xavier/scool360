@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="centraldbModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="centraldbModelStoreContainer">
+    <EntitySet Name="tblschool_list" EntityType="centraldbModel.Store.tblschool_list" store:Type="Tables" Schema="centraldb" />
+  </EntityContainer>
+  <EntityType Name="tblschool_list">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SchoolName" Type="varchar" MaxLength="100" />
+    <Property Name="ConnectionString" Type="varchar" MaxLength="255" />
+    <Property Name="IsActice" Type="tinyint" />
+    <Property Name="DatabaseName" Type="varchar" MaxLength="50" />
+    <Property Name="IsEmail" Type="tinyint" />
+    <Property Name="FilePath" Type="varchar" MaxLength="50" />
+    <Property Name="Sysversion" Type="varchar" MaxLength="200" />
+    <Property Name="Patchversion" Type="varchar" MaxLength="200" />
+    <Property Name="HostName" Type="varchar" MaxLength="200" />
+    <Property Name="UserName" Type="varchar" MaxLength="200" />
+    <Property Name="Password" Type="varchar" MaxLength="200" />
+    <Property Name="ExpireDate" Type="varchar" MaxLength="200" />
+    <Property Name="CustomerId" Type="varchar" MaxLength="255" />
+  </EntityType>
+</Schema>

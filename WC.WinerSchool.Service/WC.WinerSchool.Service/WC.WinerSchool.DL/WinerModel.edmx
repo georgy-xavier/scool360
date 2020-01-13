@@ -1,0 +1,2284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="WinErdbModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="WinErdbModelStoreContainer">
+          <EntitySet Name="tblaccount" EntityType="WinErdbModel.Store.tblaccount" store:Type="Tables"   />
+          <EntitySet Name="tblaccounttype" EntityType="WinErdbModel.Store.tblaccounttype" store:Type="Tables"   />
+          <EntitySet Name="tblaction" EntityType="WinErdbModel.Store.tblaction" store:Type="Tables"   />
+          <EntitySet Name="tbladmisiontype" EntityType="WinErdbModel.Store.tbladmisiontype" store:Type="Tables"   />
+          <EntitySet Name="tblattendancemode" EntityType="WinErdbModel.Store.tblattendancemode" store:Type="Tables"   />
+          <EntitySet Name="tblbatch" EntityType="WinErdbModel.Store.tblbatch" store:Type="Tables"   />
+          <EntitySet Name="tblbloodgrp" EntityType="WinErdbModel.Store.tblbloodgrp" store:Type="Tables"   />
+          <EntitySet Name="tblcast" EntityType="WinErdbModel.Store.tblcast" store:Type="Tables"   />
+          <EntitySet Name="tblcast_category" EntityType="WinErdbModel.Store.tblcast_category" store:Type="Tables"   />
+          <EntitySet Name="tblcatogery" EntityType="WinErdbModel.Store.tblcatogery" store:Type="Tables"   />
+          <EntitySet Name="tblclass" EntityType="WinErdbModel.Store.tblclass" store:Type="Tables"   />
+          <EntitySet Name="tblclassexam" EntityType="WinErdbModel.Store.tblclassexam" store:Type="Tables"   />
+          <EntitySet Name="tblclassroom" EntityType="WinErdbModel.Store.tblclassroom" store:Type="Tables"   />
+          <EntitySet Name="tblclassschedule" EntityType="WinErdbModel.Store.tblclassschedule" store:Type="Tables"   />
+          <EntitySet Name="tblclasssubmap" EntityType="WinErdbModel.Store.tblclasssubmap" store:Type="Tables"   />
+          <EntitySet Name="tblconfiguration" EntityType="WinErdbModel.Store.tblconfiguration" store:Type="Tables"   />
+          <EntitySet Name="tbldeleteditems" EntityType="WinErdbModel.Store.tbldeleteditems" store:Type="Tables"   />
+          <EntitySet Name="tbldevice" EntityType="WinErdbModel.Store.tbldevice" store:Type="Tables"   />
+          <EntitySet Name="tbldeviceupdates" EntityType="WinErdbModel.Store.tbldeviceupdates" store:Type="Tables"   />
+          <EntitySet Name="tbldeviceuploadconflicts" EntityType="WinErdbModel.Store.tbldeviceuploadconflicts" store:Type="Tables"   />
+          <EntitySet Name="tbldevision" EntityType="WinErdbModel.Store.tbldevision" store:Type="Tables"   />
+          <EntitySet Name="tblfeeaccount" EntityType="WinErdbModel.Store.tblfeeaccount" store:Type="Tables"   />
+          <EntitySet Name="tblfeeadvancetransaction" EntityType="WinErdbModel.Store.tblfeeadvancetransaction" store:Type="Tables"   />
+          <EntitySet Name="tblfeebill" EntityType="WinErdbModel.Store.tblfeebill" store:Type="Tables"   />
+          <EntitySet Name="tblfeebillclearence" EntityType="WinErdbModel.Store.tblfeebillclearence" store:Type="Tables"   />
+          <EntitySet Name="tblfeebilltype" EntityType="WinErdbModel.Store.tblfeebilltype" store:Type="Tables"   store:Name="tblfeebilltype">
+            <DefiningQuery>SELECT
+      `tblfeebilltype`.`Id`, 
+      `tblfeebilltype`.`Name`, 
+      `tblfeebilltype`.`NeedOfficeCopy`, 
+      `tblfeebilltype`.`PageName`, 
+      `tblfeebilltype`.`IsPDF`, 
+      `tblfeebilltype`.`SyncDate`
+      FROM `tblfeebilltype` AS `tblfeebilltype`</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="tblfeefrequencytype" EntityType="WinErdbModel.Store.tblfeefrequencytype" store:Type="Tables"   />
+          <EntitySet Name="tblfeeothermaster" EntityType="WinErdbModel.Store.tblfeeothermaster" store:Type="Tables"   />
+          <EntitySet Name="tblfeeschedule" EntityType="WinErdbModel.Store.tblfeeschedule" store:Type="Tables"   />
+          <EntitySet Name="tblfeestudent" EntityType="WinErdbModel.Store.tblfeestudent" store:Type="Tables"   />
+          <EntitySet Name="tblfeetype" EntityType="WinErdbModel.Store.tblfeetype" store:Type="Tables"   />
+          <EntitySet Name="tblfileurl" EntityType="WinErdbModel.Store.tblfileurl" store:Type="Tables"   />
+          <EntitySet Name="tblfine" EntityType="WinErdbModel.Store.tblfine" store:Type="Tables"   />
+          <EntitySet Name="tblholiday" EntityType="WinErdbModel.Store.tblholiday" store:Type="Tables"   />
+          <EntitySet Name="tblholidayconfig" EntityType="WinErdbModel.Store.tblholidayconfig" store:Type="Tables"   />
+          <EntitySet Name="tbllanguage" EntityType="WinErdbModel.Store.tbllanguage" store:Type="Tables"   />
+          <EntitySet Name="tblmasterdate" EntityType="WinErdbModel.Store.tblmasterdate" store:Type="Tables"   />
+          <EntitySet Name="tblperiod" EntityType="WinErdbModel.Store.tblperiod" store:Type="Tables"   />
+          <EntitySet Name="tblregistration" EntityType="WinErdbModel.Store.tblregistration" store:Type="Tables"   />
+          <EntitySet Name="tblreligion" EntityType="WinErdbModel.Store.tblreligion" store:Type="Tables"   />
+          <EntitySet Name="tblrole" EntityType="WinErdbModel.Store.tblrole" store:Type="Tables"   />
+          <EntitySet Name="tblruleclassmap" EntityType="WinErdbModel.Store.tblruleclassmap" store:Type="Tables"   />
+          <EntitySet Name="tblschooldetails" EntityType="WinErdbModel.Store.tblschooldetails" store:Type="Tables"   />
+          <EntitySet Name="tblstandard" EntityType="WinErdbModel.Store.tblstandard" store:Type="Tables"   />
+          <EntitySet Name="tblstudent" EntityType="WinErdbModel.Store.tblstudent" store:Type="Tables"   />
+          <EntitySet Name="tblstudentclassmap" EntityType="WinErdbModel.Store.tblstudentclassmap" store:Type="Tables"   />
+          <EntitySet Name="tblstudentfeeadvance" EntityType="WinErdbModel.Store.tblstudentfeeadvance" store:Type="Tables"   />
+          <EntitySet Name="tblstudtype" EntityType="WinErdbModel.Store.tblstudtype" store:Type="Tables"   />
+          <EntitySet Name="tblsubjects" EntityType="WinErdbModel.Store.tblsubjects" store:Type="Tables"   />
+          <EntitySet Name="tbltransaction" EntityType="WinErdbModel.Store.tbltransaction" store:Type="Tables"   />
+          <EntitySet Name="tbltransactionclearence" EntityType="WinErdbModel.Store.tbltransactionclearence" store:Type="Tables"   />
+          <EntitySet Name="tbltransactionhistory" EntityType="WinErdbModel.Store.tbltransactionhistory" store:Type="Tables"   />
+          <EntitySet Name="tbluser" EntityType="WinErdbModel.Store.tbluser" store:Type="Tables"   />
+        </EntityContainer>
+        <EntityType Name="tblaccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AccountName" Type="varchar" MaxLength="100" />
+          <Property Name="Parent" Type="int" />
+        </EntityType>
+        <EntityType Name="tblaccounttype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="tblaction">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ActionName" Type="varchar" MaxLength="35" />
+          <Property Name="Description" Type="varchar" MaxLength="500" />
+          <Property Name="Link" Type="varchar" MaxLength="80" />
+          <Property Name="ActionType" Type="varchar" MaxLength="30" />
+          <Property Name="Order" Type="int" />
+          <Property Name="MenuName" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tbladmisiontype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblattendancemode">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Attmode" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="tblbatch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BatchName" Type="varchar" MaxLength="100" />
+          <Property Name="StartDate" Type="date" />
+          <Property Name="EndDate" Type="date" />
+          <Property Name="Status" Type="int" />
+          <Property Name="Created" Type="int" />
+          <Property Name="NOfWorkingDays" Type="int" />
+          <Property Name="LastbatchId" Type="int" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblbloodgrp">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GroupName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblcast">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="castname" Type="varchar" MaxLength="255" />
+          <Property Name="CategoryId" Type="int" />
+        </EntityType>
+        <EntityType Name="tblcast_category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="CategoryName" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="tblcatogery">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CatogeryName" Type="varchar" MaxLength="99" />
+        </EntityType>
+        <EntityType Name="tblclass">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ClassName" Type="varchar" MaxLength="100" />
+          <Property Name="Standard" Type="int" />
+          <Property Name="ParentGroupID" Type="int" />
+          <Property Name="Status" Type="int" />
+          <Property Name="Division" Type="varchar" MaxLength="30" />
+          <Property Name="TotalSeats" Type="int" />
+          <Property Name="PeriodCount" Type="int" />
+          <Property Name="ClassTeacher" Type="int" />
+          <Property Name="RollNoSchTypeId" Type="int" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblclassexam">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ExamId" Type="int" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="CreatedDateTime" Type="datetime" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="255" />
+          <Property Name="Status" Type="int" />
+        </EntityType>
+        <EntityType Name="tblclassroom">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RoomNumber" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblclassschedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="BatchId" Type="int" />
+          <Property Name="ClassTeacherId" Type="int" />
+          <Property Name="ClassRoom" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tblclasssubmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="ClassId" Type="int" />
+          <Property Name="SubjectId" Type="int" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tblconfiguration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Module" Type="varchar" MaxLength="255" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="Value" Type="varchar" MaxLength="255" />
+          <Property Name="SubValue" Type="varchar" MaxLength="50" />
+          <Property Name="Disc" Type="varchar" MaxLength="500" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tbldeleteditems">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ItemId" Type="int" />
+          <Property Name="TableName" Type="varchar" MaxLength="50" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tbldevice">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DeviceUniqueId" Type="varchar" MaxLength="50" />
+          <Property Name="DeviceName" Type="varchar" MaxLength="50" />
+          <Property Name="AddedUser" Type="varchar" MaxLength="50" />
+          <Property Name="Registration Date" Type="datetime" />
+          <Property Name="LastLogin" Type="datetime" />
+          <Property Name="IsActive" Type="bool" Nullable="false" />
+          <Property Name="ActivatedBy" Type="varchar" MaxLength="50" />
+          <Property Name="DeviceType" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tbldeviceupdates">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TableName" Type="varchar" MaxLength="255" />
+          <Property Name="ColumnName" Type="varchar" MaxLength="255" />
+          <Property Name="ColValue" Type="int" />
+          <Property Name="TransactionType" Type="varchar" MaxLength="255" />
+          <Property Name="ChangeDate" Type="datetime" />
+          <Property Name="IsUpdated" Type="int" />
+          <Property Name="FieldStr" Type="text" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+          <Property Name="DeviceId" Type="int" />
+        </EntityType>
+        <EntityType Name="tbldeviceuploadconflicts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TableName" Type="varchar" MaxLength="255" />
+          <Property Name="Conflict_Column" Type="varchar" MaxLength="255" />
+          <Property Name="ConflictId" Type="int" />
+          <Property Name="DeviceId" Type="int" />
+          <Property Name="UpdateDate" Type="datetime" />
+          <Property Name="RowDataServer" Type="text" />
+          <Property Name="RowDataDevice" Type="text" />
+        </EntityType>
+        <EntityType Name="tbldevision">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="tinyint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Devision" Type="varchar" MaxLength="5" />
+        </EntityType>
+        <EntityType Name="tblfeeaccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="AccountName" Type="varchar" MaxLength="255" />
+          <Property Name="FrequencyId" Type="int" />
+          <Property Name="AssociatedId" Type="int" />
+          <Property Name="Desciptrion" Type="varchar" MaxLength="500" />
+          <Property Name="CreatedUserId" Type="int" />
+          <Property Name="CreatedTime" Type="datetime" />
+          <Property Name="Status" Type="int" />
+          <Property Name="Type" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="tblfeeadvancetransaction">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="uint" />
+          <Property Name="StudentName" Type="varchar" MaxLength="100" />
+          <Property Name="FeeName" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodName" Type="varchar" MaxLength="150" />
+          <Property Name="BatchId" Type="uint" />
+          <Property Name="Amount" Type="double" />
+          <Property Name="Type" Type="utinyint" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="FeeId" Type="int" />
+          <Property Name="PeriodId" Type="smallint" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="CreatedUser" Type="varchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="AdvanceBalance" Type="double" />
+        </EntityType>
+        <EntityType Name="tblfeebill">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentID" Type="varchar" MaxLength="255" />
+          <Property Name="TotalAmount" Type="double" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="PaymentMode" Type="varchar" MaxLength="100" />
+          <Property Name="PaymentModeId" Type="varchar" MaxLength="50" />
+          <Property Name="BankName" Type="varchar" MaxLength="100" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="CreatedDateTime" Type="datetime" />
+          <Property Name="Canceled" Type="tinyint" />
+          <Property Name="Counter" Type="int" />
+          <Property Name="AccYear" Type="int" />
+          <Property Name="ClassID" Type="int" />
+          <Property Name="StudentName" Type="varchar" MaxLength="100" />
+          <Property Name="RegularFee" Type="tinyint" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="OtherReference" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="tblfeebillclearence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentID" Type="varchar" MaxLength="255" />
+          <Property Name="TotalAmount" Type="double" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="PaymentMode" Type="varchar" MaxLength="100" />
+          <Property Name="PaymentModeId" Type="varchar" MaxLength="50" />
+          <Property Name="BankName" Type="varchar" MaxLength="100" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="Canceled" Type="tinyint" />
+          <Property Name="CreatedDateTime" Type="datetime" />
+          <Property Name="Counter" Type="int" />
+          <Property Name="AccYear" Type="int" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="ClassID" Type="int" />
+          <Property Name="StudentName" Type="varchar" MaxLength="100" />
+          <Property Name="RegularFee" Type="tinyint" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="OtherReference" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'fatimadb.tblfeebilltype' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="tblfeebilltype">
+          <Key>
+            <PropertyRef Name="NeedOfficeCopy" />
+          </Key>
+          <Property Name="Id" Type="smallint" />
+          <Property Name="Name" Type="varchar" MaxLength="25" />
+          <Property Name="NeedOfficeCopy" Type="bool" Nullable="false" />
+          <Property Name="PageName" Type="varchar" MaxLength="100" />
+          <Property Name="IsPDF" Type="tinyint" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblfeefrequencytype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FreequencyName" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="tblfeeothermaster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="255" />
+          <Property Name="Description" Type="varchar" MaxLength="255" />
+          <Property Name="Refundable" Type="tinyint" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblfeeschedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FeeId" Type="int" Nullable="false" />
+          <Property Name="BatchId" Type="int" Nullable="false" />
+          <Property Name="Duedate" Type="date" Nullable="false" />
+          <Property Name="LastDate" Type="date" Nullable="false" />
+          <Property Name="Status" Type="varchar" MaxLength="100" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="PeriodId" Type="int" />
+          <Property Name="Amount" Type="double" />
+        </EntityType>
+        <EntityType Name="tblfeestudent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SchId" Type="int" />
+          <Property Name="StudId" Type="int" />
+          <Property Name="Amount" Type="double" />
+          <Property Name="BalanceAmount" Type="double" />
+          <Property Name="Status" Type="varchar" MaxLength="100" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblfeetype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tblfileurl">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FilePath" Type="varchar" MaxLength="255" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="FileBytes" Type="longblob" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblfine">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Amount" Type="double" />
+          <Property Name="Frequency" Type="double" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+          <Property Name="FeeId" Type="int" />
+          <Property Name="Finedate" Type="int" />
+          <Property Name="FineAmounttype" Type="int" />
+          <Property Name="FineDuration" Type="int" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblholiday">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="dateId" Type="smallint" />
+          <Property Name="Type" Type="varchar" MaxLength="30" />
+          <Property Name="Class_Id" Type="int" />
+          <Property Name="Desc" Type="varchar" />
+          <Property Name="GroupId" Type="smallint" Nullable="false" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblholidayconfig">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="tinyint" Nullable="false" />
+          <Property Name="Day" Type="varchar" MaxLength="10" />
+          <Property Name="Status" Type="tinyint" />
+          <Property Name="StaffStatus" Type="tinyint" Nullable="false" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tbllanguage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Language" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tblmasterdate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="date" Type="date" />
+        </EntityType>
+        <EntityType Name="tblperiod">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Period" Type="varchar" MaxLength="255" />
+          <Property Name="FrequencyId" Type="varchar" MaxLength="255" />
+          <Property Name="Order" Type="tinyint" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblregistration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="pswd" Type="varchar" MaxLength="50" />
+          <Property Name="E-mail" Type="varchar" MaxLength="60" />
+          <Property Name="SurName" Type="varchar" MaxLength="60" />
+          <Property Name="Relation" Type="int" />
+        </EntityType>
+        <EntityType Name="tblreligion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Religion" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblrole">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RoleName" Type="varchar" MaxLength="25" />
+          <Property Name="Discription" Type="varchar" MaxLength="255" />
+          <Property Name="Type" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tblruleclassmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RuleId" Type="int" />
+          <Property Name="classId" Type="int" />
+          <Property Name="Values" Type="int" />
+          <Property Name="feeTypeId" Type="int" />
+        </EntityType>
+        <EntityType Name="tblschooldetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="LogoUrl" Type="varchar" MaxLength="255" />
+          <Property Name="SchoolName" Type="varchar" MaxLength="255" />
+          <Property Name="Address" Type="varchar" MaxLength="500" />
+          <Property Name="Syllabus" Type="varchar" MaxLength="50" />
+          <Property Name="MediumofInstruction" Type="varchar" MaxLength="50" />
+          <Property Name="Disc" Type="varchar" />
+          <Property Name="SchoolImage" Type="varchar" MaxLength="250" />
+          <Property Name="Logo" Type="longblob" />
+          <Property Name="SchoolImages" Type="longblob" />
+        </EntityType>
+        <EntityType Name="tblstandard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tblstudent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentName" Type="varchar" MaxLength="256" />
+          <Property Name="GardianName" Type="varchar" MaxLength="100" />
+          <Property Name="AdmitionNo" Type="varchar" MaxLength="255" />
+          <Property Name="DOB" Type="date" />
+          <Property Name="Sex" Type="varchar" MaxLength="30" />
+          <Property Name="Address" Type="varchar" MaxLength="500" />
+          <Property Name="BloodGroup" Type="int" />
+          <Property Name="Religion" Type="int" />
+          <Property Name="Cast" Type="int" />
+          <Property Name="DateofJoining" Type="date" />
+          <Property Name="DateOfLeaving" Type="date" />
+          <Property Name="Status" Type="int" />
+          <Property Name="Email" Type="varchar" MaxLength="50" />
+          <Property Name="Location" Type="varchar" MaxLength="100" />
+          <Property Name="Pin" Type="int" />
+          <Property Name="State" Type="varchar" MaxLength="50" />
+          <Property Name="Nationality" Type="varchar" MaxLength="50" />
+          <Property Name="FatherEduQuali" Type="varchar" MaxLength="255" />
+          <Property Name="MothersName" Type="varchar" MaxLength="100" />
+          <Property Name="MotherEduQuali" Type="varchar" MaxLength="100" />
+          <Property Name="FatherOccupation" Type="varchar" MaxLength="100" />
+          <Property Name="AnnualIncome" Type="double" />
+          <Property Name="MotherTongue" Type="int" />
+          <Property Name="ResidencePhNo" Type="varchar" MaxLength="25" />
+          <Property Name="OfficePhNo" Type="varchar" MaxLength="25" />
+          <Property Name="1stLanguage" Type="int" />
+          <Property Name="NumberofBrothers" Type="int" />
+          <Property Name="NumberOfSysters" Type="int" />
+          <Property Name="JoinBatch" Type="int" />
+          <Property Name="CreationTime" Type="varchar" MaxLength="100" />
+          <Property Name="Addresspresent" Type="varchar" MaxLength="500" />
+          <Property Name="StudTypeId" Type="int" />
+          <Property Name="AdmissionTypeId" Type="int" />
+          <Property Name="CreatedUserName" Type="varchar" MaxLength="180" />
+          <Property Name="Comment" Type="varchar" MaxLength="255" />
+          <Property Name="CanceledUser" Type="int" />
+          <Property Name="TempStudentId" Type="varchar" MaxLength="25" />
+          <Property Name="UseBus" Type="tinyint" />
+          <Property Name="UseHostel" Type="tinyint" />
+          <Property Name="LastClassId" Type="int" />
+          <Property Name="RollNo" Type="int" />
+          <Property Name="JoinStandard" Type="int" />
+          <Property Name="StudentId" Type="varchar" MaxLength="255" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblstudentclassmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="StudentId" Type="int" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="Standard" Type="varchar" MaxLength="100" />
+          <Property Name="BatchId" Type="int" />
+          <Property Name="RollNo" Type="int" />
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tblstudentfeeadvance">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="uint" />
+          <Property Name="StudentName" Type="varchar" MaxLength="100" />
+          <Property Name="FeeName" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodName" Type="varchar" MaxLength="150" />
+          <Property Name="BatchId" Type="uint" />
+          <Property Name="Amount" Type="double" />
+          <Property Name="FeeId" Type="int" />
+          <Property Name="PeriodId" Type="smallint" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+        <EntityType Name="tblstudtype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TypeName" Type="varchar" MaxLength="50" />
+          <Property Name="Desc" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="tblsubjects">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="subject_name" Type="varchar" MaxLength="255" />
+          <Property Name="sub_description" Type="varchar" MaxLength="255" />
+          <Property Name="sub_Catagory" Type="int" />
+          <Property Name="SubjectCode" Type="varchar" MaxLength="50" />
+          <Property Name="Combined" Type="tinyint" />
+        </EntityType>
+        <EntityType Name="tbltransaction">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Name="TransationId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="PaymentElementId" Type="int" Nullable="false" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="PaidDate" Type="date" />
+          <Property Name="Amount" Type="double" Nullable="false" />
+          <Property Name="AccountTo" Type="int" />
+          <Property Name="AccountFrom" Type="int" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+          <Property Name="TransType" Type="tinyint" />
+          <Property Name="Canceled" Type="tinyint" />
+          <Property Name="BalanceAmount" Type="double" />
+          <Property Name="RegularFee" Type="tinyint" />
+          <Property Name="BatchId" Type="int" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="StudentName" Type="varchar" MaxLength="200" />
+          <Property Name="CollectedUser" Type="varchar" MaxLength="100" />
+          <Property Name="CollectionType" Type="tinyint" />
+          <Property Name="FeeName" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodName" Type="varchar" MaxLength="150" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodId" Type="int" />
+          <Property Name="FeeId" Type="int" />
+        </EntityType>
+        <EntityType Name="tbltransactionclearence">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Name="TransationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PaymentElementId" Type="int" Nullable="false" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="Amount" Type="double" Nullable="false" />
+          <Property Name="PaidDate" Type="date" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="AccountTo" Type="int" />
+          <Property Name="AccountFrom" Type="int" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+          <Property Name="TransType" Type="tinyint" />
+          <Property Name="Canceled" Type="tinyint" />
+          <Property Name="BalanceAmount" Type="double" />
+          <Property Name="RegularFee" Type="tinyint" />
+          <Property Name="BatchId" Type="int" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="StudentName" Type="varchar" MaxLength="200" />
+          <Property Name="CollectedUser" Type="varchar" MaxLength="100" />
+          <Property Name="CollectionType" Type="utinyint" />
+          <Property Name="FeeName" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodName" Type="varchar" MaxLength="150" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+          <Property Name="PeriodId" Type="int" />
+          <Property Name="FeeId" Type="int" />
+        </EntityType>
+        <EntityType Name="tbltransactionhistory">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Name="TransationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="BillNo" Type="varchar" MaxLength="50" />
+          <Property Name="PaidDate" Type="date" />
+          <Property Name="Amount" Type="double" Nullable="false" />
+          <Property Name="AccountTo" Type="int" />
+          <Property Name="AccountFrom" Type="int" />
+          <Property Name="Type" Type="varchar" MaxLength="20" />
+          <Property Name="FeeName" Type="varchar" MaxLength="255" />
+          <Property Name="FeeId" Type="smallint" />
+          <Property Name="PeriodId" Type="int" />
+          <Property Name="ClassId" Type="int" />
+          <Property Name="BatchId" Type="varchar" MaxLength="255" />
+          <Property Name="TransType" Type="tinyint" />
+          <Property Name="Canceled" Type="tinyint" />
+          <Property Name="RegularFee" Type="tinyint" />
+          <Property Name="StudentName" Type="varchar" MaxLength="200" />
+          <Property Name="CollectedUser" Type="varchar" MaxLength="100" />
+          <Property Name="CollectionType" Type="tinyint" />
+          <Property Name="PeriodName" Type="varchar" MaxLength="150" />
+          <Property Name="TempId" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="tbluser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="varchar" MaxLength="25" />
+          <Property Name="Password" Type="varchar" MaxLength="50" />
+          <Property Name="EmailId" Type="varchar" MaxLength="50" />
+          <Property Name="SurName" Type="varchar" MaxLength="100" />
+          <Property Name="LastLogin" Type="datetime" />
+          <Property Name="CreationTime" Type="datetime" />
+          <Property Name="RoleId" Type="int" />
+          <Property Name="CanLogin" Type="uint" Nullable="false" />
+          <Property Name="Status" Type="int" />
+          <Property Name="SyncDate" Type="bigint" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WinErdbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="WinErdbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tblaccounts" EntityType="WinErdbModel.tblaccount" />
+          <EntitySet Name="tblaccounttypes" EntityType="WinErdbModel.tblaccounttype" />
+          <EntitySet Name="tblactions" EntityType="WinErdbModel.tblaction" />
+          <EntitySet Name="tbladmisiontypes" EntityType="WinErdbModel.tbladmisiontype" />
+          <EntitySet Name="tblcasts" EntityType="WinErdbModel.tblcast" />
+          <EntitySet Name="tblcast_category" EntityType="WinErdbModel.tblcast_category" />
+          <EntitySet Name="tblcatogeries" EntityType="WinErdbModel.tblcatogery" />
+          <EntitySet Name="tblclassexams" EntityType="WinErdbModel.tblclassexam" />
+          <EntitySet Name="tblclassrooms" EntityType="WinErdbModel.tblclassroom" />
+          <EntitySet Name="tblclassschedules" EntityType="WinErdbModel.tblclassschedule" />
+          <EntitySet Name="tblclasssubmaps" EntityType="WinErdbModel.tblclasssubmap" />
+          <EntitySet Name="tbldevisions" EntityType="WinErdbModel.tbldevision" />
+          <EntitySet Name="tblregistrations" EntityType="WinErdbModel.tblregistration" />
+          <EntitySet Name="tblreligions" EntityType="WinErdbModel.tblreligion" />
+          <EntitySet Name="tblroles" EntityType="WinErdbModel.tblrole" />
+          <EntitySet Name="tblruleclassmaps" EntityType="WinErdbModel.tblruleclassmap" />
+          <EntitySet Name="tblschooldetails" EntityType="WinErdbModel.tblschooldetail" />
+          <EntitySet Name="tblstudents" EntityType="WinErdbModel.tblstudent" />
+          <EntitySet Name="tblstudtypes" EntityType="WinErdbModel.tblstudtype" />
+          <EntitySet Name="tblsubjects" EntityType="WinErdbModel.tblsubject" />
+          <EntitySet Name="tbltransactionhistories" EntityType="WinErdbModel.tbltransactionhistory" />
+          <EntitySet Name="tbldeleteditems" EntityType="WinErdbModel.tbldeleteditem" />
+          <EntitySet Name="tblstandards" EntityType="WinErdbModel.tblstandard" />
+          <EntitySet Name="tblbloodgrps" EntityType="WinErdbModel.tblbloodgrp" />
+          <EntitySet Name="tbllanguages" EntityType="WinErdbModel.tbllanguage" />
+          <EntitySet Name="tblstudentclassmaps" EntityType="WinErdbModel.tblstudentclassmap" />
+          <EntitySet Name="tblusers" EntityType="WinErdbModel.tbluser" />
+          <EntitySet Name="tblbatches" EntityType="WinErdbModel.tblbatch" />
+          <EntitySet Name="tblfeeaccounts" EntityType="WinErdbModel.tblfeeaccount" />
+          <EntitySet Name="tblfeefrequencytypes" EntityType="WinErdbModel.tblfeefrequencytype" />
+          <EntitySet Name="tblfeeschedules" EntityType="WinErdbModel.tblfeeschedule" />
+          <EntitySet Name="tblfeestudents" EntityType="WinErdbModel.tblfeestudent" />
+          <EntitySet Name="tblfeetypes" EntityType="WinErdbModel.tblfeetype" />
+          <EntitySet Name="tblperiods" EntityType="WinErdbModel.tblperiod" />
+          <EntitySet Name="tblattendancemodes" EntityType="WinErdbModel.tblattendancemode" />
+          <EntitySet Name="tblconfigurations" EntityType="WinErdbModel.tblconfiguration" />
+          <EntitySet Name="tblfeeothermasters" EntityType="WinErdbModel.tblfeeothermaster" />
+          <EntitySet Name="tblstudentfeeadvances" EntityType="WinErdbModel.tblstudentfeeadvance" />
+          <EntitySet Name="tblfileurls" EntityType="WinErdbModel.tblfileurl" />
+          <EntitySet Name="tblfeebills" EntityType="WinErdbModel.tblfeebill" />
+          <EntitySet Name="tblfeebillclearences" EntityType="WinErdbModel.tblfeebillclearence" />
+          <EntitySet Name="tbltransactions" EntityType="WinErdbModel.tbltransaction" />
+          <EntitySet Name="tblfeebilltypes" EntityType="WinErdbModel.tblfeebilltype" />
+          <EntitySet Name="tbldeviceupdates" EntityType="WinErdbModel.tbldeviceupdate" />
+          <EntitySet Name="tbldeviceuploadconflicts" EntityType="WinErdbModel.tbldeviceuploadconflict" />
+          <EntitySet Name="tblfeeadvancetransactions" EntityType="WinErdbModel.tblfeeadvancetransaction" />
+          <EntitySet Name="tbldevices" EntityType="WinErdbModel.tbldevice" />
+          <EntitySet Name="tblclasses" EntityType="WinErdbModel.tblclass" />
+          <EntitySet Name="tblholidays" EntityType="WinErdbModel.tblholiday" />
+          <EntitySet Name="tblholidayconfigs" EntityType="WinErdbModel.tblholidayconfig" />
+          <EntitySet Name="tblmasterdates" EntityType="WinErdbModel.tblmasterdate" />
+          <EntitySet Name="tblfines" EntityType="WinErdbModel.tblfine" />
+          <EntitySet Name="tbltransactionclearences" EntityType="WinErdbModel.tbltransactionclearence" />
+        </EntityContainer>
+        <EntityType Name="tblaccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="AccountName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Parent" />
+        </EntityType>
+        <EntityType Name="tblaccounttype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Name" MaxLength="30" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblaction">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ActionName" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Description" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Link" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ActionType" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Order" />
+          <Property Type="String" Name="MenuName" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbladmisiontype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblcast">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="castname" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="CategoryId" />
+        </EntityType>
+        <EntityType Name="tblcast_category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="CategoryName" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblcatogery">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="CatogeryName" MaxLength="99" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblclassexam">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ExamId" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="DateTime" Name="CreatedDateTime" />
+          <Property Type="String" Name="CreatedBy" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Status" />
+        </EntityType>
+        <EntityType Name="tblclassroom">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="RoomNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblclassschedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="Int32" Name="BatchId" />
+          <Property Type="Int32" Name="ClassTeacherId" />
+          <Property Type="String" Name="ClassRoom" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblclasssubmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="Int32" Name="SubjectId" />
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tbldevision">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="SByte" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Devision" MaxLength="5" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblregistration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="pswd" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="E_mail" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="SurName" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Relation" />
+        </EntityType>
+        <EntityType Name="tblreligion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Religion" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblrole">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="RoleName" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Discription" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Type" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblruleclassmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="RuleId" />
+          <Property Type="Int32" Name="classId" />
+          <Property Type="Int32" Name="Values" />
+          <Property Type="Int32" Name="feeTypeId" />
+        </EntityType>
+        <EntityType Name="tblschooldetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="LogoUrl" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="SchoolName" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Address" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Syllabus" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="MediumofInstruction" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Disc" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="SchoolImage" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Type="Binary" Name="Logo" MaxLength="Max" FixedLength="false" />
+          <Property Type="Binary" Name="SchoolImages" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="tblstudent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StudentName" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="GardianName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="AdmitionNo" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="DOB" />
+          <Property Type="String" Name="Sex" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Address" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="BloodGroup" />
+          <Property Type="Int32" Name="Religion" />
+          <Property Type="Int32" Name="Cast" />
+          <Property Type="DateTime" Name="DateofJoining" />
+          <Property Type="DateTime" Name="DateOfLeaving" />
+          <Property Type="Int32" Name="Status" />
+          <Property Type="String" Name="Email" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Location" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Pin" />
+          <Property Type="String" Name="State" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nationality" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FatherEduQuali" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="MothersName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="MotherEduQuali" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FatherOccupation" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Double" Name="AnnualIncome" />
+          <Property Type="Int32" Name="MotherTongue" />
+          <Property Type="String" Name="ResidencePhNo" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="OfficePhNo" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="C1stLanguage" />
+          <Property Type="Int32" Name="NumberofBrothers" />
+          <Property Type="Int32" Name="NumberOfSysters" />
+          <Property Type="Int32" Name="JoinBatch" />
+          <Property Type="String" Name="CreationTime" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Addresspresent" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="StudTypeId" />
+          <Property Type="Int32" Name="AdmissionTypeId" />
+          <Property Type="String" Name="CreatedUserName" MaxLength="180" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Comment" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="CanceledUser" />
+          <Property Type="String" Name="TempStudentId" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="UseBus" />
+          <Property Type="SByte" Name="UseHostel" />
+          <Property Type="Int32" Name="LastClassId" />
+          <Property Type="Int32" Name="RollNo" />
+          <Property Type="Int32" Name="JoinStandard" />
+          <Property Type="String" Name="StudentId" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblstudtype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TypeName" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Desc" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblsubject">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="subject_name" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="sub_description" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="sub_Catagory" />
+          <Property Type="String" Name="SubjectCode" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="Combined" />
+        </EntityType>
+        <EntityType Name="tbltransactionhistory">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Type="Int32" Name="TransationId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="PaidDate" />
+          <Property Type="Double" Name="Amount" Nullable="false" />
+          <Property Type="Int32" Name="AccountTo" />
+          <Property Type="Int32" Name="AccountFrom" />
+          <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FeeName" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int16" Name="FeeId" />
+          <Property Type="Int32" Name="PeriodId" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="String" Name="BatchId" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="TransType" />
+          <Property Type="SByte" Name="Canceled" />
+          <Property Type="SByte" Name="RegularFee" />
+          <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="CollectionType" />
+          <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbldeleteditem">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ItemId" />
+          <Property Type="String" Name="TableName" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblstandard">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblbloodgrp">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="GroupName" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbllanguage">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Language" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblstudentclassmap">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="StudentId" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="String" Name="Standard" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="BatchId" />
+          <Property Type="Int32" Name="RollNo" />
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tbluser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="UserName" />
+          <Property Type="String" Name="Password" />
+          <Property Type="String" Name="EmailId" />
+          <Property Type="String" Name="SurName" />
+          <Property Type="DateTime" Name="LastLogin" />
+          <Property Type="DateTime" Name="CreationTime" />
+          <Property Type="Int32" Name="RoleId" />
+          <Property Type="Int64" Name="CanLogin" Nullable="false" />
+          <Property Type="Int32" Name="Status" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblbatch">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="BatchName" />
+          <Property Type="DateTime" Name="StartDate" />
+          <Property Type="DateTime" Name="EndDate" />
+          <Property Type="Int32" Name="Status" />
+          <Property Type="Int32" Name="Created" />
+          <Property Type="Int32" Name="NOfWorkingDays" />
+          <Property Type="Int32" Name="LastbatchId" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblfeeaccount">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="AccountName" />
+          <Property Type="Int32" Name="FrequencyId" />
+          <Property Type="Int32" Name="AssociatedId" />
+          <Property Type="String" Name="Desciptrion" />
+          <Property Type="Int32" Name="CreatedUserId" />
+          <Property Type="DateTime" Name="CreatedTime" />
+          <Property Type="Int32" Name="Status" />
+          <Property Type="SByte" Name="Type" />
+        </EntityType>
+        <EntityType Name="tblfeefrequencytype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="FreequencyName" />
+        </EntityType>
+        <EntityType Name="tblfeeschedule">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="FeeId" Nullable="false" />
+          <Property Type="Int32" Name="BatchId" Nullable="false" />
+          <Property Type="DateTime" Name="Duedate" Nullable="false" />
+          <Property Type="DateTime" Name="LastDate" Nullable="false" />
+          <Property Type="String" Name="Status" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="Int32" Name="PeriodId" />
+          <Property Type="Double" Name="Amount" />
+        </EntityType>
+        <EntityType Name="tblfeestudent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="SchId" />
+          <Property Type="Int32" Name="StudId" />
+          <Property Type="Double" Name="Amount" />
+          <Property Type="Double" Name="BalanceAmount" />
+          <Property Type="String" Name="Status" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblfeetype">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" />
+        </EntityType>
+        <EntityType Name="tblperiod">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Period" />
+          <Property Type="String" Name="FrequencyId" />
+          <Property Type="SByte" Name="Order" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblattendancemode">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Attmode" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblconfiguration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Module" />
+          <Property Type="String" Name="Name" />
+          <Property Type="String" Name="Value" />
+          <Property Type="String" Name="SubValue" />
+          <Property Type="String" Name="Disc" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblfeeothermaster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" />
+          <Property Type="String" Name="Description" />
+          <Property Type="SByte" Name="Refundable" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblstudentfeeadvance">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="StudentId" />
+          <Property Type="String" Name="StudentName" />
+          <Property Type="String" Name="FeeName" />
+          <Property Type="String" Name="PeriodName" />
+          <Property Type="Int64" Name="BatchId" />
+          <Property Type="Double" Name="Amount" />
+          <Property Type="Int32" Name="FeeId" />
+          <Property Type="Int16" Name="PeriodId" />
+          <Property Type="String" Name="TempId" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblfileurl">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="FilePath" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Type" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="Binary" Name="FileBytes" MaxLength="Max" FixedLength="false" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblfeebill">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StudentID" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Double" Name="TotalAmount" />
+          <Property Type="DateTime" Name="Date" />
+          <Property Type="String" Name="PaymentMode" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PaymentModeId" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="BankName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="DateTime" Name="CreatedDateTime" />
+          <Property Type="SByte" Name="Canceled" />
+          <Property Type="Int32" Name="Counter" />
+          <Property Type="Int32" Name="AccYear" />
+          <Property Type="Int32" Name="ClassID" />
+          <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="RegularFee" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="OtherReference" MaxLength="250" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblfeebillclearence">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StudentID" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Double" Name="TotalAmount" />
+          <Property Type="DateTime" Name="Date" />
+          <Property Type="String" Name="PaymentMode" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PaymentModeId" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="BankName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="Canceled" />
+          <Property Type="DateTime" Name="CreatedDateTime" />
+          <Property Type="Int32" Name="Counter" />
+          <Property Type="Int32" Name="AccYear" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="Int32" Name="ClassID" />
+          <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="RegularFee" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="OtherReference" MaxLength="250" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbltransaction">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Type="Int32" Name="TransationId" Nullable="false" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="Int32" Name="PaymentElementId" Nullable="false" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="PaidDate" />
+          <Property Type="Double" Name="Amount" Nullable="false" />
+          <Property Type="Int32" Name="AccountTo" />
+          <Property Type="Int32" Name="AccountFrom" />
+          <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="TransType" />
+          <Property Type="SByte" Name="Canceled" />
+          <Property Type="Double" Name="BalanceAmount" />
+          <Property Type="SByte" Name="RegularFee" />
+          <Property Type="Int32" Name="BatchId" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="CollectionType" />
+          <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="PeriodId" />
+          <Property Type="Int32" Name="FeeId" />
+        </EntityType>
+        <EntityType Name="tblfeebilltype">
+          <Key>
+            <PropertyRef Name="NeedOfficeCopy" />
+          </Key>
+          <Property Type="Int16" Name="Id" />
+          <Property Type="String" Name="Name" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Type="Boolean" Name="NeedOfficeCopy" Nullable="false" />
+          <Property Type="String" Name="PageName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="IsPDF" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tbldeviceupdate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TableName" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ColumnName" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="ColValue" />
+          <Property Type="String" Name="TransactionType" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="ChangeDate" />
+          <Property Type="Int32" Name="IsUpdated" />
+          <Property Type="String" Name="FieldStr" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Comment" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="DeviceId" />
+        </EntityType>
+        <EntityType Name="tbldeviceuploadconflict">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TableName" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Conflict_Column" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="ConflictId" />
+          <Property Type="Int32" Name="DeviceId" />
+          <Property Type="DateTime" Name="UpdateDate" />
+          <Property Type="String" Name="RowDataServer" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="RowDataDevice" MaxLength="65535" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblfeeadvancetransaction">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="StudentId" />
+          <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="BatchId" />
+          <Property Type="Double" Name="Amount" />
+          <Property Type="Byte" Name="Type" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="FeeId" />
+          <Property Type="Int16" Name="PeriodId" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CreatedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="CreatedDate" />
+          <Property Type="Double" Name="AdvanceBalance" />
+        </EntityType>
+        <EntityType Name="tbldevice">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="DeviceUniqueId" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DeviceName" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="AddedUser" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="Registration_Date" />
+          <Property Type="DateTime" Name="LastLogin" />
+          <Property Type="Boolean" Name="IsActive" Nullable="false" />
+          <Property Type="String" Name="ActivatedBy" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="DeviceType" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tblclass">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ClassName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Standard" />
+          <Property Type="Int32" Name="ParentGroupID" />
+          <Property Type="Int32" Name="Status" />
+          <Property Type="String" Name="Division" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="TotalSeats" />
+          <Property Type="Int32" Name="PeriodCount" />
+          <Property Type="Int32" Name="ClassTeacher" />
+          <Property Type="Int32" Name="RollNoSchTypeId" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblholiday">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int16" Name="dateId" />
+          <Property Type="String" Name="Type" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Class_Id" />
+          <Property Type="String" Name="Desc" MaxLength="1000" FixedLength="false" Unicode="false" />
+          <Property Type="Int16" Name="GroupId" Nullable="false" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblholidayconfig">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="SByte" Name="Id" Nullable="false" />
+          <Property Type="String" Name="Day" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="Status" />
+          <Property Type="SByte" Name="StaffStatus" Nullable="false" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tblmasterdate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="date" />
+        </EntityType>
+        <EntityType Name="tblfine">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Double" Name="Amount" />
+          <Property Type="Double" Name="Frequency" />
+          <Property Type="String" Name="Type" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="FeeId" />
+          <Property Type="Int32" Name="Finedate" />
+          <Property Type="Int32" Name="FineAmounttype" />
+          <Property Type="Int32" Name="FineDuration" />
+          <Property Type="Int64" Name="SyncDate" />
+        </EntityType>
+        <EntityType Name="tbltransactionclearence">
+          <Key>
+            <PropertyRef Name="TransationId" />
+          </Key>
+          <Property Type="Int32" Name="TransationId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="PaymentElementId" Nullable="false" />
+          <Property Type="Int32" Name="UserId" />
+          <Property Type="Double" Name="Amount" Nullable="false" />
+          <Property Type="DateTime" Name="PaidDate" />
+          <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="AccountTo" />
+          <Property Type="Int32" Name="AccountFrom" />
+          <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="TransType" />
+          <Property Type="SByte" Name="Canceled" />
+          <Property Type="Double" Name="BalanceAmount" />
+          <Property Type="SByte" Name="RegularFee" />
+          <Property Type="Int32" Name="BatchId" />
+          <Property Type="Int32" Name="ClassId" />
+          <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Byte" Name="CollectionType" />
+          <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="PeriodId" />
+          <Property Type="Int32" Name="FeeId" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WinErdbModelStoreContainer" CdmEntityContainer="WinErdbEntities">
+          <EntitySetMapping Name="tblaccounts">
+            <EntityTypeMapping TypeName="WinErdbModel.tblaccount">
+              <MappingFragment StoreEntitySet="tblaccount">
+                <ScalarProperty Name="Parent" ColumnName="Parent" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblaccounttypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblaccounttype">
+              <MappingFragment StoreEntitySet="tblaccounttype">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblactions">
+            <EntityTypeMapping TypeName="WinErdbModel.tblaction">
+              <MappingFragment StoreEntitySet="tblaction">
+                <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+                <ScalarProperty Name="Order" ColumnName="Order" />
+                <ScalarProperty Name="ActionType" ColumnName="ActionType" />
+                <ScalarProperty Name="Link" ColumnName="Link" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbladmisiontypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tbladmisiontype">
+              <MappingFragment StoreEntitySet="tbladmisiontype">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblcasts">
+            <EntityTypeMapping TypeName="WinErdbModel.tblcast">
+              <MappingFragment StoreEntitySet="tblcast">
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="castname" ColumnName="castname" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblcast_category">
+            <EntityTypeMapping TypeName="WinErdbModel.tblcast_category">
+              <MappingFragment StoreEntitySet="tblcast_category">
+                <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblcatogeries">
+            <EntityTypeMapping TypeName="WinErdbModel.tblcatogery">
+              <MappingFragment StoreEntitySet="tblcatogery">
+                <ScalarProperty Name="CatogeryName" ColumnName="CatogeryName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblclassexams">
+            <EntityTypeMapping TypeName="WinErdbModel.tblclassexam">
+              <MappingFragment StoreEntitySet="tblclassexam">
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDateTime" ColumnName="CreatedDateTime" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="ExamId" ColumnName="ExamId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblclassrooms">
+            <EntityTypeMapping TypeName="WinErdbModel.tblclassroom">
+              <MappingFragment StoreEntitySet="tblclassroom">
+                <ScalarProperty Name="RoomNumber" ColumnName="RoomNumber" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblclassschedules">
+            <EntityTypeMapping TypeName="WinErdbModel.tblclassschedule">
+              <MappingFragment StoreEntitySet="tblclassschedule">
+                <ScalarProperty Name="ClassRoom" ColumnName="ClassRoom" />
+                <ScalarProperty Name="ClassTeacherId" ColumnName="ClassTeacherId" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblclasssubmaps">
+            <EntityTypeMapping TypeName="WinErdbModel.tblclasssubmap">
+              <MappingFragment StoreEntitySet="tblclasssubmap">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="SubjectId" ColumnName="SubjectId" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbldevisions">
+            <EntityTypeMapping TypeName="WinErdbModel.tbldevision">
+              <MappingFragment StoreEntitySet="tbldevision">
+                <ScalarProperty Name="Devision" ColumnName="Devision" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblregistrations">
+            <EntityTypeMapping TypeName="WinErdbModel.tblregistration">
+              <MappingFragment StoreEntitySet="tblregistration">
+                <ScalarProperty Name="Relation" ColumnName="Relation" />
+                <ScalarProperty Name="SurName" ColumnName="SurName" />
+                <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+                <ScalarProperty Name="pswd" ColumnName="pswd" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblreligions">
+            <EntityTypeMapping TypeName="WinErdbModel.tblreligion">
+              <MappingFragment StoreEntitySet="tblreligion">
+                <ScalarProperty Name="Religion" ColumnName="Religion" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblroles">
+            <EntityTypeMapping TypeName="WinErdbModel.tblrole">
+              <MappingFragment StoreEntitySet="tblrole">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Discription" ColumnName="Discription" />
+                <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblruleclassmaps">
+            <EntityTypeMapping TypeName="WinErdbModel.tblruleclassmap">
+              <MappingFragment StoreEntitySet="tblruleclassmap">
+                <ScalarProperty Name="feeTypeId" ColumnName="feeTypeId" />
+                <ScalarProperty Name="Values" ColumnName="Values" />
+                <ScalarProperty Name="classId" ColumnName="classId" />
+                <ScalarProperty Name="RuleId" ColumnName="RuleId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblschooldetails">
+            <EntityTypeMapping TypeName="WinErdbModel.tblschooldetail">
+              <MappingFragment StoreEntitySet="tblschooldetails">
+                <ScalarProperty Name="SchoolImages" ColumnName="SchoolImages" />
+                <ScalarProperty Name="Logo" ColumnName="Logo" />
+                <ScalarProperty Name="SchoolImage" ColumnName="SchoolImage" />
+                <ScalarProperty Name="Disc" ColumnName="Disc" />
+                <ScalarProperty Name="MediumofInstruction" ColumnName="MediumofInstruction" />
+                <ScalarProperty Name="Syllabus" ColumnName="Syllabus" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+                <ScalarProperty Name="LogoUrl" ColumnName="LogoUrl" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblstudents">
+            <EntityTypeMapping TypeName="WinErdbModel.tblstudent">
+              <MappingFragment StoreEntitySet="tblstudent">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="JoinStandard" ColumnName="JoinStandard" />
+                <ScalarProperty Name="RollNo" ColumnName="RollNo" />
+                <ScalarProperty Name="LastClassId" ColumnName="LastClassId" />
+                <ScalarProperty Name="UseHostel" ColumnName="UseHostel" />
+                <ScalarProperty Name="UseBus" ColumnName="UseBus" />
+                <ScalarProperty Name="TempStudentId" ColumnName="TempStudentId" />
+                <ScalarProperty Name="CanceledUser" ColumnName="CanceledUser" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="CreatedUserName" ColumnName="CreatedUserName" />
+                <ScalarProperty Name="AdmissionTypeId" ColumnName="AdmissionTypeId" />
+                <ScalarProperty Name="StudTypeId" ColumnName="StudTypeId" />
+                <ScalarProperty Name="Addresspresent" ColumnName="Addresspresent" />
+                <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+                <ScalarProperty Name="JoinBatch" ColumnName="JoinBatch" />
+                <ScalarProperty Name="NumberOfSysters" ColumnName="NumberOfSysters" />
+                <ScalarProperty Name="NumberofBrothers" ColumnName="NumberofBrothers" />
+                <ScalarProperty Name="C1stLanguage" ColumnName="1stLanguage" />
+                <ScalarProperty Name="OfficePhNo" ColumnName="OfficePhNo" />
+                <ScalarProperty Name="ResidencePhNo" ColumnName="ResidencePhNo" />
+                <ScalarProperty Name="MotherTongue" ColumnName="MotherTongue" />
+                <ScalarProperty Name="AnnualIncome" ColumnName="AnnualIncome" />
+                <ScalarProperty Name="FatherOccupation" ColumnName="FatherOccupation" />
+                <ScalarProperty Name="MotherEduQuali" ColumnName="MotherEduQuali" />
+                <ScalarProperty Name="MothersName" ColumnName="MothersName" />
+                <ScalarProperty Name="FatherEduQuali" ColumnName="FatherEduQuali" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Pin" ColumnName="Pin" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="DateOfLeaving" ColumnName="DateOfLeaving" />
+                <ScalarProperty Name="DateofJoining" ColumnName="DateofJoining" />
+                <ScalarProperty Name="Cast" ColumnName="Cast" />
+                <ScalarProperty Name="Religion" ColumnName="Religion" />
+                <ScalarProperty Name="BloodGroup" ColumnName="BloodGroup" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="AdmitionNo" ColumnName="AdmitionNo" />
+                <ScalarProperty Name="GardianName" ColumnName="GardianName" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblstudtypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblstudtype">
+              <MappingFragment StoreEntitySet="tblstudtype">
+                <ScalarProperty Name="Desc" ColumnName="Desc" />
+                <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblsubjects">
+            <EntityTypeMapping TypeName="WinErdbModel.tblsubject">
+              <MappingFragment StoreEntitySet="tblsubjects">
+                <ScalarProperty Name="Combined" ColumnName="Combined" />
+                <ScalarProperty Name="SubjectCode" ColumnName="SubjectCode" />
+                <ScalarProperty Name="sub_Catagory" ColumnName="sub_Catagory" />
+                <ScalarProperty Name="sub_description" ColumnName="sub_description" />
+                <ScalarProperty Name="subject_name" ColumnName="subject_name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbltransactionhistories">
+            <EntityTypeMapping TypeName="WinErdbModel.tbltransactionhistory">
+              <MappingFragment StoreEntitySet="tbltransactionhistory">
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="PeriodName" ColumnName="PeriodName" />
+                <ScalarProperty Name="CollectionType" ColumnName="CollectionType" />
+                <ScalarProperty Name="CollectedUser" ColumnName="CollectedUser" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="RegularFee" ColumnName="RegularFee" />
+                <ScalarProperty Name="Canceled" ColumnName="Canceled" />
+                <ScalarProperty Name="TransType" ColumnName="TransType" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="FeeName" ColumnName="FeeName" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="AccountFrom" ColumnName="AccountFrom" />
+                <ScalarProperty Name="AccountTo" ColumnName="AccountTo" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="TransationId" ColumnName="TransationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbldeleteditems">
+            <EntityTypeMapping TypeName="WinErdbModel.tbldeleteditem">
+              <MappingFragment StoreEntitySet="tbldeleteditems">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="TableName" ColumnName="TableName" />
+                <ScalarProperty Name="ItemId" ColumnName="ItemId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblstandards">
+            <EntityTypeMapping TypeName="WinErdbModel.tblstandard">
+              <MappingFragment StoreEntitySet="tblstandard">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblbloodgrps">
+            <EntityTypeMapping TypeName="WinErdbModel.tblbloodgrp">
+              <MappingFragment StoreEntitySet="tblbloodgrp">
+                <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbllanguages">
+            <EntityTypeMapping TypeName="WinErdbModel.tbllanguage">
+              <MappingFragment StoreEntitySet="tbllanguage">
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblstudentclassmaps">
+            <EntityTypeMapping TypeName="WinErdbModel.tblstudentclassmap">
+              <MappingFragment StoreEntitySet="tblstudentclassmap">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="RollNo" ColumnName="RollNo" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="Standard" ColumnName="Standard" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblusers">
+            <EntityTypeMapping TypeName="WinErdbModel.tbluser">
+              <MappingFragment StoreEntitySet="tbluser">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CanLogin" ColumnName="CanLogin" />
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="SurName" ColumnName="SurName" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblbatches">
+            <EntityTypeMapping TypeName="WinErdbModel.tblbatch">
+              <MappingFragment StoreEntitySet="tblbatch">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="LastbatchId" ColumnName="LastbatchId" />
+                <ScalarProperty Name="NOfWorkingDays" ColumnName="NOfWorkingDays" />
+                <ScalarProperty Name="Created" ColumnName="Created" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="BatchName" ColumnName="BatchName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeeaccounts">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeeaccount">
+              <MappingFragment StoreEntitySet="tblfeeaccount">
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="CreatedTime" ColumnName="CreatedTime" />
+                <ScalarProperty Name="CreatedUserId" ColumnName="CreatedUserId" />
+                <ScalarProperty Name="Desciptrion" ColumnName="Desciptrion" />
+                <ScalarProperty Name="AssociatedId" ColumnName="AssociatedId" />
+                <ScalarProperty Name="FrequencyId" ColumnName="FrequencyId" />
+                <ScalarProperty Name="AccountName" ColumnName="AccountName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeefrequencytypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeefrequencytype">
+              <MappingFragment StoreEntitySet="tblfeefrequencytype">
+                <ScalarProperty Name="FreequencyName" ColumnName="FreequencyName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeeschedules">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeeschedule">
+              <MappingFragment StoreEntitySet="tblfeeschedule">
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="LastDate" ColumnName="LastDate" />
+                <ScalarProperty Name="Duedate" ColumnName="Duedate" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeestudents">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeestudent">
+              <MappingFragment StoreEntitySet="tblfeestudent">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="BalanceAmount" ColumnName="BalanceAmount" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="StudId" ColumnName="StudId" />
+                <ScalarProperty Name="SchId" ColumnName="SchId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeetypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeetype">
+              <MappingFragment StoreEntitySet="tblfeetype">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblperiods">
+            <EntityTypeMapping TypeName="WinErdbModel.tblperiod">
+              <MappingFragment StoreEntitySet="tblperiod">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="Order" ColumnName="Order" />
+                <ScalarProperty Name="FrequencyId" ColumnName="FrequencyId" />
+                <ScalarProperty Name="Period" ColumnName="Period" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblattendancemodes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblattendancemode">
+              <MappingFragment StoreEntitySet="tblattendancemode">
+                <ScalarProperty Name="Attmode" ColumnName="Attmode" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblconfigurations">
+            <EntityTypeMapping TypeName="WinErdbModel.tblconfiguration">
+              <MappingFragment StoreEntitySet="tblconfiguration">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="Disc" ColumnName="Disc" />
+                <ScalarProperty Name="SubValue" ColumnName="SubValue" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Module" ColumnName="Module" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeeothermasters">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeeothermaster">
+              <MappingFragment StoreEntitySet="tblfeeothermaster">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="Refundable" ColumnName="Refundable" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblstudentfeeadvances">
+            <EntityTypeMapping TypeName="WinErdbModel.tblstudentfeeadvance">
+              <MappingFragment StoreEntitySet="tblstudentfeeadvance">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="PeriodName" ColumnName="PeriodName" />
+                <ScalarProperty Name="FeeName" ColumnName="FeeName" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfileurls">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfileurl">
+              <MappingFragment StoreEntitySet="tblfileurl">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="FileBytes" ColumnName="FileBytes" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeebills">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeebill">
+              <MappingFragment StoreEntitySet="tblfeebill">
+                <ScalarProperty Name="OtherReference" ColumnName="OtherReference" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="RegularFee" ColumnName="RegularFee" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+                <ScalarProperty Name="AccYear" ColumnName="AccYear" />
+                <ScalarProperty Name="Counter" ColumnName="Counter" />
+                <ScalarProperty Name="Canceled" ColumnName="Canceled" />
+                <ScalarProperty Name="CreatedDateTime" ColumnName="CreatedDateTime" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="BankName" ColumnName="BankName" />
+                <ScalarProperty Name="PaymentModeId" ColumnName="PaymentModeId" />
+                <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeebillclearences">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeebillclearence">
+              <MappingFragment StoreEntitySet="tblfeebillclearence">
+                <ScalarProperty Name="OtherReference" ColumnName="OtherReference" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="RegularFee" ColumnName="RegularFee" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="AccYear" ColumnName="AccYear" />
+                <ScalarProperty Name="Counter" ColumnName="Counter" />
+                <ScalarProperty Name="CreatedDateTime" ColumnName="CreatedDateTime" />
+                <ScalarProperty Name="Canceled" ColumnName="Canceled" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="BankName" ColumnName="BankName" />
+                <ScalarProperty Name="PaymentModeId" ColumnName="PaymentModeId" />
+                <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbltransactions">
+            <EntityTypeMapping TypeName="WinErdbModel.tbltransaction">
+              <MappingFragment StoreEntitySet="tbltransaction">
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="PeriodName" ColumnName="PeriodName" />
+                <ScalarProperty Name="FeeName" ColumnName="FeeName" />
+                <ScalarProperty Name="CollectionType" ColumnName="CollectionType" />
+                <ScalarProperty Name="CollectedUser" ColumnName="CollectedUser" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="RegularFee" ColumnName="RegularFee" />
+                <ScalarProperty Name="BalanceAmount" ColumnName="BalanceAmount" />
+                <ScalarProperty Name="Canceled" ColumnName="Canceled" />
+                <ScalarProperty Name="TransType" ColumnName="TransType" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="AccountFrom" ColumnName="AccountFrom" />
+                <ScalarProperty Name="AccountTo" ColumnName="AccountTo" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="PaymentElementId" ColumnName="PaymentElementId" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="TransationId" ColumnName="TransationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeebilltypes">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeebilltype">
+              <MappingFragment StoreEntitySet="tblfeebilltype">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="IsPDF" ColumnName="IsPDF" />
+                <ScalarProperty Name="PageName" ColumnName="PageName" />
+                <ScalarProperty Name="NeedOfficeCopy" ColumnName="NeedOfficeCopy" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbldeviceupdates">
+            <EntityTypeMapping TypeName="WinErdbModel.tbldeviceupdate">
+              <MappingFragment StoreEntitySet="tbldeviceupdates">
+                <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="FieldStr" ColumnName="FieldStr" />
+                <ScalarProperty Name="IsUpdated" ColumnName="IsUpdated" />
+                <ScalarProperty Name="ChangeDate" ColumnName="ChangeDate" />
+                <ScalarProperty Name="TransactionType" ColumnName="TransactionType" />
+                <ScalarProperty Name="ColValue" ColumnName="ColValue" />
+                <ScalarProperty Name="ColumnName" ColumnName="ColumnName" />
+                <ScalarProperty Name="TableName" ColumnName="TableName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbldeviceuploadconflicts">
+            <EntityTypeMapping TypeName="WinErdbModel.tbldeviceuploadconflict">
+              <MappingFragment StoreEntitySet="tbldeviceuploadconflicts">
+                <ScalarProperty Name="RowDataDevice" ColumnName="RowDataDevice" />
+                <ScalarProperty Name="RowDataServer" ColumnName="RowDataServer" />
+                <ScalarProperty Name="UpdateDate" ColumnName="UpdateDate" />
+                <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+                <ScalarProperty Name="ConflictId" ColumnName="ConflictId" />
+                <ScalarProperty Name="Conflict_Column" ColumnName="Conflict_Column" />
+                <ScalarProperty Name="TableName" ColumnName="TableName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfeeadvancetransactions">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfeeadvancetransaction">
+              <MappingFragment StoreEntitySet="tblfeeadvancetransaction">
+                <ScalarProperty Name="AdvanceBalance" ColumnName="AdvanceBalance" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="CreatedUser" ColumnName="CreatedUser" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="PeriodName" ColumnName="PeriodName" />
+                <ScalarProperty Name="FeeName" ColumnName="FeeName" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbldevices">
+            <EntityTypeMapping TypeName="WinErdbModel.tbldevice">
+              <MappingFragment StoreEntitySet="tbldevice">
+                <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+                <ScalarProperty Name="ActivatedBy" ColumnName="ActivatedBy" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="LastLogin" ColumnName="LastLogin" />
+                <ScalarProperty Name="Registration_Date" ColumnName="Registration Date" />
+                <ScalarProperty Name="AddedUser" ColumnName="AddedUser" />
+                <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+                <ScalarProperty Name="DeviceUniqueId" ColumnName="DeviceUniqueId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblclasses">
+            <EntityTypeMapping TypeName="WinErdbModel.tblclass">
+              <MappingFragment StoreEntitySet="tblclass">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="RollNoSchTypeId" ColumnName="RollNoSchTypeId" />
+                <ScalarProperty Name="ClassTeacher" ColumnName="ClassTeacher" />
+                <ScalarProperty Name="PeriodCount" ColumnName="PeriodCount" />
+                <ScalarProperty Name="TotalSeats" ColumnName="TotalSeats" />
+                <ScalarProperty Name="Division" ColumnName="Division" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="ParentGroupID" ColumnName="ParentGroupID" />
+                <ScalarProperty Name="Standard" ColumnName="Standard" />
+                <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblholidays">
+            <EntityTypeMapping TypeName="WinErdbModel.tblholiday">
+              <MappingFragment StoreEntitySet="tblholiday">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="GroupId" ColumnName="GroupId" />
+                <ScalarProperty Name="Desc" ColumnName="Desc" />
+                <ScalarProperty Name="Class_Id" ColumnName="Class_Id" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="dateId" ColumnName="dateId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblholidayconfigs">
+            <EntityTypeMapping TypeName="WinErdbModel.tblholidayconfig">
+              <MappingFragment StoreEntitySet="tblholidayconfig">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="StaffStatus" ColumnName="StaffStatus" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Day" ColumnName="Day" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblmasterdates">
+            <EntityTypeMapping TypeName="WinErdbModel.tblmasterdate">
+              <MappingFragment StoreEntitySet="tblmasterdate">
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tblfines">
+            <EntityTypeMapping TypeName="WinErdbModel.tblfine">
+              <MappingFragment StoreEntitySet="tblfine">
+                <ScalarProperty Name="SyncDate" ColumnName="SyncDate" />
+                <ScalarProperty Name="FineDuration" ColumnName="FineDuration" />
+                <ScalarProperty Name="FineAmounttype" ColumnName="FineAmounttype" />
+                <ScalarProperty Name="Finedate" ColumnName="Finedate" />
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Frequency" ColumnName="Frequency" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbltransactionclearences">
+            <EntityTypeMapping TypeName="WinErdbModel.tbltransactionclearence">
+              <MappingFragment StoreEntitySet="tbltransactionclearence">
+                <ScalarProperty Name="FeeId" ColumnName="FeeId" />
+                <ScalarProperty Name="PeriodId" ColumnName="PeriodId" />
+                <ScalarProperty Name="TempId" ColumnName="TempId" />
+                <ScalarProperty Name="PeriodName" ColumnName="PeriodName" />
+                <ScalarProperty Name="FeeName" ColumnName="FeeName" />
+                <ScalarProperty Name="CollectionType" ColumnName="CollectionType" />
+                <ScalarProperty Name="CollectedUser" ColumnName="CollectedUser" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+                <ScalarProperty Name="BatchId" ColumnName="BatchId" />
+                <ScalarProperty Name="RegularFee" ColumnName="RegularFee" />
+                <ScalarProperty Name="BalanceAmount" ColumnName="BalanceAmount" />
+                <ScalarProperty Name="Canceled" ColumnName="Canceled" />
+                <ScalarProperty Name="TransType" ColumnName="TransType" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="AccountFrom" ColumnName="AccountFrom" />
+                <ScalarProperty Name="AccountTo" ColumnName="AccountTo" />
+                <ScalarProperty Name="BillNo" ColumnName="BillNo" />
+                <ScalarProperty Name="PaidDate" ColumnName="PaidDate" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="PaymentElementId" ColumnName="PaymentElementId" />
+                <ScalarProperty Name="TransationId" ColumnName="TransationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="WinerModel" ZoomLevel="74">
+        <EntityTypeShape EntityType="WinErdbModel.tblaccount" Width="1.5" PointX="0.75" PointY="0.75" Height="1.5956835937499818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblaccounttype" Width="1.5" PointX="2.75" PointY="0.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblaction" Width="1.5" PointX="0.75" PointY="3.75" Height="0.4" IsExpanded="false" />
+        <EntityTypeShape EntityType="WinErdbModel.tbladmisiontype" Width="1.5" PointX="2.75" PointY="3.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblcast" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblcast_category" Width="1.5" PointX="4.75" PointY="3.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblcatogery" Width="1.5" PointX="6.75" PointY="0.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblclassexam" Width="1.5" PointX="6.75" PointY="3.75" Height="2.1725878906249818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblclassroom" Width="1.5" PointX="4.75" PointY="6.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblclassschedule" Width="1.5" PointX="6.75" PointY="6.75" Height="1.980286458333353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblclasssubmap" Width="1.5" PointX="8.75" PointY="0.75" Height="1.5956835937499818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbldevision" Width="1.5" PointX="8.75" PointY="7.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblregistration" Width="1.5" PointX="10.75" PointY="0.75" Height="2.1725878906249818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblreligion" Width="1.5" PointX="0.75" PointY="10.75" Height="1.403382161458353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblrole" Width="1.5" PointX="10.75" PointY="3.75" Height="1.7879850260417243" />
+        <EntityTypeShape EntityType="WinErdbModel.tblruleclassmap" Width="1.5" PointX="10.75" PointY="6.75" Height="1.980286458333353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblschooldetail" Width="1.5" PointX="6.75" PointY="10.75" Height="2.557190755208353" />
+        <EntityTypeShape EntityType="WinErdbModel.tblstudent" Width="1.5" PointX="8.75" PointY="10.75" Height="9.6723437499999818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblstudtype" Width="1.5" PointX="10.75" PointY="9.75" Height="1.5956835937499818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblsubject" Width="1.5" PointX="12.75" PointY="0.75" Height="2.1725878906249818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbltransactionhistory" Width="1.5" PointX="2.75" PointY="12.75" Height="5.0571093749999818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbldeleteditem" Width="1.5" PointX="11.375" PointY="12.75" Height="1.7879850260416674" />
+        <EntityTypeShape EntityType="WinErdbModel.tblstandard" Width="1.5" PointX="13.375" PointY="7.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblbloodgrp" Width="1.5" PointX="13.375" PointY="10.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tbllanguage" Width="1.5" PointX="13.375" PointY="13.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblstudentclassmap" Width="1.5" PointX="15.375" PointY="0.75" Height="2.1725878906250102" />
+        <EntityTypeShape EntityType="WinErdbModel.tbluser" Width="1.5" PointX="13.375" PointY="3.75" Height="3.1340950520833246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblbatch" Width="1.5" PointX="5.375" PointY="14.75" Height="2.7494921875000102" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeeaccount" Width="1.5" PointX="15.375" PointY="3.75" Height="2.7494921875000102" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeefrequencytype" Width="1.5" PointX="15.375" PointY="7.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeeschedule" Width="1.5" PointX="15.375" PointY="10.75" Height="2.7494921875000102" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeestudent" Width="1.5" PointX="15.375" PointY="14.75" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeetype" Width="1.5" PointX="11.375" PointY="16.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblperiod" Width="1.5" PointX="17.375" PointY="4.75" Height="1.9802864583333246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblattendancemode" Width="1.5" PointX="17.375" PointY="10.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblconfiguration" Width="1.5" PointX="17.375" PointY="13.75" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeeothermaster" Width="1.5" PointX="17.375" PointY="7.75" Height="1.9802864583333246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblstudentfeeadvance" Width="1.5" PointX="17.375" PointY="17.75" Height="3.1340950520833246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfileurl" Width="1.5" PointX="0.75" PointY="18.75" Height="2.1725878906250102" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeebill" Width="1.5" PointX="5.375" PointY="18.75" Height="4.48020507812501" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeebillclearence" Width="1.5" PointX="13.375" PointY="18.75" Height="4.48020507812501" />
+        <EntityTypeShape EntityType="WinErdbModel.tbltransaction" Width="1.5" PointX="19.375" PointY="0.75" Height="5.4417122395833246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeebilltype" Width="1.5" PointX="3.375" PointY="9.75" Height="2.1725878906249818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbldeviceupdate" Width="1.5" PointX="0.75" PointY="6.75" Height="2.9417936197916674" />
+        <EntityTypeShape EntityType="WinErdbModel.tbldeviceuploadconflict" Width="1.5" PointX="19.75" PointY="19.75" Height="2.5571907552083246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfeeadvancetransaction" Width="1.5" PointX="0.75" PointY="21.75" Height="3.9033007812499818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbldevice" Width="1.5" PointX="21.375" PointY="0.75" Height="2.7494921874999818" />
+        <EntityTypeShape EntityType="WinErdbModel.tblclass" Width="1.5" PointX="19.375" PointY="14.75" Height="3.1340950520833246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblholiday" Width="1.5" PointX="21.375" PointY="4.75" Height="2.3648893229166674" />
+        <EntityTypeShape EntityType="WinErdbModel.tblholidayconfig" Width="1.5" PointX="7.375" PointY="21.75" Height="1.9802864583333246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblmasterdate" Width="1.5" PointX="21.375" PointY="8.75" Height="1.4033821614583246" />
+        <EntityTypeShape EntityType="WinErdbModel.tblfine" Width="1.5" PointX="9.375" PointY="21.75" Height="2.7494921874999818" />
+        <EntityTypeShape EntityType="WinErdbModel.tbltransactionclearence" Width="1.5" PointX="21.375" PointY="11.75" Height="5.4417122395833246" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

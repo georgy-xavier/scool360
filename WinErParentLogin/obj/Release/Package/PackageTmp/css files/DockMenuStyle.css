@@ -1,0 +1,5 @@
+﻿.dock1{font-weight:bold;}
+.dock-container { position: relative; top: -8px; height: 50px; padding-left: 20px; border:solid 1px Orange;}
+a.dock-item { display: block; width: 100px; position: absolute; bottom: 0; text-align: center; text-decoration: none; color: #333; }
+.dock-item span { display: none; padding-left: 20px;font-weight:bold; }
+.dock-item img { border: 0; margin: 5px 10px 0px; width: 100%; }

@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9F57180-BBBD-4978-ABE6-2044F112463E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Winer.Portal</RootNamespace>
+    <AssemblyName>Winer.Portal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WinEr, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\WinEr.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\DayPilot.dll" />
+    <Content Include="bin\GemBox.Spreadsheet.dll" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="bin\MigraDoc.DocumentObjectModel.dll" />
+    <Content Include="bin\MigraDoc.Rendering.dll" />
+    <Content Include="bin\MigraDoc.RtfRendering.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\Newtonsoft.Json.Net35.dll" />
+    <Content Include="bin\PdfSharp.Charting.dll" />
+    <Content Include="bin\PdfSharp.dll" />
+    <Content Include="bin\StringParser.dll" />
+    <Content Include="bin\WebChart.dll" />
+    <Content Include="bin\WebResourceProvider.dll" />
+    <Content Include="bin\WinBase.dll" />
+    <Content Include="bin\WinBase.pdb" />
+    <Content Include="bin\WinEr.CCE.ReportLibrary.dll" />
+    <Content Include="bin\WinEr.CCE.ReportLibrary.pdb" />
+    <Content Include="bin\WinEr.dll" />
+    <Content Include="bin\WinEr.pdb" />
+    <Content Include="bin\Winer.Portal.dll" />
+    <Content Include="bin\Winer.Portal.pdb" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="css files\adminstyle.css" />
+    <Content Include="css files\allotment.css" />
+    <Content Include="css files\BlueLoginstyle.css" />
+    <Content Include="css files\Bluemenu.css" />
+    <Content Include="css files\Bluestyle.css" />
+    <Content Include="css files\campusstyle.css" />
+    <Content Include="css files\ContentSlide.css" />
+    <Content Include="css files\custom.css" />
+    <Content Include="css files\DockMenuStyle.css" />
+    <Content Include="css files\DockSideMenu.css" />
+    <Content Include="css files\flora.datepicker.css" />
+    <Content Include="css files\font-awesome.min.css" />
+    <Content Include="css files\ImageSliderstyle.css" />
+    <Content Include="css files\jquery.bxslider.css" />
+    <Content Include="css files\Loginstyle.css" />
+    <Content Include="css files\MasterStyle.css" />
+    <Content Include="css files\material.min.css" />
+    <Content Include="css files\materialicons.css" />
+    <Content Include="css files\mbContainer.css" />
+    <Content Include="css files\menu_styles.css" />
+    <Content Include="css files\NewLoginStyle.css" />
+    <Content Include="css files\NewMenustyles.css" />
+    <Content Include="css files\Orangemenu.css" />
+    <Content Include="css files\Orangestyle.css" />
+    <Content Include="css files\PopupcssMaster.css" />
+    <Content Include="css files\StyleSheet.css" />
+    <Content Include="css files\TabStyleSheet.css" />
+    <Content Include="css files\thickbox.css" />
+    <Content Include="css files\ui.datepicker.css" />
+    <Content Include="css files\whitetheme.css" />
+    <Content Include="css files\winbuttonstyle.css" />
+    <Content Include="css files\winbuttonstyleblue.css" />
+    <Content Include="css files\winroundbox.css" />
+    <Content Include="css files\wschoolstyle.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css_bootstrap\angular-wizard.min.css" />
+    <Content Include="css_bootstrap\awesome-bootstrap-checkbox.css" />
+    <Content Include="css_bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="css_bootstrap\bootstrap.css" />
+    <Content Include="css_bootstrap\bootstrap.min.css" />
+    <Content Include="css_bootstrap\buttonLoader.css" />
+    <Content Include="css_bootstrap\checkbox.css" />
+    <Content Include="css_bootstrap\custom.min.css" />
+    <Content Include="css_bootstrap\datepicker.css" />
+    <Content Include="css_bootstrap\font-awesome.css" />
+    <Content Include="css_bootstrap\font-awesome.min.css" />
+    <Content Include="css_bootstrap\fontawesome-webfont.woff2" />
+    <Content Include="css_bootstrap\form-elements.css" />
+    <Content Include="css_bootstrap\icons.css" />
+    <Content Include="css_bootstrap\ladda.css" />
+    <Content Include="css_bootstrap\loading-bar.css" />
+    <Content Include="css_bootstrap\loginstyle.css" />
+    <Content Include="css_bootstrap\metisMenu.min.css" />
+    <Content Include="css_bootstrap\morris.css" />
+    <Content Include="css_bootstrap\portal.css" />
+    <Content Include="css_bootstrap\sb-admin-2.css" />
+    <Content Include="css_bootstrap\site.min.css" />
+    <Content Include="css_bootstrap\social-network social-circle.css" />
+    <Content Include="css_bootstrap\social-share-kit.css" />
+    <Content Include="css_bootstrap\style.css" />
+    <Content Include="css_bootstrap\timeline.css" />
+    <Content Include="default.aspx" />
+    <Content Include="FeeReport.aspx" />
+    <Content Include="img\Loading_icon.gif" />
+    <Content Include="js files\jquery-1.4.1.min.js" />
+    <Content Include="js files\jquery-1.4.4.min.js" />
+    <Content Include="js files\jquery-3.1.0.min.js" />
+    <Content Include="js files\jquery-3.2.1.min.js" />
+    <Content Include="js files\jquery.bxslider.js" />
+    <Content Include="js files\jquery.fitvids.js" />
+    <Content Include="js files\jquery.hotkeys.js" />
+    <Content Include="js files\knockout-3.3.0.js" />
+    <Content Include="js files\material.min.js" />
+    <Content Include="js files\Silverlight.js" />
+    <Content Include="js files\thickbox.js" />
+    <Content Include="js files\ui.datepicker.min.js" />
+    <Content Include="js\api-module.js" />
+    <Content Include="js\bootstrap-datepicker.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\config.js" />
+    <Content Include="js\feecollection-report.js" />
+    <Content Include="js\dashboard.js" />
+    <Content Include="js\jquery-1.11.3.min.js" />
+    <Content Include="js\jquery-3.1.0.min.js" />
+    <Content Include="js\jquery.buttonLoader.js" />
+    <Content Include="js\jquery.buttonLoader.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.tools.min.js" />
+    <Content Include="js\ladda.min.js" />
+    <Content Include="js\schoollist.js" />
+    <Content Include="js\staff-report.js" />
+    <Content Include="js\student-report.js" />
+    <Content Include="js_bootstrap\bootstrap.js" />
+    <Content Include="js_bootstrap\bootstrap.min.js" />
+    <Content Include="js_bootstrap\jquery.min.js" />
+    <Content Include="js_bootstrap\metisMenu.min.js" />
+    <Content Include="js_bootstrap\sb-admin-2.js" />
+    <Content Include="login.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\AjaxControlToolkit.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\DayPilot.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\GemBox.Spreadsheet.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\itextsharp.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\MigraDoc.DocumentObjectModel.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\MigraDoc.Rendering.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Newtonsoft.Json.Net35.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\PdfSharp.Charting.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\PdfSharp.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\StringParser.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\WebChart.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\WebResourceProvider.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\WinBase.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\WinEr.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\Winer.Portal.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\ChangePassword.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\adminstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\allotment.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\BlueLoginstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\Bluemenu.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\Bluestyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\campusstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\ContentSlide.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\custom.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\DockMenuStyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\DockSideMenu.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\flora.datepicker.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\font-awesome.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\ImageSliderstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\jquery.bxslider.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\Loginstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\MasterStyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\material.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\materialicons.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\mbContainer.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\menu_styles.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\NewLoginStyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\NewMenustyles.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\Orangemenu.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\Orangestyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\PopupcssMaster.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\StyleSheet.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\TabStyleSheet.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\thickbox.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\ui.datepicker.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\whitetheme.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\winbuttonstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\winbuttonstyleblue.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\winroundbox.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\wschoolstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css\main.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\angular-wizard.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\awesome-bootstrap-checkbox.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\bootstrap.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\bootstrap.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\buttonLoader.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\checkbox.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\custom.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\datepicker.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\font-awesome.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\font-awesome.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\form-elements.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\icons.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\ladda.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\loading-bar.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\loginstyle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\metisMenu.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\morris.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\portal.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\sb-admin-2.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\site.min.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\social-network social-circle.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\social-share-kit.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\style.css" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\timeline.css" />
+    <Content Include="obj\Release\Package\PackageTmp\default.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\FeeReport.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\img\Loading_icon.gif" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery-1.4.1.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery-1.4.4.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery-3.1.0.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery-3.2.1.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery.bxslider.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery.fitvids.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\jquery.hotkeys.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\knockout-3.3.0.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\material.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\Silverlight.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\thickbox.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js files\ui.datepicker.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\api-module.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap-datepicker.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\bootstrap.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\config.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\dashboard.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\feecollection-report.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery-1.11.3.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery-3.1.0.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.buttonLoader.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.buttonLoader.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\jquery.tools.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\ladda.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\schoollist.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\staff-report.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js\student-report.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js_bootstrap\bootstrap.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js_bootstrap\bootstrap.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js_bootstrap\jquery.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js_bootstrap\metisMenu.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\js_bootstrap\sb-admin-2.js" />
+    <Content Include="obj\Release\Package\PackageTmp\login.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Schoollist.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\sectionerr.htm" />
+    <Content Include="obj\Release\Package\PackageTmp\StaffReport.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\StudentReport.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\UserManagement.aspx" />
+    <Content Include="obj\Release\Winer.Portal.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\Winer.Portal.dll" />
+    <Content Include="obj\Release\Winer.Portal.pdb" />
+    <Content Include="obj\Release\_WPPLastBuildInfo.txt" />
+    <Content Include="OrganizationDetails.aspx" />
+    <Content Include="Schoollist.aspx" />
+    <Content Include="sectionerr.htm" />
+    <Content Include="StaffReport.aspx" />
+    <Content Include="StudentReport.aspx" />
+    <Content Include="UserManagement.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeReport.aspx.cs">
+      <DependentUpon>FeeReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeReport.aspx.designer.cs">
+      <DependentUpon>FeeReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageUploaderClass.cs" />
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OrganizationDetails.aspx.cs">
+      <DependentUpon>OrganizationDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrganizationDetails.aspx.designer.cs">
+      <DependentUpon>OrganizationDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schoollist.aspx.cs">
+      <DependentUpon>Schoollist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schoollist.aspx.designer.cs">
+      <DependentUpon>Schoollist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffReport.aspx.cs">
+      <DependentUpon>StaffReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffReport.aspx.designer.cs">
+      <DependentUpon>StaffReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentReport.aspx.cs">
+      <DependentUpon>StudentReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentReport.aspx.designer.cs">
+      <DependentUpon>StudentReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagement.aspx.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserManagement.aspx.designer.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WinBase\CentralDataBase.cs" />
+    <Compile Include="WinBase\ClassOrganiser.cs" />
+    <Compile Include="WinBase\CLogging.cs" />
+    <Compile Include="WinBase\ConfigManager.cs" />
+    <Compile Include="WinBase\General.cs" />
+    <Compile Include="WinBase\Inventory.cs" />
+    <Compile Include="WinBase\KnowinEncryption.cs" />
+    <Compile Include="WinBase\KnowinGen.cs" />
+    <Compile Include="WinBase\KnowinGroup.cs" />
+    <Compile Include="WinBase\KnowinRole.cs" />
+    <Compile Include="WinBase\KnowinUser.cs" />
+    <Compile Include="WinBase\KnowinUserAction.cs" />
+    <Compile Include="WinBase\Lisencesing.cs" />
+    <Compile Include="WinBase\MasterDatas.cs" />
+    <Compile Include="WinBase\MysqlClass.cs" />
+    <Compile Include="WinBase\Properties\AssemblyInfo.cs" />
+    <Compile Include="WinBase\SchoolClass.cs" />
+    <Compile Include="WinBase\SupportTrackClass.cs" />
+    <Compile Include="WinBase\UserInfoClass.cs" />
+    <Compile Include="WinBase\WinerConstants.cs" />
+    <Compile Include="WinBase\WinErSearch.cs" />
+    <Compile Include="WinBase\WinerUtlity.cs" />
+    <Compile Include="WinerPortalMaster.Master.cs">
+      <DependentUpon>WinerPortalMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WinerPortalMaster.Master.designer.cs">
+      <DependentUpon>WinerPortalMaster.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="WinBase\obj\Debug\Refactor\WinBase.dll" />
+    <Content Include="WinBase\obj\Debug\WinBase.csproj.FileListAbsolute.txt" />
+    <Content Include="WinBase\obj\Release\Refactor\WinBase.dll" />
+    <Content Include="WinBase\WinBase.csproj" />
+    <Content Include="WinBase\WinBase.csproj.user" />
+    <Content Include="WinerPortalMaster.Master" />
+    <Content Include="css files\navbar.less" />
+    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\Package\PackageTmp\css files\navbar.less" />
+    <Content Include="obj\Release\Package\PackageTmp\css_bootstrap\fontawesome-webfont.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.eot" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.woff" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\fontawesome-webfont.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\FontAwesome.otf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="obj\Release\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Release\Package\PackageTmp\WinerPortalMaster.Master" />
+    <Content Include="obj\Release\TransformWebConfig\assist\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\transformed\Web.config" />
+    <Content Include="obj\Release\Winer.Portal.csprojResolveAssemblyReference.cache" />
+    <Content Include="bin\Winer.Portal.dll.config" />
+    <None Include="Properties\PublishProfiles\winer portal.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WinBase\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ico\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TFS\Winer\Dev\Live\WinBase\WinBase.csproj">
+      <Project>{3eb0ae6c-e1f7-47c2-8724-0bc591a4be98}</Project>
+      <Name>WinBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25072</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25072/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

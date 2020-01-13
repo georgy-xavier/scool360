@@ -1,0 +1,105 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.Pics-play buttons-back {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.png') -1px -1px;
+}
+.Pics-play buttons-back1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.png') -1px -258px;
+}
+.Pics-play buttons-black-play {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.png') -1px -323px;
+}
+.Pics-play buttons-black-play1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.png') -1px -580px;
+}
+.Pics-play buttons-black_ffw {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -645px;
+}
+.Pics-play buttons-black_first {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -774px;
+}
+.Pics-play buttons-black_last {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -903px;
+}
+.Pics-play buttons-black_play {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -1032px;
+}
+.Pics-play buttons-black_rew {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -1161px;
+}
+.Pics-play buttons-black_stop {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -1290px;
+}
+.Pics-play buttons-blue_play {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.png') -1px -1419px;
+}
+.Pics-play buttons-next {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.png') -1px -1548px;
+}
+.Pics-play buttons-next1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.png') -1px -1805px;
+}
+.Pics-play buttons-play-button {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.png') -1px -1870px;
+}
+.Pics-play buttons-play-button1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.png') -1px -2127px;
+}
+.Pics-play buttons-stop {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.png') -1px -2192px;
+}
+.Pics-play buttons-stop1 {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.png') -1px -2449px;
+}

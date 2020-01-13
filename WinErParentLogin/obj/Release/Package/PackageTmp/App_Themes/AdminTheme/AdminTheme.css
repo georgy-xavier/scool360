@@ -1,0 +1,134 @@
+﻿/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+/*GridViewCSS Soft Grey Style*/
+.GridViewStyle
+{
+    font-family: Arial, Sans-Serif;
+    font-size:small;
+    table-layout: auto;
+    border-collapse: collapse;
+    border:#f60 1px solid;
+    
+}
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle /*Common Styles*/
+{
+    background-image: url(Images/YahooSprite.gif);
+    background-position:top;
+    background-repeat:repeat-x;
+    background-color:#d1dbe0;
+    border: #736F6E solid 1px;
+}
+.HeaderStyle th
+{
+    background:  #736F6E;
+   
+    padding: 5px;
+    color: White;
+}
+.HeaderStyle a
+{
+    text-decoration:none;
+    color:Gray;
+    display:block;
+    text-align:left;
+    font-weight:normal;
+   font-size: 12px
+}
+.PagerStyle table
+{
+    text-align:center;
+    margin:auto;
+}
+.PagerStyle table td
+{
+    border:0px;
+    padding:5px;
+}
+.PagerStyle td
+{
+    border-top: #91a7b4 1px solid;
+}
+.PagerStyle a
+{
+    color:#16387c;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+    border-top:solid 3px #736F6E;
+    border-right:solid 3px #736F6E;
+    border-bottom:solid 3px #736F6E;
+    border-left:solid 3px #736F6E;
+}
+.PagerStyle span
+{
+    font-weight:bold;
+    color:#16387c;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+}
+/*RowStyles*/
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/
+{
+    padding: 5px;
+    border-right: solid 1px #91a7b4;
+}
+.RowStyle td
+{
+    background-color: #FFF;
+       border-bottom: #736F6E solid 1px;
+}
+.AltRowStyle td
+{
+    background-color: #FFF;
+	   border-bottom: #736F6E solid 1px;
+    background-position:0 -80px;
+    background-repeat:repeat-x;
+}
+.SelectedRowStyle td
+{
+    background-color: #fcb814;
+	background-image: url(Images/YahooSprite.gif);
+    background-position:center;
+    background-repeat:repeat-x;
+}

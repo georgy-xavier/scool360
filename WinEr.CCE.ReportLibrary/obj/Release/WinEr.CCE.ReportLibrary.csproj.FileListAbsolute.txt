@@ -1,0 +1,25 @@
+D:\OFFICEWORK\WinerSchool\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.dll
+D:\OFFICEWORK\WinerSchool\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.pdb
+D:\OFFICEWORK\WinerSchool\WinEr.CCE.ReportLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\OFFICEWORK\WinerSchool\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.dll
+D:\OFFICEWORK\WinerSchool\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.dll
+E:\SAI_SHARE_FOLDER\Central new\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr.CCE.ReportLibrary\obj\Release\ResolveAssemblyReference.cache
+E:\SAI_SHARE_FOLDER\Central new\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.dll
+E:\SAI_SHARE_FOLDER\Central new\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.pdb
+D:\SVN Area\Winer\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.dll
+D:\SVN Area\Winer\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.pdb
+D:\SVN Area\Winer\WinEr.CCE.ReportLibrary\obj\Release\ResolveAssemblyReference.cache
+D:\SVN Area\Winer\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.dll
+D:\SVN Area\Winer\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.pdb
+D:\winer in 2013\Winer\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.dll
+D:\winer in 2013\Winer\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.pdb
+D:\winer in 2013\Winer\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.csprojResolveAssemblyReference.cache
+D:\winer in 2013\Winer\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.dll
+D:\winer in 2013\Winer\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.pdb
+E:\SVN\WINER 04-07-2018\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.dll
+E:\SVN\WINER 04-07-2018\WinEr.CCE.ReportLibrary\bin\Release\WinEr.CCE.ReportLibrary.pdb
+E:\SVN\WINER 04-07-2018\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.csprojResolveAssemblyReference.cache
+E:\SVN\WINER 04-07-2018\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.dll
+E:\SVN\WINER 04-07-2018\WinEr.CCE.ReportLibrary\obj\Release\WinEr.CCE.ReportLibrary.pdb

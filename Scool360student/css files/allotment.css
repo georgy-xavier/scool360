@@ -1,0 +1,25 @@
+﻿/*new small box style*/
+.BoxDetails{    max-width:950px; min-width:95px;}
+.BoxDetails p{ text-align:left;width:100%; border:none; padding:0px;margin:0px;margin-bottom:5px; width:95px; height:14px;}
+.BoxDetails p .Num{float:left; clear:both;border-bottom-style:groove; border-right-style:groove;border-width:2px;border-color:Gray;border-collapse:collapse;font-size:11px; height:14px;}
+.BoxDetails p a{color:#6a6b6b;text-decoration:underline;text-align:right;float:right; }
+.BoxDetails .Permenent{width:95px;border-style:solid;border-color:#04fd3f; border-width:2px; border-collapse:collapse;font-size:12px;background-color:#eefaf1; max-width:95px; vertical-align:top;min-height:60px;}
+.BoxDetails .Permenent .name { border:none;padding:0px; margin:0px;font-size:13px; max-width:95px;}
+.BoxDetails .Alloted {width:95px; border-style:solid; border-color:#0277fb; border-width:2px; border-collapse:collapse; font-size:12px;background-color:#eef4fb;vertical-align:top;min-height:60px; }
+.BoxDetails .Alloted .name {border:none;padding:0px; margin:0px;font-size:13px;}
+.BoxDetails .Listed{width:95px;border-style:solid;border-color:#fd9c03;border-width:2px;border-collapse:collapse;font-size:12px;background-color:#fbf4ea;vertical-align:top;min-height:60px;}
+.BoxDetails .Listed .name{border:none;padding:0px;margin:0px;font-size:13px;}
+.BoxDetails .Urgent{width:95px;border-style:solid;border-color:#f93204;border-width:2px;border-collapse:collapse;font-size:13px;background-color:#f9edea;vertical-align:top; min-height:60px;}
+.BoxDetails .Urgent .name{border:none;padding:0px;margin:0px;font-size:12px;}
+.BoxDetails .Freeseat{width:95px;border-style:solid;border-color:#87888a;border-width:2px;border-collapse:collapse; font-size:17px;background-color:#efefef; vertical-align:top; min-height:60px; text-align:center;}
+/*.allotedcolor .Freeseat .Num {/*background:#87888a;float:left;clear:both;border-bottom-style:groove;border-right-style:groove;border-width:2px; border-color:Blue;border-collapse:collapse;background-color:#efefef;}*/
+.BoxDetails .Normal{width:95px; border-style:solid; border-color:#af03ff;border-width:2px;border-collapse:collapse; font-size:13px;background-color:#f6eefa;vertical-align:top; min-height:60px;}
+.BoxDetails .Normal .name{border:none;padding:0px;margin:0px; font-size:13px;}
+.allotedcolor {list-style:none;margin:0px;}
+.allotedcolor img{border:none;padding-right:5px;}    
+
+.allotedcolor .Permenentlist {/* background:#04fd3f;*/ padding-left:5px;height:17px;font-size:13px;width:125px;}
+.allotedcolor .Allotedlist{ /*background:#0277fb;*/ padding-left:5px; height:17px;font-size:13px; width:125px;}
+.allotedcolor .Freeseatlist{/*background:#87888a;*/padding-left:5px;height:17px;font-size:13px; width:125px;}
+.allotedcolor .Listedlist{/*background:#fd9c03;*/padding-left:5px;height:17px;font-size:13px; width:125px;}
+.allotedcolor .Urgentlist{/*background:#f93204;*/ padding-left:5px;height:17px; font-size:13px; width:125px;}

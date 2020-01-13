@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="config/winer/favicons/apple-touch-icon.png?v=5.0.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="config/winer/favicons/favicon-32x32.png?v=5.0.0">
+    <link rel="icon" type="image/png" sizes="194x194" href="config/winer/favicons/favicon-194x194.png?v=5.0.0">
+    <link rel="icon" type="image/png" sizes="192x192" href="config/winer/favicons/android-chrome-192x192.png?v=5.0.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="config/winer/favicons/favicon-16x16.png?v=5.0.0">
+    <link rel="mask-icon" href="config/winer/favicons/safari-pinned-tab.svg?v=5.0.0" color="#000aff">
+
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="config/winer/favicons/mstile-144x144.png?v=5.0.0">
+    <link rel="shortcut icon" href="config/winer/favicons/favicon.ico?v=5.0.0">
+    <link rel="manifest" href="config/winer/site.webmanifest?v=5.0.0">
+    <meta name="msapplication-config" content="config/winer/browserconfig.xml?v=5.0.0">
+
+    <meta name="theme-color" content="#F44336">
+    <meta name="apple-mobile-web-app-title" content="WinER">
+    <meta name="application-name" content="WinER">
+    <meta name="msapplication-navbutton-color" content="#F44336">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F44336">
+    <meta name="description" content="Winer School management Sytem" />
+    <meta name="author" content="TEAM WINCERON" />
+
+    <title>No permission 🚫</title>
+    <link id="ProductIcon" rel="icon" href="images/icon.png" type="image/png" sizes="512x512">
+    <link href="css files/fontManager.css" rel="stylesheet" />
+    <link href="css files/font-awesome_4.7.0.css" rel="stylesheet" />
+    <link href="css files/Bootstrap_v3.3.7.css" rel="stylesheet" />
+    <link href="css files/ExternalStyle.css" rel="stylesheet" />
+    <link href="css files/offline-language-english.css" rel="stylesheet" />
+    <link href="css files/offline-theme-slide.css" rel="stylesheet" />
+
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: #0062fb;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <div class="textpart">
+            <i class="fa fa-user-secret center-block sesseionOutIcon" aria-hidden="true"></i>
+            <h1 style="color:#8a8a8a;font-weight:100;">You have no permission to do this.Contact Admin</h1>
+            <em style="color: #a7a7a7;">" We always concerned about your security & privacy "</em><br><br>
+            <a id="LogAgain" data-placement="top" data-toggle="tooltip" title="Click to login again"  style="font-weight: 500;color: #565d81;" href="Default.aspx"><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;&nbsp;Sign in Again  </a>
+            <img src="#" class="appmainLogo img-responsive" style="width:250px;padding:40px">
+            <a class="WHelp" data-placement="top" data-toggle="tooltip" title="Help" style="font-weight:300;color: #565d81;text-decoration: none;" href="#"><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;Help</a>
+
+        </div>
+        <div class="_appFooterExt"></div>
+    </div>
+
+    <script src="js files/jquery_v3.3.1.js"></script>
+    <script src="js files/Bootstrap_v3.3.7.js"></script>
+    <script src="js files/config.js"></script>
+    <script src="js files/pace_ajax_loader.min.js"></script>
+    <script src="js files/offline.min.js"></script>
+    <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93921848-7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-93921848-7');
+    </script>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-5794543800871065",
+            enable_page_level_ads: true
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            if (isTouchDevice() === false) {
+                $('body').tooltip({
+                    selector: '[data-toggle="tooltip"]'
+                });
+                $("[rel='tooltip']").tooltip();
+            }
+            makeAppFooterOut();
+            append_footerDt();
+        });
+        function isTouchDevice() {
+            return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+        } if (isTouchDevice() === false) {
+            jQuery(function (e) { e("a").tooltip({ html: true, container: "body" }) });
+        }
+    </script>
+
+</body>
+</html>
+
+
+               

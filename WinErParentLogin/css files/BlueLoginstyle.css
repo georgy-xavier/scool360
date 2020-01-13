@@ -1,0 +1,82 @@
+
+
+body { 
+	margin:0 auto; 
+	padding:0; 
+	font: 74% Arial, Sans-Serif; 
+	color:#FFF;  
+	background: #1e4765 url(../images/loginbg.jpg) no-repeat center top;
+	line-height: 1.4em; 
+	
+}
+
+
+.content  
+{
+    width: 800px;
+	margin: 0 auto; 
+	position:relative;	
+	color:#FFF;
+	min-height:550px;
+	_height:550px;
+}
+
+.topheader
+{
+      width: 775px;
+	margin: 0 auto; 
+	position:relative;	
+    height:60px;
+    color:#c1e4fe;
+    font-size:16px;
+    font-weight:bold;
+    background:url("../images/top.jpg") no-repeat left top;
+    padding-top:20px;
+    padding-left:25px;
+}
+.login
+{
+    padding-top:191px;
+    width:330px;
+    margin:0 auto;
+    position:relative;
+}
+
+.logintextbox
+{
+    height:15px;
+    width:140px;
+   -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	_border-radius:5px;
+	_margin-left:40px;
+}
+.loginbutton
+{
+    background:#1e4765 url(../images/button.gif) no-repeat center ;
+    width:70px;
+    height:30px;
+    border:none;
+    -moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	_border-radius: 8px;
+
+	cursor:pointer;
+}
+.footer
+{
+     width: 800px;
+	margin: 0 auto; 
+	position:relative;	
+	color:#c1e4fe;
+	height:10px;
+	 text-align:center;
+	  font-size:9px;
+}
+.footer a
+{
+    color:#c1e4fe;
+    font-size:10px;
+    text-decoration:none;
+    font-weight:bold;
+}

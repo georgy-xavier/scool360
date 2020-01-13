@@ -1,0 +1,291 @@
+﻿/*This styles only appplicable for display size above 790 px screen*/
+/*Mainly ment for desktop devices*/
+
+@media only screen and (min-width: 790px) {
+	/*DISPLAY ONLY ON DESKTOP ie, Above 790 px screen*/
+	.userProfileCard{
+
+	}
+	 .popover {
+	 top: 75px !important;
+}
+	 #ui-id-1{
+		 width: 31.2vw !important;
+	 }
+	 .usrProfStyle{
+			 padding: 2px !important;
+	background-color: #ffffff !important;
+	border: 0 !important;
+
+	 }
+.ui-autocomplete {
+	max-height: 75vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align:left;
+	/*max-width:31.2vw !important;
+	width: 31.2vw !important;*/
+}
+.ui-autocomplete::-webkit-scrollbar {
+	width: 1px;
+	background-color: #c4c4c4;
+}
+.ui-state-active{
+	color:red;
+}
+.ui-autocomplete-loading {
+	background: white url("images/indicator-big.gif") right center no-repeat;
+	background-size: 30px;
+}
+.ui-menu .ui-menu-item{
+	font-size: small;
+	font-weight: 100;
+	color: #607D8B;
+}	
+ .Prfname {
+		color: #607D8B;
+	font-size: 20px;
+}
+ .Prfrole {
+		color: #607D8B;
+	font-size: 15px;
+	font-weight: 100;
+}
+ .Prfemail {
+		color: #607D8B;
+	font-size: 12px;
+	font-weight: 100;.PrfLstLgn
+}
+ .PrfLstLgn {
+	color: #b6b6b6;
+	font-size: 12px;
+}
+.time{
+		font-family: 'Segoe UI';
+	font-weight: 100;
+	color:#c3c3c3;
+	font-size: 35px;
+}
+.time b{
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 10px;
+}
+	body {
+		overflow-y: hidden;
+	}
+
+	.mobBottomNavBar {
+		display: none;
+	}
+
+	.mobTopNavBar {
+		display: none;
+	}
+	  .hlpcontent{
+			  text-align: left;
+	padding-top: 40px;
+	background-color: white;
+	padding:30px 100px 10px 100px;
+
+			}
+	._HlpSprtBtnDesk {
+		display: block;
+		position: fixed;
+		width: 20%;
+		padding: 0;
+		z-index: 9999;
+		height: auto;
+		bottom: 5px;
+		cursor: pointer;
+		right: 15px;
+		background-color: #2E7D32;
+		color: #FFF;
+		border-radius: 2px;
+		text-align: center;
+		box-shadow: 2px 2px 3px #999;
+	}
+
+	.mark_attendanceCalender {
+		width: 35%;
+		height: 8vh;
+	}
+
+	.mark_attendanceCal_Global {
+		width: 35%;
+		height: 10vh;
+		text-align: center !important;
+	}
+
+	.othercontent {
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	#SlideTabsDiv {
+	}
+
+	.notificBar {
+		overflow: hidden;
+	}
+
+	.force_overflow_notificBr {
+		overflow: auto;
+		height: 100vh;
+	}
+
+	.Custtooltip .Custtooltiptext {
+		margin: 0;
+		visibility: hidden;
+		font-size: 13px;
+		width: auto;
+		border: 1px solid #b1b1b1;
+		background-color: #ffffff;
+		color: #000000;
+		text-align: center;
+		border-radius: 2px;
+		padding: 5px;
+		position: absolute;
+		font-family: monospace;
+		z-index: 999;
+		opacity: 0;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+		box-shadow: 3 3px 7px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		-moz-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		-o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		-webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		-moz-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		-o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		-webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		transition: opacity 1s;
+	}
+
+	.Custtooltip:hover .Custtooltiptext {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.scrollbar_notific {
+		height: 85vh;
+		overflow-y: scroll;
+	}
+
+	.scrollbar {
+		height: 77vh;
+		overflow-y: scroll;
+	}
+
+	.force-overflow {
+		overflow: auto;
+		height: 80vh;
+			overflow-x: hidden;
+		/*margin-left: -15px;
+	margin-right: -15px;*/
+	}
+	/*.scrollbar:hover{background-color:red;}*/
+
+	#scrollwrapper {
+		text-align: center;
+		width: 500px;
+		margin: auto;
+	}
+
+	.scrollStyle::-webkit-scrollbar-track {
+		background-color: #fff;
+	}
+
+	.scrollStyle::-webkit-scrollbar {
+		width: 6px;
+		background-color: #F5F5F5;
+	}
+
+	.scrollStyle:hover::-webkit-scrollbar-thumb {
+		-moz-transition: opacity 1s ease-out;
+		-o-transition: opacity 1s ease-out;
+		-webkit-transition: opacity 1s ease-out;
+		transition: opacity 1s ease-out;
+		background-color: #9E9E9E;
+		background-color: #d0d0d0;
+		border: 1px solid #c7c7c7;
+		border-radius: 1px;
+	}
+
+	.princyBordpad {
+		padding: 80px 80px 5px 80px !important;
+	}
+
+	#wrap #contents #right {
+		float: right !important;
+	}
+
+	#wrap {
+		overflow: hidden !important;
+	}
+
+	.sidenavRight {
+		width: 450px;
+	}
+
+	.helpbtnpri {
+		margin-bottom: 2px !important;
+	}
+
+	.knsrchBox {
+		margin-left: 35% !important;
+	}
+
+	#SchImg,
+	#btnArrow,
+	#navMenubar,
+	#sendToMsg,
+	.topRightItems {
+		display: block;
+	}
+
+	#helpBtnMobile,
+	#mySidenav,
+	#sideNavBtn {
+		display: none;
+	}
+
+	#Load_Studnt {
+		margin-top: 90px;
+	}
+
+	#processMessage {
+		top: 40%;
+		left: 40%;
+	}
+
+	#mostTopBar {
+		padding-top: 3px;
+		box-shadow: none;
+	}
+
+	.deskTopPadding {
+		margin-top: 20px;
+		right: 10px;
+	}
+
+	.customContainer {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
+		padding: 0;
+	}
+
+	.login_sch_head {
+		margin: 10px;
+	}
+	.pageContent{
+		min-height:69vh;
+	}
+	/*.active {
+	background-color: rgb(188, 198, 255);
+}*/
+
+
+
+}

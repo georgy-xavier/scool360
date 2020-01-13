@@ -1,0 +1,153 @@
+/*New Div style  height:auto  and width :auto*/
+/* Simple Round Box -Gray Color */
+
+.roundbox{width:auto; height:auto; padding:5px; margin:5px;} 
+.roundbox .topleft{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/lefttop.png) no-repeat; color: #000;} 
+.roundbox .topmiddle{height: 14px;width:auto; background: #fff url(../Win_Round_Div/NormalDivGray/top.png) repeat-x; color: #000;}
+.roundbox .topright{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/righttop.png) no-repeat; color: #000;}
+.roundbox .centerleft{height: auto;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/left.png) repeat-y; color: #000;}
+.roundbox .centermiddle{height: auto;width:auto; background: #fff url(../Win_Round_Div/NormalDivGray/middle.png) repeat; color: #000;}
+.roundbox .centerright{height: auto;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/right.png) repeat-y; color: #000;}
+.roundbox .bottomleft{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/leftbottom.png) no-repeat; color: #000;}
+.roundbox .bottommiddile{height: 14px;width:auto; background: #fff url(../Win_Round_Div/NormalDivGray/bottom.png) repeat-x; color: #000;}
+.roundbox .bottomright{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivGray/rightbottom.png) no-repeat; color: #000;}
+.roundbox h1{color:Black;text-decoration:underline;}
+.roundbox img{border:none;}
+.roundbox .headerimg{width:15px;height:15px; border:none;}
+
+/* Simple Round Box -Orange  Color */
+.roundboxorange{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.roundboxorange .topleft{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/lefttop.png) no-repeat; color: #000;}
+.roundboxorange .topmiddle{height: 14px;width:auto; background: #fff url(../Win_Round_Div/NormalDivOrange/toporange.gif) repeat-x; color: #000;}
+.roundboxorange .topright{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/righttop.png) no-repeat; color: #000;}
+.roundboxorange .centerleft{height: auto;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/leftorange.gif) repeat-y; color: #000;}
+.roundboxorange .centermiddle{height: auto;width:auto; background: #fff url(../Win_Round_Div/NormalDivOrange/middle.png) repeat; color: #000;}
+.roundboxorange .centerright{height: auto;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/rightorange.gif) repeat-y;color: #000;}
+.roundboxorange .bottomleft{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/leftbottom.png) no-repeat; color: #000;}
+.roundboxorange .bottommiddile{height: 14px;width:auto; background: #fff url(../Win_Round_Div/NormalDivOrange/bottomorange.gif) repeat-x;color: #000;}
+.roundboxorange .bottomright{height: 14px;width:14px; background: #fff url(../Win_Round_Div/NormalDivOrange/rightbottom.png) no-repeat; color: #000;}
+.roundboxorange h1{color:Black;text-decoration:underline;}
+.roundboxorange img{border:none;}
+.roundboxorange .headerimg{width:15px; height:15px;border:none;}
+
+
+
+/* LMOrange Box -Orange Color : Description-leftside double border orange color div */
+.LMOrange{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.LMOrange table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.LMOrange .topleft{height: 21px;width:43px;background: #fff url(../Win_Round_Div/LMDivOrange/tl.png) no-repeat; color: #000;}
+.LMOrange .topmiddle{height: 21px;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/ct.png) repeat-x; color: #000; }
+.LMOrange .topright{height: 21px;width:28px;background: #fff url(../Win_Round_Div/LMDivOrange/tr.png) no-repeat; color: #000; }
+.LMOrange .centerleft{height: auto;width:43px;background: #fff url(../Win_Round_Div/LMDivOrange/cl.png) repeat-y; color: #000;}
+.LMOrange .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/c.png) repeat; color: #000; }
+.LMOrange .centerright{height: auto;width:28px;background: #fff url(../Win_Round_Div/LMDivOrange/cr.png) repeat-y;color: #000;}
+.LMOrange .bottomleft{height: 23px;width:43px;background: #fff url(../Win_Round_Div/LMDivOrange/bl.png) no-repeat;color: #000;}
+.LMOrange .bottommiddile{height: 23px;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/cb.png) repeat-x;color: #000;}
+.LMOrange .bottomright{height: 23px;width:28px;background: #fff url(../Win_Round_Div/LMDivOrange/br.png) no-repeat;color: #000;}
+.LMOrange h1{color:Black;text-decoration:underline;}
+.LMOrange img{border:none;}
+.LMOrange .heading{color:#000;font-size:12px;font-weight:bold; }
+.LMOrange .line{background-color:#ff6600;height:2px;width:100%; }
+.LMOrange a{color:#ff6600;font-size:12px;text-decoration:none; }
+.LMOrange a{color:#ff6600;font-size:12px;text-decoration:underline; }
+.LMOrange .headerimg{width:15px; height:15px;border:none;}
+
+
+
+/* TMOrange Box -Orange Color : Description-topside double border orange color div */
+
+.TMOrange{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.TMOrange table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.TMOrange .topleft{height: 40px;width:21px;background: #fff url(../Win_Round_Div/LMDivOrange/bl1.png) no-repeat; color: #000;}
+.TMOrange .topmiddle{height: 40px;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/cl1.png) repeat-x; color: #FFF; padding-top:3px; vertical-align:text-top;text-align:left;font-weight:bold;padding-left:10px;  }
+.TMOrange .topright{height: 24px;width:23px;background: #fff url(../Win_Round_Div/LMDivOrange/tl1.png) no-repeat; color: #000; }
+.TMOrange .centerleft{height: auto;width:21px;background: #fff url(../Win_Round_Div/LMDivOrange/cb1.png) repeat-y; color: #000;}
+.TMOrange .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/c1.png) repeat; color: #000; }
+.TMOrange .centerright{height: auto;width:23px;background: #fff url(../Win_Round_Div/LMDivOrange/ct1.png) repeat-y;color: #000;}
+.TMOrange .bottomleft{height: 45px;width:21px;background: #fff url(../Win_Round_Div/LMDivOrange/br1.png) no-repeat;color: #000;}
+.TMOrange .bottommiddile{height: 45px;width:auto;background: #fff url(../Win_Round_Div/LMDivOrange/cr1.png) repeat-x;color: #000;}
+.TMOrange .bottomright{height: 28px;width:23px;background: #fff url(../Win_Round_Div/LMDivOrange/tr1.png) no-repeat;color: #000;}
+.TMOrange h1{color:Black;text-decoration:underline;}
+.TMOrange img{border:none;}
+.TMOrange .headerimg{width:15px; height:15px;border:none;}
+
+
+
+/* LMBlue Box -Blue Color : Description-leftside double border blue color div */
+.LMBlue{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.LMBlue table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.LMBlue .topleft{height: 21px;width:43px;background: #fff url(../Win_Round_Div/LMBlueDiv/tlblue.png) no-repeat; color: #000;}
+.LMBlue .topmiddle{height: 21px;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/ctblue.png) repeat-x; color: #000; }
+.LMBlue .topright{height: 21px;width:28px;background: #fff url(../Win_Round_Div/LMBlueDiv/trblue.png) no-repeat; color: #000; }
+.LMBlue .centerleft{height: auto;width:43px;background: #fff url(../Win_Round_Div/LMBlueDiv/clblue.png) repeat-y; color: #000;}
+.LMBlue .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/cblue.png) repeat; color: #000; }
+.LMBlue .centerright{height: auto;width:28px;background: #fff url(../Win_Round_Div/LMBlueDiv/crblue.png) repeat-y;color: #000;}
+.LMBlue .bottomleft{height: 23px;width:43px;background: #fff url(../Win_Round_Div/LMBlueDiv/blblue.png) no-repeat;color: #000;}
+.LMBlue .bottommiddile{height: 23px;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/cbblue.png) repeat-x;color: #000;}
+.LMBlue .bottomright{height: 23px;width:28px;background: #fff url(../Win_Round_Div/LMBlueDiv/brblue.png) no-repeat;color: #000;}
+.LMBlue h1{color:Black;text-decoration:underline;}
+.LMBlue img{border:none;}
+.LMBlue .heading{color:#000;font-size:12px;font-weight:bold; }
+.LMBlue .line{background-color:#3399ff;height:2px;width:100%; }
+.LMBlue a{color:#3399ff;font-size:12px;text-decoration:none; }
+.LMBlue a{color:#3399ff;font-size:12px;text-decoration:underline; }
+.LMBlue .headerimg{width:15px; height:15px;border:none;}
+
+
+
+/* TMBlue Box -Blue Color : Description-topside double border Blue color div */
+
+.TMBlue{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.TMBlue table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.TMBlue .topleft{height: 40px;width:21px;background: #fff url(../Win_Round_Div/LMBlueDiv/blblue1.png) no-repeat; color: #000;}
+.TMBlue .topmiddle{height: 40px;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/clblue1.png) repeat-x;  color: #FFF; padding-top:3px; vertical-align:text-top;text-align:left;font-weight:bold;padding-left:10px;  }
+.TMBlue .topright{height: 24px;width:23px;background: #fff url(../Win_Round_Div/LMBlueDiv/tlblue1.png) no-repeat; color: #000; }
+.TMBlue .centerleft{height: auto;width:21px;background: #fff url(../Win_Round_Div/LMBlueDiv/cbblue1.png) repeat-y; color: #000;}
+.TMBlue .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/cblue1.png) repeat; color: #000; }
+.TMBlue .centerright{height: auto;width:23px;background: #fff url(../Win_Round_Div/LMBlueDiv/ctblue1.png) repeat-y;color: #000;}
+.TMBlue .bottomleft{height: 45px;width:21px;background: #fff url(../Win_Round_Div/LMBlueDiv/brblue1.png) no-repeat;color: #000;}
+.TMBlue .bottommiddile{height: 45px;width:auto;background: #fff url(../Win_Round_Div/LMBlueDiv/crblue1.png) repeat-x;color: #000;}
+.TMBlue .bottomright{height: 28px;width:23px;background: #fff url(../Win_Round_Div/LMBlueDiv/trblue1.png) no-repeat;color: #000;}
+.TMBlue h1{color:Black;text-decoration:underline;}
+.TMBlue img{border:none;}
+.TMBlue .headerimg{width:15px; height:15px;border:none;}
+
+/* LMGray Box -Gray Color : Description-leftside double border gray color div */
+.LMGray{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.LMGray table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.LMGray .topleft{height: 21px;width:43px;background: #fff url(../Win_Round_Div/LMGrayDiv/tlgray.png) no-repeat; color: #000;}
+.LMGray .topmiddle{height: 21px;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/ctgray.png) repeat-x; color: #000;}
+.LMGray .topright{height: 21px;width:28px;background: #fff url(../Win_Round_Div/LMGrayDiv/trgray.png) no-repeat; color: #000; }
+.LMGray .centerleft{height: auto;width:43px;background: #fff url(../Win_Round_Div/LMGrayDiv/clgray.png) repeat-y; color: #000;}
+.LMGray .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/cgray.png) repeat; color: #000; }
+.LMGray .centerright{height: auto;width:28px;background: #fff url(../Win_Round_Div/LMGrayDiv/crgray.png) repeat-y;color: #000;}
+.LMGray .bottomleft{height: 23px;width:43px;background: #fff url(../Win_Round_Div/LMGrayDiv/blgray.png) no-repeat;color: #000;}
+.LMGray .bottommiddile{height: 23px;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/cbgray.png) repeat-x;color: #000;}
+.LMGray .bottomright{height: 23px;width:28px;background: #fff url(../Win_Round_Div/LMGrayDiv/brgray.png) no-repeat;color: #000;}
+.LMGray h1{color:Black;text-decoration:underline;}
+.LMGray .heading{color:#000;font-size:12px;font-weight:bold; }
+.LMGray .line{background-color:#999999;height:2px;width:100%; }
+.LMGray a{color:#999999;font-size:12px;text-decoration:none; }
+.LMGray a{color:#999999;font-size:12px;text-decoration:underline; }
+.LMGray img{border:none;}
+.LMGray .headerimg{width:15px; height:15px;border:none;}
+
+
+
+/* TMGray Box -Gray Color : Description-topside double border gray color div */
+
+.TMGray{width:auto;  height:auto;  padding:5px;  margin:5px;}
+.TMGray table{margin:0px;padding:0px;border:none;border-collapse:collapse;border-width:0px;border-spacing:0px;}	
+.TMGray .topleft{height: 40px;width:21px;background: #fff url(../Win_Round_Div/LMGrayDiv/blgray1.png) no-repeat; color: #000;}
+.TMGray .topmiddle{height: 40px;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/clgray1.png) repeat-x;  color: #FFF; padding-top:3px; vertical-align:text-top;text-align:left;font-weight:bold;padding-left:10px; }
+.TMGray .topright{height: 24px;width:23px;background: #fff url(../Win_Round_Div/LMGrayDiv/tlgray1.png) no-repeat; color: #000; }
+.TMGray .centerleft{height: auto;width:21px;background: #fff url(../Win_Round_Div/LMGrayDiv/cbgray1.png) repeat-y; color: #000;}
+.TMGray .centermiddle{height: auto;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/cgray1.png) repeat; color: #000; }
+.TMGray .centerright{height: auto;width:23px;background: #fff url(../Win_Round_Div/LMGrayDiv/ctgray1.png) repeat-y;color: #000;}
+.TMGray .bottomleft{height: 45px;width:21px;background: #fff url(../Win_Round_Div/LMGrayDiv/brgray1.png) no-repeat;color: #000;}
+.TMGray .bottommiddile{height: 45px;width:auto;background: #fff url(../Win_Round_Div/LMGrayDiv/crgray1.png) repeat-x;color: #000;}
+.TMGray .bottomright{height: 28px;width:23px;background: #fff url(../Win_Round_Div/LMGrayDiv/trgray1.png) no-repeat;color: #000;}
+.TMGray h1{color:Black;text-decoration:underline;}
+.TMGray img{border:none;}
+.TMGray .headerimg{width:15px; height:15px;border:none;}
+

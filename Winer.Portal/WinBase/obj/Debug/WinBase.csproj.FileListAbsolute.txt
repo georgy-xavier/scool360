@@ -1,0 +1,50 @@
+E:\JeZBillInvWeb\WinBase\bin\Debug\WinBase.dll
+E:\JeZBillInvWeb\WinBase\bin\Debug\WinBase.pdb
+E:\JeZBillInvWeb\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\JeZBillInvWeb\WinBase\obj\Debug\WinBase.dll
+E:\JeZBillInvWeb\WinBase\obj\Debug\WinBase.pdb
+C:\Documents and Settings\win-08\Desktop\JeZBillInvWeb\WinBase\bin\Debug\WinBase.dll
+C:\Documents and Settings\win-08\Desktop\JeZBillInvWeb\WinBase\bin\Debug\WinBase.pdb
+C:\Documents and Settings\win-08\Desktop\JeZBillInvWeb\WinBase\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\win-08\Desktop\JeZBillInvWeb\WinBase\obj\Debug\WinBase.dll
+C:\Documents and Settings\win-08\Desktop\JeZBillInvWeb\WinBase\obj\Debug\WinBase.pdb
+E:\works\JeZBillInvWeb\WinBase\bin\Debug\WinBase.dll
+E:\works\JeZBillInvWeb\WinBase\bin\Debug\WinBase.pdb
+E:\works\JeZBillInvWeb\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\works\JeZBillInvWeb\WinBase\obj\Debug\WinBase.dll
+E:\works\JeZBillInvWeb\WinBase\obj\Debug\WinBase.pdb
+D:\SVNDATA\WinBiller\trunk\JeZBillInvWeb\JeZBillInvWeb\WinBase\bin\Debug\WinBase.dll
+D:\SVNDATA\WinBiller\trunk\JeZBillInvWeb\JeZBillInvWeb\WinBase\bin\Debug\WinBase.pdb
+D:\SVNDATA\WinBiller\trunk\JeZBillInvWeb\JeZBillInvWeb\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\SVNDATA\WinBiller\trunk\JeZBillInvWeb\JeZBillInvWeb\WinBase\obj\Debug\WinBase.dll
+D:\SVNDATA\WinBiller\trunk\JeZBillInvWeb\JeZBillInvWeb\WinBase\obj\Debug\WinBase.pdb
+E:\Work Area\WinBiller Area\InventoryWeb\WinBase\bin\Debug\WinBase.dll
+E:\Work Area\WinBiller Area\InventoryWeb\WinBase\bin\Debug\WinBase.pdb
+E:\Work Area\WinBiller Area\InventoryWeb\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\Work Area\WinBiller Area\InventoryWeb\WinBase\obj\Debug\WinBase.dll
+E:\Work Area\WinBiller Area\InventoryWeb\WinBase\obj\Debug\WinBase.pdb
+D:\WINCERON(work area)\theruvath\inventory tab version\WinBase\bin\Debug\WinBase.dll
+D:\WINCERON(work area)\theruvath\inventory tab version\WinBase\bin\Debug\WinBase.pdb
+D:\WINCERON(work area)\theruvath\inventory tab version\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\WINCERON(work area)\theruvath\inventory tab version\WinBase\obj\Debug\WinBase.dll
+D:\WINCERON(work area)\theruvath\inventory tab version\WinBase\obj\Debug\WinBase.pdb
+D:\WINCERON(work area)\theruvath\inventory\WinBase\bin\Debug\WinBase.dll
+D:\WINCERON(work area)\theruvath\inventory\WinBase\bin\Debug\WinBase.pdb
+D:\WINCERON(work area)\theruvath\inventory\WinBase\obj\Debug\WinBase.dll
+D:\WINCERON(work area)\theruvath\inventory\WinBase\obj\Debug\WinBase.pdb
+D:\WINCERON(work area)\theruvath\inventory\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\Libin's\WINCERON(work area)\theruvath\inventory\WinBase\bin\Debug\WinBase.dll
+D:\Libin's\WINCERON(work area)\theruvath\inventory\WinBase\bin\Debug\WinBase.pdb
+D:\Libin's\WINCERON(work area)\theruvath\inventory\WinBase\obj\Debug\WinBase.dll
+D:\Libin's\WINCERON(work area)\theruvath\inventory\WinBase\obj\Debug\WinBase.pdb
+D:\SVN Area\test\WinBase\bin\Debug\WinBase.dll
+D:\SVN Area\test\WinBase\bin\Debug\WinBase.pdb
+D:\SVN Area\test\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN Area\test\WinBase\obj\Debug\WinBase.dll
+D:\SVN Area\test\WinBase\obj\Debug\WinBase.pdb
+D:\SVN Area\Inventory Bootstrap\WinBase\bin\Debug\WinBase.dll
+D:\SVN Area\Inventory Bootstrap\WinBase\bin\Debug\WinBase.pdb
+D:\SVN Area\Inventory Bootstrap\WinBase\obj\Debug\WinBase.dll
+D:\SVN Area\Inventory Bootstrap\WinBase\obj\Debug\WinBase.pdb
+D:\SVN Area\Inventory Bootstrap\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\SVN Area\Winer\Winer.Portal\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache

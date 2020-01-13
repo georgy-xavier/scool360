@@ -1,0 +1,1113 @@
+*{margin:0;padding:0;} 
+input.orangeadd {
+		background: #E0691A url(../winbuttons/add.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeadd:hover  {
+		background: #FFF url(../winbuttons/add1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+        text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   
+   input.orangeedit{
+		background: #E0691A url(../winbuttons/edit1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeedit:hover  {
+		background: #FFF url(../winbuttons/edit.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+        text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   
+   
+   input.orangesave {
+		background: #E0691A url(../winbuttons/save.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangesave:hover  {
+		background: #FFF url(../winbuttons/save1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:left;
+		padding-left:30px;
+		color: #000;/*ff5307*/
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+    input.orangecancel {
+		background: #E0691A url(../winbuttons/cancel.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangecancel:hover  {
+		background: #FFF url(../winbuttons/cancel1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   
+   
+       input.orangeok {
+		background: #E0691A url(../winbuttons/Ok.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeok:hover  {
+		background: #FFF url(../winbuttons/Ok1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   input.orangeremove {
+		background: #E0691A url(../winbuttons/remove.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeremove:hover  {
+		background: #FFF url(../winbuttons/remove1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   input.orangesearch {
+		background: #E0691A url(../winbuttons/search.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangesearch:hover  {
+		background: #FFF url(../winbuttons/search1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	   text-align:left;
+		padding-left:30px;
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   input.orangeempty {
+		background: #E0691A url(../winbuttons/submit.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:center;
+	
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeempty:hover  {
+		background: #FFF url(../winbuttons/submit1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:center;
+		
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   input.orangeexcel {
+		background: #E0691A url(../winbuttons/excel.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+		text-align:left;
+		padding-left:30px;
+	
+		height:23;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+	}
+	  input.orangeexcel:hover  {
+		background: #FFF url(../winbuttons/excel1.gif) no-repeat;
+		border: 0;
+		padding: 4px 0;
+		width: 99px;
+	    text-align:left;
+		padding-left:30px;
+		
+		color: #000;
+		height:24;
+	
+		font: bold 11px Arial, Sans-Serif;
+   }
+   
+   
+      
+   
+   
+
+
+/*****  button gray style -******/
+
+
+
+
+input.grayadd {
+		background: #E0691A url(../winbuttons/add1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		
+		padding-right:10px;
+		width: 100px;
+	}
+	  input.grayadd:hover  
+   {
+		background: #FFF url(../winbuttons/add.gif) no-repeat;
+	    border : 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		color: #FFF;
+		height:24px;
+	    font: bold 11px Arial, Sans-Serif;
+	    background-position:left;
+	    width: 100px;
+		padding-right:10px;
+   }
+   
+   
+   
+   input.graysave {
+		background: #E0691A url(../winbuttons/save1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+	}
+		  input.graysave:hover  {
+		background: #FFF url(../winbuttons/save.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		color: #FFF;
+		height:24px;
+	    font: bold 11px Arial, Sans-Serif;
+	    background-position:left;
+	    width: 100px;
+		padding-right:10px;
+   }
+    input.graycancel {
+		background: #E0691A url(../winbuttons/cancel1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+	  input.graycancel:hover  {
+		background: #FFF url(../winbuttons/cancel.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		color: #FFF;
+		height:24px;
+	    font: bold 11px Arial, Sans-Serif;
+	    background-position:left;
+	    width :100px;
+		padding-right:10px;
+   }
+   
+   
+       input.grayok {
+		background: #E0691A url(../winbuttons/Ok1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+	}
+	  input.grayok:hover  {
+		background: #FFF url(../winbuttons/Ok.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		color: #FFF;
+		height:24px;
+	    font: bold 11px Arial, Sans-Serif;
+	    background-position:left;
+	    width:100px;
+		padding-right:10px;
+   }
+   input.grayremove {
+		background: #E0691A url(../winbuttons/remove1.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+	}
+	  input.grayremove:hover  {
+		background: #FFF url(../winbuttons/remove.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+   }
+   input.graysearch {
+		background: #E0691A url(../winbuttons/search1.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+	}
+	  input.graysearch:hover  {
+		background: #FFF url(../winbuttons/search.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+   }
+   input.grayempty {
+		background: #E0691A url(../winbuttons/submit1.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:center;
+		padding-left:10px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+	}
+	  input.grayempty:hover  {
+		background: #FFF url(../winbuttons/submit.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:center;
+		padding-left:10px;
+		height:24px;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+   }
+   input.grayexcel {
+		background: #E0691A url(../winbuttons/excel1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+	}
+	  input.grayexcel:hover  {
+		background: #FFF url(../winbuttons/excel.gif) no-repeat;
+	    border : 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+   }
+   
+   
+  
+
+   /* Dominic- new style*/
+   
+   /*save */
+button {
+border: 0 none;
+cursor: pointer;
+
+padding: 0 15px 0 0;
+text-align: center;
+height: 30px;
+line-height: 30px;
+width: auto;
+font: bold 11px Arial, Sans-Serif;
+}
+
+button.saveorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.saveorange span {
+background: transparent url( ../winbuttons/save.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.saveorange:hover {
+background-position: 100% -30px;
+}
+
+button.saveorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+
+button::-moz-focus-inner {
+border: none;
+}
+
+/*excel*/
+
+button.excelorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.excelorange span {
+background: transparent url( ../winbuttons/excel.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.excelorange:hover {
+background-position: 100% -30px;
+}
+
+button.excelorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+
+/*Ok button*/
+
+button.okorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.okorange span {
+background: transparent url( ../winbuttons/ok.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.okorange:hover {
+background-position: 100% -30px;
+}
+
+button.okorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+/*remove*/
+button.removeorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.removeorange span {
+background: transparent url( ../winbuttons/remove.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.removeorange:hover {
+background-position: 100% -30px;
+}
+
+button.removeorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+/*search*/
+button.searchorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.searchorange span {
+background: transparent url( ../winbuttons/search.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.searchorange:hover {
+background-position: 100% -30px;
+}
+
+button.searchorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+
+/*cancel*/
+
+button.cancelorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.cancelorange span {
+background: transparent url( ../winbuttons/cancel.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.cancelorange:hover {
+background-position: 100% -30px;
+}
+
+button.cancelorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+
+/*add*/
+button.addorange {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right top;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.addorange span {
+background: transparent url( ../winbuttons/add.png ) no-repeat scroll left top;
+color: #FFFFFF;
+}
+
+button.addorange:hover {
+background-position: 100% -30px;
+}
+
+button.addorange:hover span {
+background-position: 0% -30px;
+color: #000;
+}
+
+
+
+
+/*oppocit colour*/
+
+
+ /*save */
+
+button.savegray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.savegray span {
+background: transparent url( ../winbuttons/save.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.savegray:hover {
+background-position: 100% 0px;
+}
+
+button.savegray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+button::-moz-focus-inner {
+border: none;
+}
+
+
+/*excel*/
+
+button.excelgray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.excelgray span {
+background: transparent url( ../winbuttons/excel.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.excelgray:hover {
+background-position: 100% 0px;
+}
+
+button.excelgray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+
+/*Ok button*/
+
+button.okgray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.okgray span {
+background: transparent url( ../winbuttons/ok.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.okgray:hover {
+background-position: 100% 0px;
+}
+
+button.okgray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+/*remove*/
+button.removegray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.removegray span {
+background: transparent url( ../winbuttons/remove.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.removegray:hover {
+background-position: 100% 0px;
+}
+
+button.removegray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+/*search*/
+button.searchgray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.searchgray span {
+background: transparent url( ../winbuttons/search.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.searchgray:hover {
+background-position: 100% 0px;
+}
+
+button.searchgray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+
+/*cancel*/
+
+button.cancelgray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.cancelgray span {
+background: transparent url( ../winbuttons/cancel.png ) no-repeat scroll left bottom;
+color: #000;
+}
+
+button.cancelgray:hover {
+background-position: 100% 0px;
+}
+
+button.cancelgray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+
+/*add*/
+button.addgray {
+background: transparent url( ../winbuttons/btn_right.png ) no-repeat scroll right bottom;
+clear: left;
+}
+
+button span {
+display: block;
+padding: 0 0 0 30px;
+position: relative;
+white-space: nowrap;
+height: 30px;
+line-height: 30px;
+}
+
+button.addgray span {
+background: transparent url( ../winbuttons/add.png ) no-repeat scroll left bottom;
+color: #000;
+}
+button.addgray:hover {
+background-position: 100% 0px;
+}
+
+button.addgray:hover span {
+background-position: 0% 0px;
+color: #FFF;
+}
+
+
+
+
+/***** -Dominic 21-9-10 new button style -******/
+
+   
+   input.grayedit {
+		background: #E0691A url(../winbuttons/edit.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		
+		padding-right:10px;
+		width: 100px;
+	}
+	  input.grayedit:hover  
+   {
+		background: #FFF url(../winbuttons/edit1.gif) no-repeat;
+	    border : 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		color: #FFF;
+		height:24px;
+	    font: bold 11px Arial, Sans-Serif;
+	    background-position:left;
+	    width: 100px;
+		padding-right:10px;
+   }
+   
+
+
+/***** gray button disabled style -******/
+ input.graysave[disabled] {
+
+  color: White;
+ 
+}
+
+input.graysave[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/save1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+input.grayedit[disabled] {
+
+  color: White;
+  
+
+} 
+input.grayedit[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/edit.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+
+ input.grayadd[disabled] {
+
+  color: White;
+  
+
+}
+input.grayadd[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/add1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+
+input.grayok[disabled] {
+
+  color: White;
+  
+
+} 
+input.grayok[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/Ok1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+
+ input.graycancel[disabled] {
+
+  color: White;
+
+
+}
+input.graycancel[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/cancel1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+input.grayremove[disabled] {
+
+  color: White;
+  
+
+} 
+input.grayremove[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/remove1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+ input.grayexcel[disabled] {
+
+  color: White;
+ 
+
+}
+input.grayexcel[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/excel1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}
+input.grayempty[disabled] {
+
+  color: White;
+  
+
+}
+input.grayempty[disabled]:hover {
+
+        background: #E0691A url(../winbuttons/submit1.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:center;
+		padding-left:10px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif; 
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+		
+  	  
+}
+input.graysearch[disabled] {
+
+  color: White;
+  
+}  
+input.graysearch[disabled]:hover {
+
+  	    background  : #E0691A url(../winbuttons/search1.gif) no-repeat;
+		border: 0px;
+		padding: 4px 0px;
+		text-align:left;
+		padding-left:30px;
+		height:24px;
+		color: White;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width: 100px;
+		padding-right:10px;
+}

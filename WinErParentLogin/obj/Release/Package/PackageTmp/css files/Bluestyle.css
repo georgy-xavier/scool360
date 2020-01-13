@@ -1,0 +1,223 @@
+
+
+ #header {
+	background-image: url(../images/topbg.jpg);
+	background-repeat: repeat-x;
+	height: 70px;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+}
+
+ #header #logo {
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	
+	color: #569EE8;
+	font-size: 22px;
+	width: 120px;
+	display: block;
+	float: left;
+	font-weight: bolder;
+}
+ #header #logo a {
+/*	color: #5D5D5D;*/
+	color: #FFF;
+	text-decoration: none;
+}
+ #header #logo a:visited,active {
+	color: #FFF;
+	text-decoration: none;
+}
+/*#header #logo a:hover {
+
+	color: #4894E1;
+	text-decoration: none;
+}*/
+ #header #subnavigation {
+	height:55px;
+	margin-bottom: 0px;
+	float: right;
+	width: 400px;
+	margin-right:15px;
+}
+ #header #subnavigation .logindetails
+{
+	color:#FFF;
+	font-weight:bold;
+	
+}
+
+.signout a img
+{
+border:none;
+vertical-align:middle;
+}
+.orangeTitle 
+{ 
+color: #f36920; 
+font-size:16px;
+}
+
+
+.top_info_left {
+
+float: left;
+height:35px;
+color:White;
+padding-left:20%;
+padding-top:10px;
+
+}
+.top_info_right {
+float: right;
+
+width:45px;
+height:45px;
+
+
+}
+#wrap
+{
+background-position: 51% 49%;
+overflow:hidden;
+/*width:1000px;*/
+margin:0 auto;
+position:relative;
+}
+sup { font-size: .5em; 
+color: #0080FF;
+
+}
+.headernew 
+{
+height: 60px;
+background: #fff url(../images/headerbg.gif) repeat-x bottom;
+color: #808080;
+margin: 3px 0;
+padding: 0 0 0 0;
+width:100%;
+font-size:11px;
+border-bottom-color:#0080FF;
+border-bottom-style:solid;
+border-bottom-width:2px;
+}
+.headernew a {	color: #0080FF;	background: inherit;text-decoration: none;}
+.headernew .headdertable
+{
+	width:100%;
+
+	border:none;
+	padding:0;
+	vertical-align:top;
+	border-collapse:collapse;
+	
+}
+.headernew .headdertable .smalllinks
+{
+	height:10px;
+	border:none;
+	border-collapse:collapse;
+}
+.headernew .headdertable .smalllinks .topdetails
+{
+	
+	height:10px;
+	border:none;
+	border-collapse:collapse;
+	text-align:right;
+}
+.headernew .headdertable .smalllinks .topdetails a img
+{
+	border:none;
+	padding:0px;
+	margin:0px;
+}
+.headernew .headdertable .smalllinks .studentimage
+{
+	width:57px;
+	height:34px;
+	vertical-align:middle;
+	border:none;
+}
+.headernew .headdertable .smalllinks .winerheading
+{
+	vertical-align:middle;
+}
+.headernew .headdertable .smalllinks .winerheading .logo
+{
+	text-align:left;
+	height:45px
+	
+	
+}
+.headernew .headdertable .smalllinks .winerheading .logo .module
+{
+	color:#0080FF;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+.headernew .headdertable .smalllinks .winerheading .logo h1
+{
+	padding:0;
+	margin:0;
+	height:20px;
+	font-size:18px;
+	color:#666;
+}
+.headernew .headdertable .mainheading .signout
+{
+text-align:right;
+padding-right:10px;
+width:75px;
+float:right;
+clear:both;
+padding-top:0px;
+margin-top:0px;
+vertical-align:top;
+
+}
+.headernew .headdertable .mainheading .loginphoto
+{
+	vertical-align:bottom;
+	width:50px;
+	height:40px;
+	text-align:right;
+	padding-bottom:8px;
+	
+	
+}
+.headernew .headdertable .mainheading .Details
+{
+	width:200px;
+	height:45px;
+	vertical-align:bottom;
+	padding:0px;
+	margin:0px;
+	background: url(../images/TopBorderBlue.gif) no-repeat left bottom;
+}
+.headernew .headdertable .mainheading .Details .top_info {
+float: right;
+width:190px;
+color: #FFFFFF;
+height:40px;
+/*background: url(../images/TopBorderBlue.gif) no-repeat left bottom;*/
+}
+
+.headernew .headdertable .mainheading  .school
+{
+	width:140px;
+}
+.headernew .headdertable .mainheading  .student
+{
+	width:140px;
+}
+.headernew .headdertable .mainheading .student a img
+{
+	border:none;
+}
+.headernew .headdertable .mainheading  .school a img
+{
+	border:none;
+}

@@ -1,0 +1,68 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%> 
+   <asp:GridView runat="server" CssClass="GridViewStyle" >              
+   <PagerStyle CssClass="PagerStyle" />
+    <SelectedRowStyle CssClass="SelectedRowStyle" />
+    <HeaderStyle CssClass="HeaderStyle" />
+    <FooterStyle CssClass="PagerStyle" />
+    <RowStyle CssClass="RowStyle"/>
+     <AlternatingRowStyle CssClass="AltRowStyle" />
+     <EditRowStyle CssClass="EditRowStyle" />
+ </asp:GridView>  
+        
+  <asp:GridView runat="server" SkinID="GrayNoRowstyle" CssClass="GridViewStyle" >              
+   <PagerStyle CssClass="PagerStyle" />
+    <SelectedRowStyle CssClass="SelectedRowStyle" />
+    <HeaderStyle CssClass="HeaderStyle" />
+    <FooterStyle CssClass="PagerStyle" />
+
+ </asp:GridView> 
+ 
+   <asp:GridView runat="server" SkinID="GrayOnlyFooterstyle" CssClass="GridViewStyle" >              
+   <PagerStyle CssClass="PagerStyle" />
+    <FooterStyle CssClass="PagerStyle" />
+
+ </asp:GridView> 
+        
+ <asp:GridView SkinID="GrayGrid"  runat="server" CssClass="GridViewStyleGray" >              
+   <PagerStyle CssClass="PagerStyleGrey" />
+    <SelectedRowStyle CssClass="SelectedRowStyleGrey" />
+    <HeaderStyle CssClass="HeaderStyleGrey" />
+    <FooterStyle CssClass="PagerStyleGrey" />
+    <RowStyle CssClass="RowStyleGrey"/>
+     <AlternatingRowStyle CssClass="AltRowStyleGrey" />
+     <EditRowStyle CssClass="EditRowStyleGrey" />
+ </asp:GridView>   
+        
+ <asp:GridView SkinID="BlackGrid"  runat="server" CssClass="GridViewStyleBlack" >              
+   <PagerStyle CssClass="PagerStyleBlack" />
+    <SelectedRowStyle CssClass="SelectedRowStyleBlack" />
+    <HeaderStyle CssClass="HeaderStyleBlack" />
+    <FooterStyle CssClass="PagerStyleBlack" />
+    <RowStyle CssClass="RowStyleBlack"/>
+     <AlternatingRowStyle CssClass="AltRowStyleBlack" />
+     <EditRowStyle CssClass="EditRowStyleBlack" />
+ </asp:GridView>        
+        
+<ajaxToolkit:AutoCompleteExtender 
+    runat="server" 
+    CompletionListCssClass="autocomplete_completionListElement" 
+    CompletionListItemCssClass="autocomplete_listItem" 
+    CompletionListHighlightedItemCssClass="autocomplete_highlightedListItem" >
+
+</ajaxToolkit:AutoCompleteExtender>
+
+  <ajaxToolkit:ModalPopupExtender runat="server"  BackgroundCssClass="modalBackground" />

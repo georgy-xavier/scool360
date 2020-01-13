@@ -1,0 +1,5 @@
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.BOL\bin\Debug\WC.WinerSchool.BOL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.BOL\bin\Debug\WC.WinerSchool.BOL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.BOL\obj\Debug\WC.WinerSchool.BOL.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.BOL\obj\Debug\WC.WinerSchool.BOL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.BOL\obj\Debug\WC.WinerSchool.BOL.pdb

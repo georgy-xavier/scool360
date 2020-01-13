@@ -1,0 +1,8 @@
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\bin\Debug\WC.WinerSchool.DL.dll.config
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\bin\Debug\WC.WinerSchool.DL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\bin\Debug\WC.WinerSchool.DL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\bin\Debug\WC.WinerSchool.BOL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\bin\Debug\WC.WinerSchool.BOL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\obj\Debug\WC.WinerSchool.DL.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\obj\Debug\WC.WinerSchool.DL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\WC.WinerSchool.DL\obj\Debug\WC.WinerSchool.DL.pdb

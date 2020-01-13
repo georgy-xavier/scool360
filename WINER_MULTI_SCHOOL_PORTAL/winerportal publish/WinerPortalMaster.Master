@@ -1,0 +1,252 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WinerPortalMaster.Master.cs" Inherits="Winer.Portal.WinerPortalMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Winer Portal</title>
+    <link rel="Shortcut Icon" href="ico/winerlogo.ico"/>
+
+    <link rel="stylesheet" type="text/css" href="css files/mbContainer.css" title="style" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/bootstrap.min.css" />
+    <link type="text/css" href="css_bootstrap/ladda.css" rel="stylesheet" />
+    <link href="css_bootstrap/custom.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/checkbox.css" title="style" media="screen" />
+    <link href="css_bootstrap/sb-admin-2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css files/MasterStyle.css" title="style" media="screen" />
+    <link href="css_bootstrap/portal.css" rel="stylesheet" />
+    <link href="css_bootstrap/style.css" rel="stylesheet" />
+    <link href="css_bootstrap/icons.css" rel="stylesheet" />
+    <link href="css_bootstrap/buttonLoader.css" rel="stylesheet" />
+    <link href="css%20files/materialicons.css" rel="stylesheet" />
+    <link href="css%20files/material.min.css" rel="stylesheet" />
+    <script src="js files/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js%20files/material.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.buttonLoader.js"></script>
+    <script type="text/javascript" src="js%20files/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js_bootstrap/bootstrap.min.js" ></script>
+    <script type="text/javascript"  src="js/config.js" async="async"></script>
+
+
+
+    <style type="text/css">
+        .menus ul li {
+            list-style-type: none;
+        }
+
+            .menus ul li a {
+                font-size: 12px;
+                
+                border: 2px solid #736F6E;
+                -webkit-border-top-right-radius: 10px;
+                -webkit-border-bottom-right-radius: 10px;
+                -moz-border-radius-topright: 10px;
+                -moz-border-radius-bottomright: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                border-left: 0px;
+                display: block;
+                padding-left: 20px;
+                margin-bottom: 5px;
+                line-height: 25px;
+                color: Gray;
+                text-decoration: none;
+            }
+
+                .menus ul li a:hover {
+                    font-size: 12px;
+                    width: 160px;
+                    height: 25px;
+                    background: #736F6E;
+                    border: 2px solid silver;
+                    -webkit-border-top-right-radius: 10px;
+                    -webkit-border-bottom-right-radius: 10px;
+                    -moz-border-radius-topright: 10px;
+                    -moz-border-radius-bottomright: 10px;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    border-left: 0px;
+                    display: block;
+                    padding-left: 20px;
+                    margin-bottom: 5px;
+                    line-height: 25px;
+                    color: white;
+                    text-decoration: none;
+                }
+
+        .rightarea {
+            float: left;
+            border-left: solid 1px #e5e5e5;
+            min-height: 480px;
+            width: 950px;
+            padding-left: 75px;
+        }
+
+        .bg-black {
+            background-color: #292b2c !important;
+        }
+
+
+        .footer-bottom {
+            padding: 0px 0 0px;
+            background-color: #f8f8f8;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+    </style>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+          <nav class="navbar navbar-default navbar-static-top bg-black" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-lg-10">
+                     <div class="col-lg-4 " align="center">
+                      
+                
+                     </div>
+                     <div class="col-lg-7 " align="center">
+                         <div id="orgname" runat="server" style="padding-top: 20px;">
+
+                         </div>
+                     </div>
+                </div>
+                <div class="navbar-right" style="padding-right: 2px;">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-user fa-fw user-logo"></i>
+                                <span>
+                                    <i class="caret"></i>
+                                </span>   
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="user-body">
+                                    <div class="col-xs-6 text-center">
+                                        <a href="UserManagement.aspx">
+                                            <div><i class="fa fa-briefcase"></i></div>
+                                            Profile 
+                                        </a>
+
+                                    </div>
+                                    <div class="col-xs-6 text-center">
+                                        <a href="ChangePassword.aspx">
+                                            <div><i class="fa fa-lock"></i></div>
+                                            Password 
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="user-footer">
+
+                                    <div class="text-center">
+                                        <a href="login.aspx">
+                                            <div><i class="fa fa-power-off"></i></div>
+                                            Logout 
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> 
+        </nav>
+
+        <div id="wrapper">
+
+          
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="Default.aspx"><i class="fa fa-home fa-fw"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="StudentReport.aspx"><i class="fa fa-graduation-cap"></i> Student Report</a>
+                        </li>
+                        <li>
+                            <a href="StaffReport.aspx"><i class="fa fa-users"></i> Staff Report</a>
+                        </li>
+                        <li>
+                            <a href="FeeReport.aspx"><i class="fa fa-money"></i> Fee Report</a>
+                        </li>
+                        <li>
+                            <a href="Schoollist.aspx"><i class="fa fa-th-list"></i> Schools</a>
+                        </li>
+
+                        <li>
+                            <a href="UserManagement.aspx"><i class="fa fa-user"></i> User Management</a>
+                        </li>
+                       <%-- <li>
+                            <a href="OrganizationDetails.aspx"><i class="fa fa-institution"></i> Organization Details</a>
+                        </li>--%>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div id="page-wrapper">
+                <br />
+                <div class="row">
+                    <div class="page-body">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <%--         <div class="footer">
+	                 <div class="footer-bottom col-lg-12">
+                          <div class="navbar-text col-lg-8" id="footerName" runat="server" style="padding-top:25px;" align="right">
+                               <p><a href="http://www.winceron.com" style="color:#fff;"></a>&copy;2017 Winceron Software Technologies Pvt. Ltd</p>
+                          </div>
+                          <div class="col-lg-3">
+                               <a href="http://winceron.com/#/"><img alt=""  src="img/winersmalllogo.png"  height="70px" align="right"/></a>
+                          </div>
+                      </div>
+                </div>--%>
+    </form>
+</body>
+
+</html>

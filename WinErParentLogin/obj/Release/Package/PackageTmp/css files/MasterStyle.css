@@ -1,0 +1,284 @@
+﻿
+
+
+h5
+{
+    margin-top:2px;
+    margin-bottom:2px;
+}        
+.tablelist
+{
+    width:100%;
+    
+   
+}
+.tablelist .leftside
+{
+    width:40%;
+    font-size:11px;
+    text-align:right;
+    background-color:White;
+    padding-right:10px;    
+    
+}
+.tablelist .rightside
+{
+    width :60%;
+    font-size:11px;
+    text-align:left;
+    background-color:White;
+    font-weight:bold;
+}
+.tablelist .Newleftside
+{
+    width:28%;
+    font-size:11px;
+    text-align:right;
+    background-color:White;
+    padding-right:10px;    
+    
+}
+.tablelist .NewCenter
+{
+    
+     font-size:11px;
+    text-align:left;
+    background-color:White;
+    font-weight:bold;   
+    
+}
+.tablelist .Newrightside
+{
+    width:75px;
+   font-size:11px;
+    text-align:center;
+    background-color:White;
+    font-weight:bold;  
+    
+}
+
+ 
+   #progressBackgroundFilter
+
+{
+     position : fixed;
+
+        left: 0;
+
+        top: 0;
+
+        z-index: 10;
+
+        width: 100%;
+
+        height: 100%;  
+                  
+     
+       background-color:Silver;
+	   filter:alpha(opacity=70);
+	   opacity:0.7;
+
+
+}
+#processMessage {
+
+position:fixed;
+top:30%;
+
+left:43%;
+padding:10px;
+
+width:250px;
+z-index:1001;
+
+background-color:#fff;
+border:solid 1px #000;
+
+}
+
+
+      
+.MaskedEditFocus
+{
+    background-color: #ffffcc;
+    color: #000000;
+}
+.MaskedEditMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+.MaskedEditError
+{
+    background-color: #ffcccc;
+}
+.MaskedEditFocusNegative
+{
+    background-color: #ffffcc;
+    color: #ff0000;
+}
+.MaskedEditBlurNegative
+{
+    color: #ff0000;
+}
+.ListSearchExtenderPrompt
+{
+	font-style:italic;
+	color:Gray;
+	background-color:white;
+}
+
+  .cal_Theme1 .ajax__calendar_container
+
+{
+background-color: #e2e2e2; border:solid 1px #cccccc;
+
+}
+
+.cal_Theme1 .ajax__calendar_header
+
+{
+background-color: #ffffff; margin-bottom: 4px;
+
+} 
+
+.cal_Theme1 .ajax__calendar_title,
+
+.cal_Theme1 .ajax__calendar_next,
+
+.cal_Theme1 .ajax__calendar_prev
+
+{
+color: #004080; padding-top: 3px;
+
+}
+
+.cal_Theme1 .ajax__calendar_body
+
+{
+background-color: #e9e9e9; border: solid 1px #cccccc;
+
+}
+
+ .cal_Theme1 .ajax__calendar_dayname
+
+{
+text-align:center; font-weight:bold; margin-bottom: 4px; margin-top: 2px;
+
+} 
+
+.cal_Theme1 .ajax__calendar_day
+
+{
+text-align:center;
+
+}
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_day,
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_month,
+
+.cal_Theme1 .ajax__calendar_hover .ajax__calendar_year,
+
+.cal_Theme1 .ajax__calendar_active
+
+{
+color: #004080; font-weight:bold; background-color: #ffffff;
+
+}
+
+ 
+
+ 
+
+.cal_Theme1 .ajax__calendar_today
+
+{
+font-weight:bold;
+
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+
+/* Accordion */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: Silver;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeader a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeader a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#master_content .accordionHeaderSelected a
+{
+	color: #FFFFFF;
+	background: none;
+	text-decoration: none;
+}
+
+#master_content .accordionHeaderSelected a:hover
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+       
+   .leftside
+        {
+            width: 50%;
+            text-align:right;
+            font-weight:lighter;
+        }
+      
+.divcontent
+        {
+         min-height:150px;
+         max-height:150px;
+         width:240px;
+          overflow:auto;
+         
+        }

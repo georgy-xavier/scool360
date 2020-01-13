@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WinErdbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="WinErdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tblaccounts" EntityType="WinErdbModel.tblaccount" />
+    <EntitySet Name="tblaccounttypes" EntityType="WinErdbModel.tblaccounttype" />
+    <EntitySet Name="tblactions" EntityType="WinErdbModel.tblaction" />
+    <EntitySet Name="tbladmisiontypes" EntityType="WinErdbModel.tbladmisiontype" />
+    <EntitySet Name="tblcasts" EntityType="WinErdbModel.tblcast" />
+    <EntitySet Name="tblcast_category" EntityType="WinErdbModel.tblcast_category" />
+    <EntitySet Name="tblcatogeries" EntityType="WinErdbModel.tblcatogery" />
+    <EntitySet Name="tblclassexams" EntityType="WinErdbModel.tblclassexam" />
+    <EntitySet Name="tblclassrooms" EntityType="WinErdbModel.tblclassroom" />
+    <EntitySet Name="tblclassschedules" EntityType="WinErdbModel.tblclassschedule" />
+    <EntitySet Name="tblclasssubmaps" EntityType="WinErdbModel.tblclasssubmap" />
+    <EntitySet Name="tbldevisions" EntityType="WinErdbModel.tbldevision" />
+    <EntitySet Name="tblregistrations" EntityType="WinErdbModel.tblregistration" />
+    <EntitySet Name="tblreligions" EntityType="WinErdbModel.tblreligion" />
+    <EntitySet Name="tblroles" EntityType="WinErdbModel.tblrole" />
+    <EntitySet Name="tblruleclassmaps" EntityType="WinErdbModel.tblruleclassmap" />
+    <EntitySet Name="tblschooldetails" EntityType="WinErdbModel.tblschooldetail" />
+    <EntitySet Name="tblstudents" EntityType="WinErdbModel.tblstudent" />
+    <EntitySet Name="tblstudtypes" EntityType="WinErdbModel.tblstudtype" />
+    <EntitySet Name="tblsubjects" EntityType="WinErdbModel.tblsubject" />
+    <EntitySet Name="tbltransactionhistories" EntityType="WinErdbModel.tbltransactionhistory" />
+    <EntitySet Name="tbldeleteditems" EntityType="WinErdbModel.tbldeleteditem" />
+    <EntitySet Name="tblstandards" EntityType="WinErdbModel.tblstandard" />
+    <EntitySet Name="tblbloodgrps" EntityType="WinErdbModel.tblbloodgrp" />
+    <EntitySet Name="tbllanguages" EntityType="WinErdbModel.tbllanguage" />
+    <EntitySet Name="tblstudentclassmaps" EntityType="WinErdbModel.tblstudentclassmap" />
+    <EntitySet Name="tblusers" EntityType="WinErdbModel.tbluser" />
+    <EntitySet Name="tblbatches" EntityType="WinErdbModel.tblbatch" />
+    <EntitySet Name="tblfeeaccounts" EntityType="WinErdbModel.tblfeeaccount" />
+    <EntitySet Name="tblfeefrequencytypes" EntityType="WinErdbModel.tblfeefrequencytype" />
+    <EntitySet Name="tblfeeschedules" EntityType="WinErdbModel.tblfeeschedule" />
+    <EntitySet Name="tblfeestudents" EntityType="WinErdbModel.tblfeestudent" />
+    <EntitySet Name="tblfeetypes" EntityType="WinErdbModel.tblfeetype" />
+    <EntitySet Name="tblperiods" EntityType="WinErdbModel.tblperiod" />
+    <EntitySet Name="tblattendancemodes" EntityType="WinErdbModel.tblattendancemode" />
+    <EntitySet Name="tblconfigurations" EntityType="WinErdbModel.tblconfiguration" />
+    <EntitySet Name="tblfeeothermasters" EntityType="WinErdbModel.tblfeeothermaster" />
+    <EntitySet Name="tblstudentfeeadvances" EntityType="WinErdbModel.tblstudentfeeadvance" />
+    <EntitySet Name="tblfileurls" EntityType="WinErdbModel.tblfileurl" />
+    <EntitySet Name="tblfeebills" EntityType="WinErdbModel.tblfeebill" />
+    <EntitySet Name="tblfeebillclearences" EntityType="WinErdbModel.tblfeebillclearence" />
+    <EntitySet Name="tbltransactions" EntityType="WinErdbModel.tbltransaction" />
+    <EntitySet Name="tblfeebilltypes" EntityType="WinErdbModel.tblfeebilltype" />
+    <EntitySet Name="tbldeviceupdates" EntityType="WinErdbModel.tbldeviceupdate" />
+    <EntitySet Name="tbldeviceuploadconflicts" EntityType="WinErdbModel.tbldeviceuploadconflict" />
+    <EntitySet Name="tblfeeadvancetransactions" EntityType="WinErdbModel.tblfeeadvancetransaction" />
+    <EntitySet Name="tbldevices" EntityType="WinErdbModel.tbldevice" />
+    <EntitySet Name="tblclasses" EntityType="WinErdbModel.tblclass" />
+    <EntitySet Name="tblholidays" EntityType="WinErdbModel.tblholiday" />
+    <EntitySet Name="tblholidayconfigs" EntityType="WinErdbModel.tblholidayconfig" />
+    <EntitySet Name="tblmasterdates" EntityType="WinErdbModel.tblmasterdate" />
+    <EntitySet Name="tblfines" EntityType="WinErdbModel.tblfine" />
+    <EntitySet Name="tbltransactionclearences" EntityType="WinErdbModel.tbltransactionclearence" />
+  </EntityContainer>
+  <EntityType Name="tblaccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="AccountName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Parent" />
+  </EntityType>
+  <EntityType Name="tblaccounttype">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ActionName" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Description" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Link" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ActionType" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Order" />
+    <Property Type="String" Name="MenuName" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbladmisiontype">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblcast">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="castname" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CategoryId" />
+  </EntityType>
+  <EntityType Name="tblcast_category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="CategoryName" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblcatogery">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="CatogeryName" MaxLength="99" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblclassexam">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ExamId" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="DateTime" Name="CreatedDateTime" />
+    <Property Type="String" Name="CreatedBy" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Status" />
+  </EntityType>
+  <EntityType Name="tblclassroom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoomNumber" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblclassschedule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="Int32" Name="BatchId" />
+    <Property Type="Int32" Name="ClassTeacherId" />
+    <Property Type="String" Name="ClassRoom" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblclasssubmap">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="Int32" Name="SubjectId" />
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="tbldevision">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="SByte" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Devision" MaxLength="5" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblregistration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="pswd" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="E_mail" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SurName" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Relation" />
+  </EntityType>
+  <EntityType Name="tblreligion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Religion" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblrole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="RoleName" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Discription" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Type" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblruleclassmap">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="RuleId" />
+    <Property Type="Int32" Name="classId" />
+    <Property Type="Int32" Name="Values" />
+    <Property Type="Int32" Name="feeTypeId" />
+  </EntityType>
+  <EntityType Name="tblschooldetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="LogoUrl" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SchoolName" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Address" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Syllabus" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MediumofInstruction" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Disc" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="SchoolImage" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Type="Binary" Name="Logo" MaxLength="Max" FixedLength="false" />
+    <Property Type="Binary" Name="SchoolImages" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblstudent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="StudentName" MaxLength="256" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="GardianName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AdmitionNo" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DOB" />
+    <Property Type="String" Name="Sex" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Address" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="BloodGroup" />
+    <Property Type="Int32" Name="Religion" />
+    <Property Type="Int32" Name="Cast" />
+    <Property Type="DateTime" Name="DateofJoining" />
+    <Property Type="DateTime" Name="DateOfLeaving" />
+    <Property Type="Int32" Name="Status" />
+    <Property Type="String" Name="Email" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Location" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Pin" />
+    <Property Type="String" Name="State" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Nationality" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FatherEduQuali" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MothersName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="MotherEduQuali" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FatherOccupation" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="AnnualIncome" />
+    <Property Type="Int32" Name="MotherTongue" />
+    <Property Type="String" Name="ResidencePhNo" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OfficePhNo" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="C1stLanguage" />
+    <Property Type="Int32" Name="NumberofBrothers" />
+    <Property Type="Int32" Name="NumberOfSysters" />
+    <Property Type="Int32" Name="JoinBatch" />
+    <Property Type="String" Name="CreationTime" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Addresspresent" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="StudTypeId" />
+    <Property Type="Int32" Name="AdmissionTypeId" />
+    <Property Type="String" Name="CreatedUserName" MaxLength="180" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Comment" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="CanceledUser" />
+    <Property Type="String" Name="TempStudentId" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="UseBus" />
+    <Property Type="SByte" Name="UseHostel" />
+    <Property Type="Int32" Name="LastClassId" />
+    <Property Type="Int32" Name="RollNo" />
+    <Property Type="Int32" Name="JoinStandard" />
+    <Property Type="String" Name="StudentId" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblstudtype">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="TypeName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Desc" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblsubject">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="subject_name" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="sub_description" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="sub_Catagory" />
+    <Property Type="String" Name="SubjectCode" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="Combined" />
+  </EntityType>
+  <EntityType Name="tbltransactionhistory">
+    <Key>
+      <PropertyRef Name="TransationId" />
+    </Key>
+    <Property Type="Int32" Name="TransationId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PaidDate" />
+    <Property Type="Double" Name="Amount" Nullable="false" />
+    <Property Type="Int32" Name="AccountTo" />
+    <Property Type="Int32" Name="AccountFrom" />
+    <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FeeName" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int16" Name="FeeId" />
+    <Property Type="Int32" Name="PeriodId" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="String" Name="BatchId" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="TransType" />
+    <Property Type="SByte" Name="Canceled" />
+    <Property Type="SByte" Name="RegularFee" />
+    <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="CollectionType" />
+    <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbldeleteditem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ItemId" />
+    <Property Type="String" Name="TableName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblstandard">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblbloodgrp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="GroupName" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbllanguage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Language" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblstudentclassmap">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="StudentId" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="String" Name="Standard" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="BatchId" />
+    <Property Type="Int32" Name="RollNo" />
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="tbluser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="UserName" />
+    <Property Type="String" Name="Password" />
+    <Property Type="String" Name="EmailId" />
+    <Property Type="String" Name="SurName" />
+    <Property Type="DateTime" Name="LastLogin" />
+    <Property Type="DateTime" Name="CreationTime" />
+    <Property Type="Int32" Name="RoleId" />
+    <Property Type="Int64" Name="CanLogin" Nullable="false" />
+    <Property Type="Int32" Name="Status" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblbatch">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="BatchName" />
+    <Property Type="DateTime" Name="StartDate" />
+    <Property Type="DateTime" Name="EndDate" />
+    <Property Type="Int32" Name="Status" />
+    <Property Type="Int32" Name="Created" />
+    <Property Type="Int32" Name="NOfWorkingDays" />
+    <Property Type="Int32" Name="LastbatchId" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblfeeaccount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="AccountName" />
+    <Property Type="Int32" Name="FrequencyId" />
+    <Property Type="Int32" Name="AssociatedId" />
+    <Property Type="String" Name="Desciptrion" />
+    <Property Type="Int32" Name="CreatedUserId" />
+    <Property Type="DateTime" Name="CreatedTime" />
+    <Property Type="Int32" Name="Status" />
+    <Property Type="SByte" Name="Type" />
+  </EntityType>
+  <EntityType Name="tblfeefrequencytype">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FreequencyName" />
+  </EntityType>
+  <EntityType Name="tblfeeschedule">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="FeeId" Nullable="false" />
+    <Property Type="Int32" Name="BatchId" Nullable="false" />
+    <Property Type="DateTime" Name="Duedate" Nullable="false" />
+    <Property Type="DateTime" Name="LastDate" Nullable="false" />
+    <Property Type="String" Name="Status" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="Int32" Name="PeriodId" />
+    <Property Type="Double" Name="Amount" />
+  </EntityType>
+  <EntityType Name="tblfeestudent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="SchId" />
+    <Property Type="Int32" Name="StudId" />
+    <Property Type="Double" Name="Amount" />
+    <Property Type="Double" Name="BalanceAmount" />
+    <Property Type="String" Name="Status" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblfeetype">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" />
+  </EntityType>
+  <EntityType Name="tblperiod">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Period" />
+    <Property Type="String" Name="FrequencyId" />
+    <Property Type="SByte" Name="Order" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblattendancemode">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Attmode" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblconfiguration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Module" />
+    <Property Type="String" Name="Name" />
+    <Property Type="String" Name="Value" />
+    <Property Type="String" Name="SubValue" />
+    <Property Type="String" Name="Disc" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblfeeothermaster">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" />
+    <Property Type="String" Name="Description" />
+    <Property Type="SByte" Name="Refundable" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblstudentfeeadvance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="StudentId" />
+    <Property Type="String" Name="StudentName" />
+    <Property Type="String" Name="FeeName" />
+    <Property Type="String" Name="PeriodName" />
+    <Property Type="Int64" Name="BatchId" />
+    <Property Type="Double" Name="Amount" />
+    <Property Type="Int32" Name="FeeId" />
+    <Property Type="Int16" Name="PeriodId" />
+    <Property Type="String" Name="TempId" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblfileurl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="FilePath" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Type" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="Binary" Name="FileBytes" MaxLength="Max" FixedLength="false" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblfeebill">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="StudentID" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="TotalAmount" />
+    <Property Type="DateTime" Name="Date" />
+    <Property Type="String" Name="PaymentMode" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentModeId" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BankName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="DateTime" Name="CreatedDateTime" />
+    <Property Type="SByte" Name="Canceled" />
+    <Property Type="Int32" Name="Counter" />
+    <Property Type="Int32" Name="AccYear" />
+    <Property Type="Int32" Name="ClassID" />
+    <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="RegularFee" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtherReference" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblfeebillclearence">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="StudentID" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Double" Name="TotalAmount" />
+    <Property Type="DateTime" Name="Date" />
+    <Property Type="String" Name="PaymentMode" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PaymentModeId" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BankName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="Canceled" />
+    <Property Type="DateTime" Name="CreatedDateTime" />
+    <Property Type="Int32" Name="Counter" />
+    <Property Type="Int32" Name="AccYear" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="Int32" Name="ClassID" />
+    <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="RegularFee" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="OtherReference" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbltransaction">
+    <Key>
+      <PropertyRef Name="TransationId" />
+    </Key>
+    <Property Type="Int32" Name="TransationId" Nullable="false" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="Int32" Name="PaymentElementId" Nullable="false" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="PaidDate" />
+    <Property Type="Double" Name="Amount" Nullable="false" />
+    <Property Type="Int32" Name="AccountTo" />
+    <Property Type="Int32" Name="AccountFrom" />
+    <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="TransType" />
+    <Property Type="SByte" Name="Canceled" />
+    <Property Type="Double" Name="BalanceAmount" />
+    <Property Type="SByte" Name="RegularFee" />
+    <Property Type="Int32" Name="BatchId" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="CollectionType" />
+    <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="PeriodId" />
+    <Property Type="Int32" Name="FeeId" />
+  </EntityType>
+  <EntityType Name="tblfeebilltype">
+    <Key>
+      <PropertyRef Name="NeedOfficeCopy" />
+    </Key>
+    <Property Type="Int16" Name="Id" />
+    <Property Type="String" Name="Name" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="NeedOfficeCopy" Nullable="false" />
+    <Property Type="String" Name="PageName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="IsPDF" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tbldeviceupdate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="TableName" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="ColumnName" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ColValue" />
+    <Property Type="String" Name="TransactionType" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="ChangeDate" />
+    <Property Type="Int32" Name="IsUpdated" />
+    <Property Type="String" Name="FieldStr" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Comment" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="DeviceId" />
+  </EntityType>
+  <EntityType Name="tbldeviceuploadconflict">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="TableName" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Conflict_Column" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ConflictId" />
+    <Property Type="Int32" Name="DeviceId" />
+    <Property Type="DateTime" Name="UpdateDate" />
+    <Property Type="String" Name="RowDataServer" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="RowDataDevice" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblfeeadvancetransaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int64" Name="StudentId" />
+    <Property Type="String" Name="StudentName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Int64" Name="BatchId" />
+    <Property Type="Double" Name="Amount" />
+    <Property Type="Byte" Name="Type" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="FeeId" />
+    <Property Type="Int16" Name="PeriodId" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CreatedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="CreatedDate" />
+    <Property Type="Double" Name="AdvanceBalance" />
+  </EntityType>
+  <EntityType Name="tbldevice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="DeviceUniqueId" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DeviceName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AddedUser" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="Registration_Date" />
+    <Property Type="DateTime" Name="LastLogin" />
+    <Property Type="Boolean" Name="IsActive" Nullable="false" />
+    <Property Type="String" Name="ActivatedBy" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="DeviceType" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblclass">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="ClassName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Standard" />
+    <Property Type="Int32" Name="ParentGroupID" />
+    <Property Type="Int32" Name="Status" />
+    <Property Type="String" Name="Division" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="TotalSeats" />
+    <Property Type="Int32" Name="PeriodCount" />
+    <Property Type="Int32" Name="ClassTeacher" />
+    <Property Type="Int32" Name="RollNoSchTypeId" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblholiday">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int16" Name="dateId" />
+    <Property Type="String" Name="Type" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Class_Id" />
+    <Property Type="String" Name="Desc" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Type="Int16" Name="GroupId" Nullable="false" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblholidayconfig">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="SByte" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Day" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="Status" />
+    <Property Type="SByte" Name="StaffStatus" Nullable="false" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tblmasterdate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="date" />
+  </EntityType>
+  <EntityType Name="tblfine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Double" Name="Amount" />
+    <Property Type="Double" Name="Frequency" />
+    <Property Type="String" Name="Type" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="FeeId" />
+    <Property Type="Int32" Name="Finedate" />
+    <Property Type="Int32" Name="FineAmounttype" />
+    <Property Type="Int32" Name="FineDuration" />
+    <Property Type="Int64" Name="SyncDate" />
+  </EntityType>
+  <EntityType Name="tbltransactionclearence">
+    <Key>
+      <PropertyRef Name="TransationId" />
+    </Key>
+    <Property Type="Int32" Name="TransationId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="PaymentElementId" Nullable="false" />
+    <Property Type="Int32" Name="UserId" />
+    <Property Type="Double" Name="Amount" Nullable="false" />
+    <Property Type="DateTime" Name="PaidDate" />
+    <Property Type="String" Name="BillNo" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="AccountTo" />
+    <Property Type="Int32" Name="AccountFrom" />
+    <Property Type="String" Name="Type" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="SByte" Name="TransType" />
+    <Property Type="SByte" Name="Canceled" />
+    <Property Type="Double" Name="BalanceAmount" />
+    <Property Type="SByte" Name="RegularFee" />
+    <Property Type="Int32" Name="BatchId" />
+    <Property Type="Int32" Name="ClassId" />
+    <Property Type="String" Name="StudentName" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="CollectedUser" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Byte" Name="CollectionType" />
+    <Property Type="String" Name="FeeName" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="PeriodName" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="TempId" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="PeriodId" />
+    <Property Type="Int32" Name="FeeId" />
+  </EntityType>
+</Schema>

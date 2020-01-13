@@ -1,0 +1,28 @@
+﻿input.buttonfad
+{
+    background: #E0691A url(../winbuttons/submit1.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:center;
+		padding-left:10px;
+		height:24px;
+		color: #000;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+}
+input.buttonfad:hover
+{
+    	background: #FFF url(../winbuttons/submit.gif) no-repeat;
+	    border: 0px;
+		padding: 4px 0px;
+		text-align:center;
+		padding-left:10px;
+		height:24px;
+		color: #FFF;
+		font: bold 11px Arial, Sans-Serif;
+		background-position:left;
+		width:100px;
+		padding-right:10px;
+}

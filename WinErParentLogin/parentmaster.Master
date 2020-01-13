@@ -1,0 +1,687 @@
+﻿<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="parentmaster.master.cs" Inherits="WinErParentLogin.parentmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Parent Login</title>
+    <link rel="SHORTCUT ICON" href="images/winerlogo.ico"/>
+    <script type="text/javascript" src="js files/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="js files/jquery.min.js"></script>
+    <script src="js files/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css files/mbContainer.css" title="style" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css files/TabStyleSheet.css" title="style" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css files/MasterStyle.css" title="style" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css files/winbuttonstyleblue.css" title="style" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/bootstrap.min.css"/>
+    <link href="css_bootstrap/custom.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/bootstrap-responsive.min.css"/>
+    <link href="css_bootstrap/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css files/winbuttonstyle.css" title="style"  media="screen"/> 
+    <link rel='stylesheet' type='text/css' href='css files/winroundbox.css' title="style" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css_bootstrap/checkbox.css" title="style" media="screen"/>
+      <link href="css files/Orangestyle.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="css files/Orangemenu.css" />
+    <link href="css_bootstrap/sb-admin-2.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js_bootstrap/bootstrap.min.js"></script>
+    <style type="text/css">
+    *{padding:0; margin:0; font-size:12px; font-family:Arial}
+    body
+    {    
+        width:100%;
+        height:100%;
+        position:absolute;
+        font-size:12px;
+    }
+    
+    .header
+    {
+        width:100%;
+        height:45px;     
+        border-bottom: 2px solid #736F6E;  
+        background-color: #ddd;     
+	   
+    }
+    .schoolName
+    {
+        padding:0;
+        margin:0;
+        margin-left:20px;
+        font-size:24px;
+        font-weight:bold;
+        margin-top:10px;
+        color:#696767;
+        
+        width:50%;
+        float:left;
+        clear: both;
+        
+        
+    }
+    
+    .headingrightare
+    {  color:#696767;
+        float:right;
+        margin-right:5px;
+        width:43%;
+        margin-top:15px;
+        text-align:right;
+    }
+    
+    .headingrightare a{font-size:12px; text-decoration:none;  color:#696767;}
+    .welcomenote{font-size:12px; font-weight:normal;}
+    
+    .contentarea
+    {
+        width:100%;
+        padding:0;
+        margin:0;
+        height:100%;
+        clear:both;
+       
+    }
+    .leftarea
+    {
+        margin-top:10px;
+        width:180px;
+        float:left;
+         clear:both;
+      }
+   #SchoolLogoStyle
+  {
+
+  	border:outset 2px #e5e5e5;
+  }
+   
+    .menus ul li
+    {
+        list-style-type:none;
+
+    }
+    .menus ul li a
+    {
+        font-size:12px;
+        
+       /*width:160px;
+        height:25px;  */   
+	    border:2px solid #736F6E;
+       
+	    -webkit-border-top-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-top-right-radius: 10px;
+        
+        border-bottom-right-radius: 10px;
+         border-left:0px;
+	    display:block;
+	    padding-left:20px;
+	    margin-bottom:5px;
+	    line-height:25px;
+	    color:Gray;
+	    text-decoration:none;
+	    
+    }
+      .menus ul li a:hover
+    {
+        font-size:12px;
+        
+        width:160px;
+        height:25px;    
+         background:  #736F6E;
+         
+	    border:2px solid silver;
+       
+	    -webkit-border-top-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-top-right-radius: 10px;
+        
+        border-bottom-right-radius: 10px;
+         border-left:0px;
+	    display:block;
+	    padding-left:20px;
+	    margin-bottom:5px;
+	    line-height:25px;
+	     color:white;
+	    text-decoration:none;
+	 
+
+    }
+     .rightarea
+    {   
+        
+        
+        float:left;       
+        border-left: solid 1px #e5e5e5;     
+        min-height:480px;
+        width:950px;
+        padding-left:75px;
+    }
+        
+     .studentArea
+     {
+        width:160px;
+        float:right;
+        background:rgba(255,255,255,0.5); 
+	    border:2px outset #736F6E;
+        border-radius:10px;
+        -moz-border-radius: 10;
+        -webkit-border-radius: 10;
+        alpha(border-radius=10);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(border-radius=10)";         
+	    filter: alpha(border-radius=10);
+
+        top:20%;
+        font-size:12px;
+        padding:5px;
+        margin-top:25px;
+       color:#696767;
+    
+     }
+    .messagearea
+     {
+        width:160px;
+        float:right;
+      
+	    border:2px solid #736F6E;
+        border-radius:10px;
+       
+	    position:absolute;
+        right:0px;
+        top:50px;
+        font-size:14px;
+        padding:10px;
+         padding-left:5px;
+          padding-right:5px;
+        font-weight:bold;
+        color:#834C24;
+          background:#FFF8DC; 
+        cursor:pointer;
+        margin-right:2px;
+        
+       
+   
+     }
+     
+     .footer
+     {
+         width:100%;
+         border-top: 1px solid #333;
+         height:20px;
+         font-size:10px;
+         bottom:0;
+        
+         text-align:center;
+         clear:both;
+         margin-bottom:-50
+         
+         
+     }
+     .topmenu 
+     {
+         
+        font-size:14px;
+        font-weight:bold;
+        width:150px;
+        height:25px;    
+         background:  #337ab7;
+         
+	    border:2px  solid #337ab7;
+       
+	    -webkit-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        
+
+         border-left:0px;
+	    display:block;
+	   text-align:center;
+	    margin-bottom:5px;
+	    line-height:25px;
+	     color:white;
+	    text-decoration:none;
+	 
+     }
+     .headingsection
+     {
+        font-size:12px;
+        
+        
+         
+         background:  #337ab7;
+         
+	    border:2px solid #333;
+       
+	    -webkit-border-top-right-radius: 2px;
+        -webkit-border-bottom-right-radius: 2px;
+        -moz-border-radius-topright: 2px;
+        -moz-border-radius-bottomright: 2px;
+        border-top-right-radius: 2px;
+        
+        border-bottom-right-radius: 2px;
+         border-left:0px;
+	    display:block;
+	    padding-left:20px;
+	    margin-bottom:5px;
+	    line-height:25px;
+	     color:white;
+	    text-decoration:none;
+	    text-align:center;
+     }
+          .Subheadingsection
+     {
+        font-size:12px;
+        
+        width:824px;
+        
+         background:  #337ab7;
+         
+	    border:2px solid #333;
+       
+	    -webkit-border-top-right-radius: 2px;
+        -webkit-border-bottom-right-radius: 2px;
+        -moz-border-radius-topright: 2px;
+        -moz-border-radius-bottomright: 2px;
+        border-top-right-radius: 2px;
+        
+        border-bottom-right-radius: 2px;
+         border-left:0px;
+	    display:block;
+	    padding-left:20px;
+	    line-height:25px;
+	     color:white;
+	    text-decoration:none;
+	    text-align:center;
+     }
+     .contentpart
+     {
+            
+           margin:10px;
+           padding:10px;
+        font-size:12px;
+      
+
+      
+        
+     clear:both;
+
+     }
+     
+     .kids
+     {  border:2px  solid #736F6E;
+            -webkit-border-top-right-radius: 2px;
+        -webkit-border-bottom-right-radius: 2px;
+        -moz-border-radius-topright: 2px;
+        -moz-border-radius-bottomright: 2px;
+        border-top-right-radius: 2px;
+         color:#696767;
+         font-weight:bold;
+     }
+     
+  
+     .footerarea
+        {
+            position:fixed;
+            bottom:0px;
+            background-position:bottom;
+            text-align:center;
+            width:150px;
+        }
+         .footerarea a{color:black; text-decoration:none;}
+         
+         #selectkid
+         {
+           
+       
+          color:#834C24;
+          background:#f5f5f5; 
+	    
+         
+         text-align:center;
+	    -webkit-border-top-right-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-topright: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-top-right-radius: 10px;
+        
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        
+        border-bottom-left-radius: 10px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+         }
+            .authbutton
+   {
+       width:170px;
+       height:50px;
+       font-size:12px;
+       font-weight:bold;
+        color:#834C24;
+          background:#FFF8DC; 
+	    border:2px solid #736F6E;
+	    margin-top:5px;
+	     -webkit-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+           border-radius: 10px;
+           float:right;
+   }
+    </style>
+    
+    <script type="text/javascript">
+
+        function showmsg(msg) {
+           alert(msg);
+        }
+         </script>
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+    <div class="header">
+        <div class="schoolName" id="SchoolDetails"  runat="server">
+         
+        </div>
+        <div class="headingrightare">
+        <div style="float:right;margin-right:20px">
+        <table ><tr>
+         
+                <td>
+                 <div id="LoginName" style="font-weight:bold"> 
+                     <asp:Label ID="Lbl_LoginUser" runat="server" CssClass="welcomenote" Text=""></asp:Label>
+                     |</div>
+                </td>
+           
+                <td>
+                <a href="http://winceron.com/"><img alt="" src="images/help.png"   style="padding-left:3px;padding-right:5px;border:none;"/> </a>
+                </td>
+                <td><a href="http://winceron.com/"> Help ? </a>|</td>
+                <td><a href="Logout.aspx" ><img alt="" src="images/exit.png" style="padding-left:3px;padding-right:5px;border:none;" /></a> </td>
+                <td><a href="Logout.aspx" > Sign Out</a></td>
+                 </tr></table>
+                 </div>
+        </div>
+        
+    </div>
+    
+    <div class="contentarea">
+    
+     <table width="100%">
+      <tr>
+       <td  width="400px" valign="top">
+
+        <div id="Divselectkid" runat="server" style="height:55px;">
+        <div align="center" id="selectkid" >
+
+         <b > Select your kid's Name</b><br />  <asp:DropDownList ID="Drp_StudentName" 
+                runat="server" AutoPostBack="true"    
+                onselectedindexchanged="Drp_StudentName_SelectedIndexChanged" class="form-control">
+                  </asp:DropDownList>
+                  </div>
+                  <br />
+                  </div>
+        
+        <div class="profile clearfix" id="TRImgArea" runat="server">
+              <div class="profile_pic">
+                 <asp:Image ID="Image_StudentIMG" runat="server" class="img-circle profile_img" ImageUrl="images/stdnt.png" /><br />
+              </div>
+              <div class="profile_info">
+                  <div>
+                  
+                    <asp:Label ID="lblStudName" runat="server" Font-Bold="true"></asp:Label>
+                  </div>
+                  <div>
+                    
+                  Class:
+                    <asp:Label ID="Lbl_Class" runat="server" ></asp:Label>
+                  </div>
+                  <div>
+                  Roll No:
+                    <asp:Label ID="Lbl_RollNo" runat="server"  ></asp:Label>
+                  </div>
+                  <div>
+                  Age:
+                    <asp:Label ID="Lbl_Age" runat="server" Text=""  ></asp:Label>
+                  </div>
+                  <div>
+                  Ad No:
+                    <asp:Label ID="Lbl_AdmissionNo" runat="server" Text=""  ></asp:Label>
+                  </div>
+    
+              </div>
+            </div>
+        
+        
+        
+        <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse" id="menuarea" runat="server">
+                    <ul class="nav" id="side-menu">
+                        
+                        <li>
+                            <a href="Home.aspx"><i class="fa fa-home fa-fw"></i>  Home</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-th-list"></i>  Inventory<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="InventoryHome.aspx">Inventory management</a>
+                                </li>
+                                <li>
+                                    <a href="InventoryPurchaseItemNew.aspx">Purchase item</a>
+                                </li>
+                                <li>
+                                    <a href="InventorySaleItem.aspx">Sale Item</a>
+                                </li>
+
+                                <li>
+                                    <a href="InventoryItemAdjustment.aspx">Item adjustment</a>
+                                </li>
+                                <li>
+                                    <a href="MoveItem.aspx">Move Item</a>
+                                </li>
+                                <!-- /.nav-third-level -->
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-tasks"></i>  Issue<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="ItemRequest.aspx">Item Request</a>
+                                </li>
+                                <li>
+                                    <a href="ApproveItemRequest.aspx">Approve Request</a>
+                                </li>
+                                <li>
+                                    <a href="IssueItem.aspx">Issue Item</a>
+                                </li>
+                                <li>
+                                    <a href="ViewRejectedItems.aspx">View Rejected Items</a>
+                                </li>
+                                <!-- /.nav-third-level -->
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-book"></i>  Reports<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="InvItemReport.aspx">Location wise Item Report</a>
+                                </li>
+                                <li>
+                                    <a href="PurchaseReport.aspx">Purchase Report</a>
+                                </li>
+                                <li>
+                                    <a href="SaleReport.aspx">Sales Report</a>
+                                </li>
+                                <li>
+                                    <a href="ItemAdjustmentReport.aspx">Inward/Outward Report</a>
+                                </li>
+                                <li>
+                                    <a href="TransactionReport.aspx">Transaction Report</a>
+                                </li>
+                                <li>
+                                    <a href="IssueItemReport.aspx">Issue Report</a>
+                                </li>
+                                <li>
+                                    <a href="LogReport.aspx">Log Report</a>
+                                </li>
+                                <!-- /.nav-third-level -->
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-book"></i> Master<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="ConfigBasic.aspx">Configuration</a>
+                                </li>
+                                <li>
+                                    <a href="InvAddNewItem.aspx">Add New Item</a>
+                                </li>
+                                <li>
+                                    <a href="CreateFixedAssets.aspx">Add Fixed Assets</a>
+                                </li>
+                                <li>
+                                    <a href="CreateNormalUser.aspx">Create User</a>
+                                </li>
+                                <li>
+                                    <a href="ManageNormalUser.aspx">Manage User</a>
+                                </li>
+                                 <li>
+                                     <a href="Changepassword.aspx">Change Password</a>
+                                </li>
+                                <li>
+                                    <a href="GroupFrontEnd.aspx">Manage Location</a>
+                                </li>
+                                <li>
+                                    <a href="ManageCategory.aspx">Manage Category</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Student<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                                <li><a href="#">Search Student</a></li>
+                                                <li><a href="#">Register Student</a></li>
+                                                <li><a href="#">Add Student</a></li>
+                                                <li><a href="#">Monthly Attendence</a></li>
+                                                <li><a href="#">Approval List</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <%--div class="footerarea" >
+   <a href="http://winer.in/schoolsoftware.html"> <img alt="" src="images/winersmalllogo.png" width="100px" />   </a>
+   
+   
+   
+   </div>--%>
+        
+        
+        
+       
+       </td>
+       <td  valign="top" >
+       
+       
+
+        <div class="rightarea">      
+   
+        
+                <div class="panel" style="background-color:#f8f8f8;padding-left: 25px;">
+                    <h3>
+                        <asp:Label ID="Lbl_PageHeader" class="text-success" runat="server" Text="" style="font-size:24px;"></asp:Label>
+                    </h3>
+                </div>
+       
+      
+         
+        
+        <div class="contentpart" style="min-height:440px;min-width:800px;" >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+       
+      
+         </div>
+         
+       
+       </td>
+       <td  width="250px"  valign="top">
+    
+          
+          
+          
+               <%--<asp:Button ID="activategmail" runat="server" Text="Gmail Authentication" OnClick="imggmail_Click" CssClass="authbutton" />--%>
+            
+            
+   
+            
+            
+            
+            
+    <%--         
+       <div class="footerarea">
+   <a href="http://winceron.com/#/"> <img alt="" src="images/winceronsmalllogo.png" width="100px" align="right" />   </a>
+   </div>--%>
+       </td>
+      </tr>
+     </table>
+       
+    </div>    
+        
+    </div>
+   
+   
+             <footer class="footer">
+             
+             
+             
+             <%-- <div class="footerarea">
+   <p>&copy;©2017 Winceron Software Technologies Pvt. Ltd<a href="http://winceron.com/#/"> <img alt="" src="images/winceronsmalllogo.png" width="100px" align="right" />   </a></p>
+   </div>--%>
+ <div class="footer-bottom">
+	<div class="footer-bottom col-lg-12">
+	                <div class="col-lg-3" style="padding-top:15px;padding-right:125px;">
+                        <a href="http://winer.in/schoolsoftware.html"> <img alt="" src="images/winersmalllogo.png" width="100px" style="padding-top:25px;">   </a>
+                        
+                      </div>
+                    <div class="navbar-text pull-left" id="footerName" runat="server" style="padding-top:35px;padding-left:150px;">
+                            <p>Powered By Winceron Software Technologies Pvt. Ltd<a href="http://www.winceron.com" style="color:#fff;"></a></p>
+                        </div>
+                        <div class="navbar-text pull-right" align="right">
+                        <%--<a href="http://winer.in/schoolsoftware.html"> <img alt="" src="images/winersmalllogo.png" width="100px" style="padding-top:25px;"/>   </a>--%>
+                            <a href="http://winceron.com/#/"><img alt=""  src="images/winceronsmalllogo.png" width="100px" align="right" /></a>
+                            
+                        
+                        
+                        </div>
+                    
+                    
+                    </div>
+					
+        
+
+</footer>
+   
+  
+    </form>
+</body>
+</html>
+

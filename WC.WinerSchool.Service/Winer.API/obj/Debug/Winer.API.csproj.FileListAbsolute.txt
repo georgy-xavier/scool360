@@ -1,0 +1,42 @@
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\Winer.API.dll.config
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\Winer.API.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\Winer.API.pdb
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\Newtonsoft.Json.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Net.Http.Formatting.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Cors.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.Cors.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.WebHost.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\Newtonsoft.Json.xml
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Net.Http.Formatting.xml
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.xml
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.Cors.xml
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\bin\System.Web.Http.WebHost.xml
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\obj\Debug\Winer.API.csprojResolveAssemblyReference.cache
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\obj\Debug\Winer.API.dll
+D:\SVN Area\Winer\Winer.API\Winer.API\Winer.API\obj\Debug\Winer.API.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\obj\Debug\Winer.API.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\Winer.API.dll.config
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\Winer.API.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\Winer.API.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\Newtonsoft.Json.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Net.Http.Formatting.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Cors.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.Cors.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.WebHost.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.BL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.BOL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.DL.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\OTPLibrary.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.BL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.BOL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\Newtonsoft.Json.xml
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Net.Http.Formatting.xml
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.xml
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.Cors.xml
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\System.Web.Http.WebHost.xml
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\WC.WinerSchool.DL.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\bin\OTPLibrary.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\obj\Debug\Winer.API.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\Winer.API\obj\Debug\Winer.API.pdb

@@ -1,0 +1,309 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WinerSchoolMaster.master.cs" Inherits="WinEr.WinerSchoolMaster" %>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head id="Head1" runat="server">
+   
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9, IE=8, IE=7, IE=EDGE" />  
+	<meta name="format-detection" content="telephone=no"> 
+	<meta charset="utf-8" content=""/>
+	
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="config/scool360/favicons/apple-touch-icon.png?v=5.0.0">
+		<link rel="icon" href="images/icon.png" type="image/png" sizes="512x512">
+		<link rel="icon" type="image/png" sizes="32x32" href="config/scool360/favicons/favicon-32x32.png?v=5.0.0">
+		<link rel="icon" type="image/png" sizes="194x194" href="config/scool360/favicons/favicon-194x194.png?v=5.0.0">
+		<link rel="icon" type="image/png" sizes="192x192" href="config/scool360/favicons/android-chrome-192x192.png?v=5.0.0">
+		<link rel="icon" type="image/png" sizes="16x16" href="config/scool360/favicons/favicon-16x16.png?v=5.0.0">
+		<link rel="mask-icon" href="config/scool360/favicons/safari-pinned-tab.svg?v=5.0.0">
+	
+		<meta name="msapplication-TileColor" content="#0086fe">
+		<meta name="msapplication-TileImage" content="config/scool360/favicons/mstile-144x144.png?v=5.0.0">
+		<link rel="shortcut icon" href="config/scool360/favicons/favicon.ico?v=5.0.0">
+		<link rel="manifest" href="config/scool360/manifest.json">
+		<meta name="msapplication-config" content="config/scool360/browserconfig.xml?v=5.0.0">
+
+		<meta name="theme-color" content="#0086fe">
+		<meta name="apple-mobile-web-app-title" content="WinER">
+		<meta name="application-name" content="WinER">
+		<meta name="msapplication-navbutton-color" content="#0086fe">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#0086fe">
+		<meta name="description" content="Scool360 School management System" />
+		<meta name="author" content="TEAM SCOOL360"/>
+		<title>STUDENT MANAGER</title>
+
+			 <%-- Styles --%>
+		<link href="css%20files/fontManager.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/font-awesome_4.7.0.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/materialicons.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/material.min.css?v=5.0.0" rel="stylesheet" />
+
+		<link href="css%20files/_main_style_common.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/_main_style_desktop.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/_main_style_mobile.css?v=5.0.0" rel="stylesheet" />
+	
+		<link href="css%20files/offline-language-english.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/offline-theme-slide.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/toast.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/mobileMenu.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/jQueryUI%20_v1.12.1.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/wschoolstyle.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/awesome-bootstrap-checkbox.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/Bootstrap_v3.3.7.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/datepicker.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/animate_v3.5.2.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/mbContainer.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/winbuttonstyleblue.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/TabStyleSheet.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/MasterStyle.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/winroundbox.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/Bluestyle.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/Bluemenu.css?v=5.0.0" rel="stylesheet" />
+		<link href="css%20files/pace_ajax_loader.min.css?v=5.0.0" rel="stylesheet" />
+	
+		<%-- Scripts --%>
+		<script src="js%20files/jquery_v3.3.1.js?v=5.0.0"></script>
+		<script src="js%20files/jquery.tools.min.js?v=5.0.0"></script>
+		<script src="js%20files/jQueryUI_v1.12.1.js?v=5.0.0"></script>
+		<script src="js%20files/Bootstrap_v3.3.7.js?v=5.0.0"></script>
+	   
+		
+		<script src="js%20files/pace_ajax_loader.min.js?v=5.0.0"></script>
+		<script src="js%20files/offline.min.js?v=5.0.0"></script>
+		<script src="js%20files/toast.js?v=5.0.0"></script> 
+		<script src="js%20files/bootstrap-datepicker.js?v=5.0.0" ></script>
+		<script src="js%20files/winermenuOrange.js?v=5.0.0"></script>	 
+		<script src="js%20files/TableResponsive.js?v=5.0.0"></script>
+		<script src="js%20files/mobileMenu.js?v=5.0.0"></script>
+		
+		<script src="js%20files/WINER_v5_Script.js?v=5.0.0"></script>
+		<script src="js%20files/config.js?v=5.0.0"></script>
+		<script src="js%20files/clienDataProcessor.js?v=5.0.0"></script>
+
+
+		<script>
+		    $(function () {
+		        loadMainMenuDt();
+		        loadMasterDt();
+		        initActionSrch();
+		        loadCounts.parentMsg();
+		        loadCounts.notific();
+		        runPlaceHolderTxtOnMainSrch();
+		        makeAppFooterIn()
+		        append_footerDt();
+		        //$("._HlpSprtBtnDesk ").draggable();
+		    });
+		</script>
+	  <asp:ContentPlaceHolder id="head" runat="server">
+		  
+	  </asp:ContentPlaceHolder>
+   </head>
+   <body onbeforeunload="return allLoader()" class="animated fadeIn">
+	<%--Google Analytics Start--%>
+	  <script>
+		  (function (i, s, o, g, r, a, m) {
+			  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				  (i[r].q = i[r].q || []).push(arguments)
+			  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+		  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		  ga('create', 'UA-93921848-3', 'auto');
+		  ga('send', 'pageview');
+
+	  </script>
+	<%--Google Analytics End--%>
+	 
+	  <form id="form1" runat="server">
+			<div id="javascriptId" runat="server"></div>
+			
+			<div class="container-fluid">
+				
+					<%-- help button START--%>
+				<div class="_HlpSprtBtnDesk card-1" data-placement="top" data-toggle="tooltip" title="Click here if you need any help">
+					<p style="margin: 10px;"><span><i class="fa fa-life-saver"></i></span>&nbsp;&nbsp;Help / Support / Live Chat</p>
+					
+				</div>
+				<%--help button END --%>
+
+				<%-- TOP NAV BAR-SIDEBAR MOBILE START--%>
+				<div class="row mobTopNavBar box_shadow">
+					<div class="_mainMenuMob"><i class="material-icons">menu</i></div>
+					<div data-placement="bottom" data-boundary="viewport" data-toggle="popover2" role="button" data-container="body" data-html="true" id="subMenuMob" style="float:right;padding-top:5px;padding-right:15px;color:white;">
+						<i class="material-icons">more_vert</i>
+					</div>
+					<div id="popover-content2" class="hide card" >
+						<div class="text-center" style="min-width:100px;">
+							<div class="_subMenuItems"></div>
+						</div>
+					</div>
+					<div class="_HlpSprtBtnMob" style="float:  right;padding-top: 5px;padding-right: 10px;color:  white;"><i class="material-icons">help_outline</i></div>
+					<div class="searchbox">
+						<input type="search" id="_actSrchDtMob" placeholder="Search here" class="_actSrchDt searchbox-input" onkeyup="buttonUp();">
+						<span class="searchbox-icon"><i class="material-icons">search</i></span>
+					</div>
+				</div>
+				 <%-- TOP NAV BAR-SIDEBAR MOBILE END--%>
+
+				 <%-- RightSide NotificationBar START--%>
+				<div id="rightSideBar" class="sidenavRight sidenavRight sidenavRight sidenavRight notificBar">
+					<%--<a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>--%>
+					<div class="notMainHd text-center">Notifications</div>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNavRight()">&times;</a>
+					<div class="_sysNotific scrollStyle scrollbar_notific force_overflow_notificBr"></div>
+					<a data-placement="top" data-toggle="tooltip" title="Click to view all notifications" style="color: #3F51B5;font-size:13px;margin:10px;"  href="ViewUserActions.aspx">View all activities</a>
+				
+				</div>
+				<%-- RightSide NotificationBar END --%>
+				<div id="mostTopBar" class="row"><%--Top panel--%>
+					<div class="col-lg-2  hidden-xs">
+						<div class="text-center studentimage" > 
+							<img class="appmainLogo" src="#" alt="LOGO" onclick='OpnenInLink("WinerAboutPage.aspx")' runat="server" style="cursor:pointer;height: 60px;margin: 10px;" data-placement="bottom" data-toggle="tooltip" title="Hi, click to see about me">
+						</div>
+					</div>
+				<div class="col-lg-4 hidden-xs  mobPadding deskTopPadding">
+					<div class="form-horizontal">     
+						<div class="input-group col-md-12 col-lg-12 col-sm-12 col-xs-12">
+							<input type="search" id="_actSrchDt" class="_actSrchDt form-control srchBarMain" placeholder="Search here...">
+							<span id="btnStdSrch" class="glyphicon glyphicon-search" style="padding:10px;"></span>
+						</div>
+					</div>
+				</div>
+			<div class="col-lg-6">
+			   <div class="col-md-6" >
+				  <div class="row mobPadding hidden-xs">
+					 <div class="school col-lg-6 col-xs-6">
+						  <strong style="color: #888888;font-weight: 300;">Date : <span class="_sysDate control-label"></span></strong>
+					 </div>
+					 <div class="school col-lg-6 col-xs-6">
+						<strong style="color: #888888;font-weight: 300;">Batch : <span class="_currentBatch control-label"></span></strong>
+					 </div>
+				  </div>
+				  <div class="form-group row mobPadding"">
+					 <div class="school col-lg-6 col-xs-6"  data-placement="bottom" data-toggle="tooltip" title="Now you are in School Manager" style="padding:3px;">
+						<a href="#" >
+						<img alt="" src="images/schoolmanagement.png" name="but1" class="roundBorder img-responsive" />
+						</a>
+					 </div>
+					  
+					 <div class="student col-lg-6 col-xs-6"  style="padding:3px;" data-placement="bottom" data-toggle="tooltip" title="Switch to Student Manager">
+						<div id="divAreaSep" runat="server">
+						</div>
+					 </div>
+					 
+				  </div>
+			   </div>
+				<div class="col-md-3 topRightItems">
+				  <%--<a href="javascript: void(0)" onclick="popup(window.location.href)" class="fa fa-arrows-alt" data-placement="bottom" data-toggle="tooltip" title="Switch to full screen" style="font-size:28px;text-decoration:none;padding: 25px 5px 0 0;"></a>--%>
+				  <a href="MessageInbox.aspx" class="_msgIcon fa fa-comments" data-placement="bottom" data-toggle="tooltip" title="Messages" style="font-size:28px;text-decoration:none;padding: 25px 5px 0 15px;"><span id="_msgBdg" class="altBadge" ><br></span></a>
+				   <a href="javascript: void(0)" onclick="openNavRight();" class="_notificIcon fa fa-bell" data-placement="bottom" data-toggle="tooltip" title="Notifications" style="font-size:28px;text-decoration:none;padding: 25px 0 0 15px;"><span id="_notBdg" class="altBadge" ><br></span></a>
+				
+				</div>
+				<div class="col-md-2 topRightItems" data-placement="bottom" data-toggle="tooltip" title="Your Profile">
+					<a data-placement="bottom" data-toggle="popover" role="button" data-container="body" type="button" data-html="true" href="#" id="login">
+					<img src="Pics/user5.png"/" class="_staffImgIcon circular--square staffProfileIcon2" onerror="this.src='Pics/user5.png'"></a>
+					<div id="popover-content" class="hide card">
+						<div class="text-center">
+							<img src="Pics/user5.png"/" class="_staffImgIcon circular--square staffProfileIcon3" onerror="this.src='Pics/user5.png'">
+							<div class="_userProfileDt text-center"></div>
+							<a href="UserArea.aspx"  data-placement="bottom" data-toggle="tooltip" title="View your Profile" style="color:#00489a;text-decoration:none;"><i class="glyphicon glyphicon-user"></i>&nbsp;&nbsp;View Profile</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+							<span class="_logOutBtn"  data-placement="bottom" data-toggle="tooltip" title="Logout from application"style="color:#F00;cursor:pointer;text-decoration:none;"><i class="glyphicon glyphicon-log-out"></i>&nbsp;&nbsp;SignOut</span>
+							<div style="margin-top: 10px;"><a href="ChangePassword.aspx"  data-placement="bottom" data-toggle="tooltip" title="Change Ypur password" style="color:#009688;text-decoration:none;"><i class="glyphicon glyphicon-lock"></i>&nbsp;&nbsp;Change password</a></div><br />
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div> <%--Top Panel--%>
+		 <nav id="navMenubar" class="row navbar navbar-inverse"><%--MainMenu--%>
+			<div class="container-fluid">
+				<%--<div id="mainmenu" runat="server"></div>--%><%--Dynamic menu loading BE--%>
+				<div class="_mainmenu"></div><%--Main menu//Dynamic--%>
+			</div>
+		 </nav>
+		   
+		  
+		  
+			<div class="othercontent scrollStyle scrollbar force-overflow">
+				<div id="wrap">
+					<div class="pageContent">
+						<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+						<hr />
+					</div>
+				</div>
+
+			   <%-- scroll to top --%>
+					<div id="backTop" class="back-top" data-placement="top" data-toggle="tooltip" title="Go to top">
+						<i class="fa fa-angle-up" aria-hidden="true"></i>
+					</div>
+			  <div class="_appFooter"></div>
+		 </div>	 
+				 <%-- Bottom mobile fixed bar  START--%>
+				<div class="row mobBottomNavBar box_shadow">
+					<div class="col-xs-3 _homeBtnMob">
+						<div class="_homeBtnMob" style="color:#607D8B"><i class="material-icons">home</i>
+						<div style="font-size: 10px;margin-top: -10px;font-weight:  100;">Home</div>
+						</div>
+						
+						</div>
+					<div class="col-xs-3" onclick="openNavRight();">
+						<div style="color:#607D8B"><i class="material-icons">notifications_none</i>
+						<div style="font-size: 10px;margin-top: -10px;font-weight:  100;">Notifications</div>
+						</div>
+						
+						</div>
+					<div class="col-xs-3 _msgBtnMob">
+						<div style="color:#607D8B"><i class="material-icons">message</i>
+							<div style="font-size: 10px;margin-top: -10px;font-weight:  100;">Messages</div>
+						</div>
+						
+						</div>
+					<div class="col-xs-3 _attndBtnMob">
+								<div  style="color:#607D8B"><i class="material-icons">spellcheck</i>
+									<div style="font-size: 10px;margin-top: -10px;font-weight:  100;">Attendance</div>
+								</div>
+						</div>
+				</div>
+				<%-- Bottom mobile fixed bar END--%> 
+				</div>
+		  <aside id="drawerEl">
+					<%--<div class="text-center card_shadow" style="padding:21px;color:white;">
+					<h5></h5>
+					</div>--%>
+					<div id="profileMenuSide">
+						<%--<asp:Image ID="Img_Holder_insideMob" CssClass="circular--square" runat="server" ImageUrl="~/images/user.png" style="border-width:0px;height: 100px;width: 100px;margin-left: 35%;border: 1px solid;border-color: #f5f5f5;"/>--%>
+						<img src="Pics/user5.png"/" class="_staffImgIcon circular--square staffProfileIcon3" onerror="this.src='Pics/user5.png'">
+						<%--<asp:Label ID="Lbl_UserName" runat="server" class="control-label" Text=""></asp:Label>--%>
+						<div class ="_userProfileDt text-center"></div>
+						
+					</div>
+					<nav id="navMenubarside" class="navbar navbar-inverse">
+						<div class="container-fluid">
+							<div class="_mainmenu" ></div><%--main menu mobile--%>
+							
+						</div>
+						
+					</nav>
+				</aside>
+	  </form>
+
+	   <%-- Bootstrap common modal START--%>
+		<div class="modal animated fadeIn delay-1" id="mainModal" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class="_modalHd"></div>
+					</div>
+					<div class="modal-body">
+						<div class="_modalBd"></div> 
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<%-- Bootstrap common modal END --%>
+		
+   </body>
+</html>

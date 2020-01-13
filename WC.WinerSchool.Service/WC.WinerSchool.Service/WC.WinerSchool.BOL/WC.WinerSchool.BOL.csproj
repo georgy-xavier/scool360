@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FC64CD6-56E0-4493-B33F-4896D69044CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WC.WinerSchool.BOL</RootNamespace>
+    <AssemblyName>WC.WinerSchool.BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutenticationInput.cs" />
+    <Compile Include="BatchDetails.cs" />
+    <Compile Include="ClassAttendanceDetails.cs" />
+    <Compile Include="ClassDetails.cs" />
+    <Compile Include="ConfigurationDetails.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataStructure.cs" />
+    <Compile Include="FeeAdvanceDetails.cs" />
+    <Compile Include="FeeBillFormat.cs" />
+    <Compile Include="FeeDetails.cs" />
+    <Compile Include="FineSetting.cs" />
+    <Compile Include="ImageDetails.cs" />
+    <Compile Include="OtherFeeDetails.cs" />
+    <Compile Include="PeriodDetails.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WAPI_AuthorizeDetails.cs" />
+    <Compile Include="WAPI_RegisterationDetails.cs" />
+    <Compile Include="RegisterationDetails.cs" />
+    <Compile Include="School_Details.cs" />
+    <Compile Include="StudentAttendanceStatus.cs" />
+    <Compile Include="StudentDetails.cs" />
+    <Compile Include="tblaccount.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblaccounttype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblaction.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbladmisiontype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblattendancemode.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblbatch.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblbloodgrp.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblcast.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblcast_category.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblcatogery.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblclass.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblclassexam.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblclassroom.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblclassschedule.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblclasssubmap.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblconfiguration.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbldeleteditem.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbldevice.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbldeviceupdate.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldeviceuploadconflict.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbldevision.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeeaccount.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeeadvancetransaction.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblfeebill.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblfeebillclearence.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblfeebilltype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblfeefrequencytype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeeothermaster.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeeschedule.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeestudent.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfeetype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfileurl.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblfine.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblholiday.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblholidayconfig.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbllanguage.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblmasterdate.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblperiod.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblregistration.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblreligion.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblrole.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblruleclassmap.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblschooldetail.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblstandard.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblstudent.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblstudentclassmap.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblstudentfeeadvance.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblstudtype.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tblsubject.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbltransaction.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltransactionclearence.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbltransactionhistory.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbluser.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tbl_holidayconfig.cs" />
+    <Compile Include="tbl_holidays.cs" />
+    <Compile Include="UserDetails.cs" />
+    <Compile Include="WinErObjectModel.cs">
+      <DependentUpon>WinErObjectModel.tt</DependentUpon>
+      <SubType>Code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WinErObjectModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>WinErObjectModel.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

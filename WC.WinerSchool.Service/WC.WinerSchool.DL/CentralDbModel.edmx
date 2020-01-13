@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="centraldbModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="centraldbModelStoreContainer">
+          <EntitySet Name="tblschool_list" EntityType="centraldbModel.Store.tblschool_list" store:Type="Tables" Schema="centraldb" />
+        </EntityContainer>
+        <EntityType Name="tblschool_list">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SchoolName" Type="varchar" MaxLength="100" />
+          <Property Name="ConnectionString" Type="varchar" MaxLength="255" />
+          <Property Name="IsActice" Type="tinyint" />
+          <Property Name="DatabaseName" Type="varchar" MaxLength="50" />
+          <Property Name="IsEmail" Type="tinyint" />
+          <Property Name="FilePath" Type="varchar" MaxLength="50" />
+          <Property Name="Sysversion" Type="varchar" MaxLength="200" />
+          <Property Name="Patchversion" Type="varchar" MaxLength="200" />
+          <Property Name="HostName" Type="varchar" MaxLength="200" />
+          <Property Name="UserName" Type="varchar" MaxLength="200" />
+          <Property Name="Password" Type="varchar" MaxLength="200" />
+          <Property Name="ExpireDate" Type="varchar" MaxLength="200" />
+          <Property Name="CustomerId" Type="varchar" MaxLength="255" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="centraldbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="centraldbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="tblschool_list" EntityType="centraldbModel.tblschool_list" />
+        </EntityContainer>
+        <EntityType Name="tblschool_list">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="SchoolName" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ConnectionString" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="IsActice" />
+          <Property Type="String" Name="DatabaseName" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="SByte" Name="IsEmail" />
+          <Property Type="String" Name="FilePath" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Sysversion" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Patchversion" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="HostName" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="UserName" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Password" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ExpireDate" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="CustomerId" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="centraldbModelStoreContainer" CdmEntityContainer="centraldbEntities">
+          <EntitySetMapping Name="tblschool_list">
+            <EntityTypeMapping TypeName="centraldbModel.tblschool_list">
+              <MappingFragment StoreEntitySet="tblschool_list">
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="HostName" ColumnName="HostName" />
+                <ScalarProperty Name="Patchversion" ColumnName="Patchversion" />
+                <ScalarProperty Name="Sysversion" ColumnName="Sysversion" />
+                <ScalarProperty Name="FilePath" ColumnName="FilePath" />
+                <ScalarProperty Name="IsEmail" ColumnName="IsEmail" />
+                <ScalarProperty Name="DatabaseName" ColumnName="DatabaseName" />
+                <ScalarProperty Name="IsActice" ColumnName="IsActice" />
+                <ScalarProperty Name="ConnectionString" ColumnName="ConnectionString" />
+                <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="CentralDbModel">
+        <EntityTypeShape EntityType="centraldbModel.tblschool_list" Width="1.5" PointX="0.75" PointY="0.75" Height="3.7109993489583326" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,62 @@
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\WinErParentLogin.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\WinErParentLogin.pdb
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\itextsharp.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\WebChart.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\WinBase.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\bin\WinBase.pdb
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinErParentLogin\obj\Debug\WinErParentLogin.pdb
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\WinErParentLogin.dll
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\WinErParentLogin.pdb
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\itextsharp.dll
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\WebChart.dll
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\WinBase.dll
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\bin\WinBase.pdb
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\obj\Debug\ResolveAssemblyReference.cache
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+E:\Work Area\School New\new winer\WinEr\WinErParentLogin\obj\Debug\WinErParentLogin.pdb
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\css files\jquery.bxslider.css
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\js files\jquery.bxslider.js
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\js files\jquery.fitvids.js
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\WinErParentLogin.dll
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\WinErParentLogin.pdb
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\WinBase.dll
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\WinBase.pdb
+E:\Georgy\Project file\Winer\WinErParentLogin\bin\WC.PdfDocumentClass.pdb
+E:\Georgy\Project file\Winer\WinErParentLogin\obj\Debug\ResolveAssemblyReference.cache
+E:\Georgy\Project file\Winer\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+E:\Georgy\Project file\Winer\WinErParentLogin\obj\Debug\WinErParentLogin.pdb
+D:\SVN Area\Winer\WinErParentLogin\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN Area\Winer\WinErParentLogin\bin\css files\jquery.bxslider.css
+D:\SVN Area\Winer\WinErParentLogin\bin\js files\jquery.bxslider.js
+D:\SVN Area\Winer\WinErParentLogin\bin\js files\jquery.fitvids.js
+D:\SVN Area\Winer\WinErParentLogin\bin\WinErParentLogin.dll
+D:\SVN Area\Winer\WinErParentLogin\bin\WinErParentLogin.pdb
+D:\SVN Area\Winer\WinErParentLogin\bin\WinBase.dll
+D:\SVN Area\Winer\WinErParentLogin\bin\WinBase.pdb
+D:\SVN Area\Winer\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+D:\SVN Area\Winer\WinErParentLogin\obj\Debug\WinErParentLogin.pdb
+D:\SVN Area\Winer\WinErParentLogin\bin\WC.PdfDocumentClass.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\css files\jquery.bxslider.css
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\js files\jquery.bxslider.js
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\js files\jquery.fitvids.js
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\WinErParentLogin.dll.config
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\WinErParentLogin.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\WinErParentLogin.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\bin\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\obj\Debug\WinErParentLogin.csprojResolveAssemblyReference.cache
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinErParentLogin\obj\Debug\WinErParentLogin.pdb
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\css files\jquery.bxslider.css
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\js files\jquery.bxslider.js
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\js files\jquery.fitvids.js
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\WinErParentLogin.dll.config
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\WinErParentLogin.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\WinErParentLogin.pdb
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\bin\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\obj\Debug\WinErParentLogin.csprojResolveAssemblyReference.cache
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\obj\Debug\WinErParentLogin.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinErParentLogin\obj\Debug\WinErParentLogin.pdb

@@ -1,0 +1,30 @@
+.img-circle.profile_img{
+width:90%;
+backgrounf:#fff;
+margin-left:15%;
+z-index:1000;
+position:inherit;
+margin-top:8px; 
+border:1px solid rgba(52,73,94,.44);
+padding:4px;
+}
+.profile_pic {
+    width: 35%;
+    float: left;
+}
+.profile_info {
+    padding: 15px 10px 10px;
+    width: 65%;
+    float: left;
+}
+.profile_info span {
+    font-size: 13px;
+    line-height: 20px;
+    color: #337ab7;
+}
+.profile_info h2 {
+    font-size: 14px;
+    color: #337ab7;
+    margin: 0;
+    font-weight: 300;
+}

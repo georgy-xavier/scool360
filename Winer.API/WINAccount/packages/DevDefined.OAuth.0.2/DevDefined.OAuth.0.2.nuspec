@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>DevDefined.OAuth</id>
+    <version>0.2</version>
+    <title>DevDefined.OAuth</title>
+    <authors>Alex Henderson</authors>
+    <owners>Alex Henderson</owners>
+    <projectUrl>https://github.com/bittercoder/DevDefined.OAuth</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The DevDefined.OAuth project is a library for creating both OAuth consumers and providers on the .Net Framework. It currently targets the .Net Framework 3.5 and above, and is written in C#.</description>
+    <summary>An OAuth Consumer and Provider implemented for .Net</summary>
+    <releaseNotes>Built in Release Mode from fd66c506f1eca44881d53a8fa59bff2bf692a91a</releaseNotes>
+    <language>en-US</language>
+    <tags>OAuth</tags>
+  </metadata>
+</package>

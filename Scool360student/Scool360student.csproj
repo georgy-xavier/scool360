@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E792EA5C-8B11-4910-963E-4F30775F2FCF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scool360student</RootNamespace>
+    <AssemblyName>Scool360student</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\WinEr\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel">
+      <HintPath>..\WinEr\bin\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering">
+      <HintPath>..\WinEr\bin\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering">
+      <HintPath>..\WinEr\bin\MigraDoc.RtfRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\WinEr\bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp">
+      <HintPath>..\WinErParentLogin\Bin\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WC.PdfDocumentClass">
+      <HintPath>..\WinErParentLogin\Bin\WC.PdfDocumentClass.dll</HintPath>
+    </Reference>
+    <Reference Include="WebChart, Version=1.1.1.4, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\WebChart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppWebServices\StudentDataService.asmx" />
+    <Content Include="App_Themes\AdminTheme\AdminTheme.css" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderChrome.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderChromeBlack.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderGamer.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderGlassBlack.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderSoftGrey.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderWhiteChrome.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\PagerGamer.png" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderChrome.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderChromeBlack.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer_Hover.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer_left.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGlassBlack.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderSoftGrey.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderWhiteChrome.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\PagerGamer.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\YahooSprite.gif" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\DotNetOpenAuth.dll" />
+    <Content Include="bin\itextsharp.dll" />
+    <Content Include="bin\MigraDoc.DocumentObjectModel.dll" />
+    <Content Include="bin\MigraDoc.Rendering.dll" />
+    <Content Include="bin\MigraDoc.RtfRendering.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\PdfSharp.dll" />
+    <Content Include="bin\WC.PdfDocumentClass.dll" />
+    <Content Include="bin\WebChart.dll" />
+    <Content Include="bin\WinBase.dll" />
+    <Content Include="ChangeStudentPassword.aspx" />
+    <Content Include="config\scool360\browserconfig.xml" />
+    <Content Include="config\scool360\favicons\android-chrome-192x192.png" />
+    <Content Include="config\scool360\favicons\apple-touch-icon.png" />
+    <Content Include="config\scool360\favicons\browserconfig.xml" />
+    <Content Include="config\scool360\favicons\favicon-16x16.png" />
+    <Content Include="config\scool360\favicons\favicon-194x194.png" />
+    <Content Include="config\scool360\favicons\favicon-32x32.png" />
+    <Content Include="config\scool360\favicons\favicon.ico" />
+    <Content Include="config\scool360\favicons\favicon.png" />
+    <Content Include="config\scool360\favicons\html_code.html" />
+    <Content Include="config\scool360\favicons\safari-pinned-tab.svg" />
+    <Content Include="config\scool360\favicons\scool360_logo.png" />
+    <Content Include="config\scool360\mainLogo\scool360_logo.png" />
+    <Content Include="config\scool360\mainLogo\winerLogo.png" />
+    <Content Include="config\winer\browserconfig.xml" />
+    <Content Include="config\winer\favicons\android-chrome-144x144.png" />
+    <Content Include="config\winer\favicons\android-chrome-192x192.png" />
+    <Content Include="config\winer\favicons\android-chrome-256x256.png" />
+    <Content Include="config\winer\favicons\android-chrome-36x36.png" />
+    <Content Include="config\winer\favicons\android-chrome-384x384.png" />
+    <Content Include="config\winer\favicons\android-chrome-48x48.png" />
+    <Content Include="config\winer\favicons\android-chrome-512x512.png" />
+    <Content Include="config\winer\favicons\android-chrome-72x72.png" />
+    <Content Include="config\winer\favicons\android-chrome-96x96.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-114x114-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-114x114.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-120x120-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-120x120.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-144x144-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-144x144.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-152x152-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-152x152.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-180x180-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-180x180.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-57x57-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-57x57.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-60x60-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-60x60.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-72x72-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-72x72.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-76x76-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-76x76.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon-precomposed.png" />
+    <Content Include="config\winer\favicons\apple-touch-icon.png" />
+    <Content Include="config\winer\favicons\browserconfig.xml" />
+    <Content Include="config\winer\favicons\favicon-16x16.png" />
+    <Content Include="config\winer\favicons\favicon-194x194.png" />
+    <Content Include="config\winer\favicons\favicon-32x32.png" />
+    <Content Include="config\winer\favicons\favicon.ico" />
+    <Content Include="config\winer\favicons\html_code.html" />
+    <Content Include="config\winer\favicons\mstile-144x144.png" />
+    <Content Include="config\winer\favicons\mstile-150x150.png" />
+    <Content Include="config\winer\favicons\mstile-310x150.png" />
+    <Content Include="config\winer\favicons\mstile-310x310.png" />
+    <Content Include="config\winer\favicons\mstile-70x70.png" />
+    <Content Include="config\winer\favicons\safari-pinned-tab.svg" />
+    <Content Include="config\winer\html_code.html" />
+    <Content Include="config\winer\mainLogo\scool360_logo.png" />
+    <Content Include="config\winer\mainLogo\winerLogo.png" />
+    <Content Include="config\winer\sw.js" />
+    <Content Include="css files\adminstyle.css" />
+    <Content Include="css files\adminstyle.min.css" />
+    <Content Include="css files\allotment.css" />
+    <Content Include="css files\angular-wizard.min.css" />
+    <Content Include="css files\animate_v3.5.2.css" />
+    <Content Include="css files\animate_v3.5.2.min.css" />
+    <Content Include="css files\awesome-bootstrap-checkbox.css" />
+    <Content Include="css files\awesome-bootstrap-checkbox.min.css" />
+    <Content Include="css files\BlueLoginstyle.css" />
+    <Content Include="css files\Bluemenu.css" />
+    <Content Include="css files\Bluemenu.min.css" />
+    <Content Include="css files\Bluestyle.css" />
+    <Content Include="css files\Bluestyle.min.css" />
+    <Content Include="css files\bootstrap-responsive.min.css" />
+    <Content Include="css files\Bootstrap_v3.3.7.css" />
+    <Content Include="css files\Bootstrap_v3.3.7.min.css" />
+    <Content Include="css files\campusstyle.css" />
+    <Content Include="css files\campusstyle.min.css" />
+    <Content Include="css files\checkbox.css" />
+    <Content Include="css files\checkbox.min.css" />
+    <Content Include="css files\config.css" />
+    <Content Include="css files\config.min.css" />
+    <Content Include="css files\ContentSlide.css" />
+    <Content Include="css files\ContentSlide.min.css" />
+    <Content Include="css files\custom.css" />
+    <Content Include="css files\custom.min.css" />
+    <Content Include="css files\dataTable.css" />
+    <Content Include="css files\datepicker.css" />
+    <Content Include="css files\datepicker.min.css" />
+    <Content Include="css files\DockMenuStyle.css" />
+    <Content Include="css files\DockMenuStyle.min.css" />
+    <Content Include="css files\DockSideMenu.css" />
+    <Content Include="css files\DockSideMenu.min.css" />
+    <Content Include="css files\ExternalStyle.css" />
+    <Content Include="css files\ExternalStyle.min.css" />
+    <Content Include="css files\flora.datepicker.css" />
+    <Content Include="css files\flora.datepicker.min.css" />
+    <Content Include="css files\font-awesome.min.css" />
+    <Content Include="css files\font-awesome_4.7.0.css" />
+    <Content Include="css files\font-awesome_4.7.0.min.css" />
+    <Content Include="css files\fontManager.css" />
+    <Content Include="css files\fontManager.min.css" />
+    <Content Include="css files\helpDocStyle.css" />
+    <Content Include="css files\helpDocStyle.min.css" />
+    <Content Include="css files\ImageSliderstyle.css" />
+    <Content Include="css files\ImageSliderstyle.min.css" />
+    <Content Include="css files\jQueryUI _v1.12.1.css" />
+    <Content Include="css files\jQueryUI _v1.12.1.min.css" />
+    <Content Include="css files\loading-bar.css" />
+    <Content Include="css files\loading-bar.min.css" />
+    <Content Include="css files\Loginstyle.css" />
+    <Content Include="css files\Loginstyle.min.css" />
+    <Content Include="css files\MasterStyle.css" />
+    <Content Include="css files\MasterStyle.min.css" />
+    <Content Include="css files\material.min.css" />
+    <Content Include="css files\materialicons.css" />
+    <Content Include="css files\materialicons.min.css" />
+    <Content Include="css files\matirial_login.css" />
+    <Content Include="css files\matirial_login.min.css" />
+    <Content Include="css files\mbContainer.css" />
+    <Content Include="css files\mbContainer.min.css" />
+    <Content Include="css files\menu_styles.css" />
+    <Content Include="css files\menu_styles.min.css" />
+    <Content Include="css files\metisMenu.min.css" />
+    <Content Include="css files\mobileMenu.css" />
+    <Content Include="css files\mobileMenu.min.css" />
+    <Content Include="css files\morris.css" />
+    <Content Include="css files\morris.min.css" />
+    <Content Include="css files\NewLoginStyle.css" />
+    <Content Include="css files\NewLoginStyle.min.css" />
+    <Content Include="css files\NewMenustyles.css" />
+    <Content Include="css files\NewMenustyles.min.css" />
+    <Content Include="css files\normalize_v8.0.0.css" />
+    <Content Include="css files\normalize_v8.0.0.min.css" />
+    <Content Include="css files\offline-language-english.css" />
+    <Content Include="css files\offline-language-english.min.css" />
+    <Content Include="css files\offline-theme-slide.css" />
+    <Content Include="css files\offline-theme-slide.min.css" />
+    <Content Include="css files\Orangemenu.css" />
+    <Content Include="css files\Orangemenu.min.css" />
+    <Content Include="css files\Orangestyle.css" />
+    <Content Include="css files\Orangestyle.min.css" />
+    <Content Include="css files\OverlayScrollbars.min.css" />
+    <Content Include="css files\pace_ajax_loader.min.css" />
+    <Content Include="css files\PopupcssMaster.css" />
+    <Content Include="css files\PopupcssMaster.min.css" />
+    <Content Include="css files\PreloaderstyleV5.css" />
+    <Content Include="css files\PreloaderstyleV5.min.css" />
+    <Content Include="css files\sb-admin-2.css" />
+    <Content Include="css files\sb-admin-2.min.css" />
+    <Content Include="css files\site.min.css" />
+    <Content Include="css files\social-network social-circle.css" />
+    <Content Include="css files\social-network social-circle.min.css" />
+    <Content Include="css files\social-share-kit.css" />
+    <Content Include="css files\social-share-kit.min.css" />
+    <Content Include="css files\StyleSheet.css" />
+    <Content Include="css files\StyleSheet.min.css" />
+    <Content Include="css files\TableResponsive.css" />
+    <Content Include="css files\TableResponsive.min.css" />
+    <Content Include="css files\TabStyleSheet.css" />
+    <Content Include="css files\TabStyleSheet.min.css" />
+    <Content Include="css files\thickbox.css" />
+    <Content Include="css files\thickbox.min.css" />
+    <Content Include="css files\timeline.css" />
+    <Content Include="css files\timeline.min.css" />
+    <Content Include="css files\toast.css" />
+    <Content Include="css files\toast.min.css" />
+    <Content Include="css files\ui.datepicker.css" />
+    <Content Include="css files\ui.datepicker.min.css" />
+    <Content Include="css files\whitetheme.css" />
+    <Content Include="css files\whitetheme.min.css" />
+    <Content Include="css files\winbuttonstyle.css" />
+    <Content Include="css files\winbuttonstyle.min.css" />
+    <Content Include="css files\winbuttonstyleblue.css" />
+    <Content Include="css files\winbuttonstyleblue.min.css" />
+    <Content Include="css files\WINER_v5_Style.css" />
+    <Content Include="css files\WINER_v5_Style.min.css" />
+    <Content Include="css files\winroundbox.css" />
+    <Content Include="css files\winroundbox.min.css" />
+    <Content Include="css files\wschoolstyle.css" />
+    <Content Include="css files\wschoolstyle.min.css" />
+    <Content Include="css files\_main_style_common.css" />
+    <Content Include="css files\_main_style_common.min.css" />
+    <Content Include="css files\_main_style_desktop.css" />
+    <Content Include="css files\_main_style_desktop.min.css" />
+    <Content Include="css files\_main_style_mobile.css" />
+    <Content Include="css files\_main_style_mobile.min.css" />
+    <Content Include="css_bootstrap\angular-wizard.min.css" />
+    <Content Include="css_bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="css_bootstrap\bootstrap.css" />
+    <Content Include="css_bootstrap\bootstrap.min.css" />
+    <Content Include="css_bootstrap\checkbox.css" />
+    <Content Include="css_bootstrap\custom.min.css" />
+    <Content Include="css_bootstrap\font-awesome.css" />
+    <Content Include="css_bootstrap\font-awesome.min.css" />
+    <Content Include="css_bootstrap\loading-bar.css" />
+    <Content Include="css_bootstrap\metisMenu.min.css" />
+    <Content Include="css_bootstrap\morris.css" />
+    <Content Include="css_bootstrap\sb-admin-2.css" />
+    <Content Include="css_bootstrap\site.min.css" />
+    <Content Include="css_bootstrap\social-network social-circle.css" />
+    <Content Include="css_bootstrap\social-share-kit.css" />
+    <Content Include="css_bootstrap\timeline.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="elements\skin1\c.png" />
+    <Content Include="elements\skin1\e.png" />
+    <Content Include="elements\skin1\n.png" />
+    <Content Include="elements\skin1\ne.png" />
+    <Content Include="elements\skin1\no.png" />
+    <Content Include="elements\skin1\o.png" />
+    <Content Include="elements\skin1\s.png" />
+    <Content Include="elements\skin1\se.png" />
+    <Content Include="elements\skin1\so.png" />
+    <Content Include="elements\skin5\c.png" />
+    <Content Include="elements\skin5\e.png" />
+    <Content Include="elements\skin5\n.png" />
+    <Content Include="elements\skin5\ne.png" />
+    <Content Include="elements\skin5\no.png" />
+    <Content Include="elements\skin5\o.png" />
+    <Content Include="elements\skin5\s.png" />
+    <Content Include="elements\skin5\se.png" />
+    <Content Include="elements\skin5\so.png" />
+    <Content Include="FeeBillNew.aspx" />
+    <Content Include="GroupApplicationFrom.aspx" />
+    <Content Include="images\0277fb.jpg" />
+    <Content Include="images\04fd3f.jpg" />
+    <Content Include="images\07_Grads.jpg" />
+    <Content Include="images\1288159630_user1.png" />
+    <Content Include="images\87888a.jpg" />
+    <Content Include="images\accept.png" />
+    <Content Include="images\add_user.png" />
+    <Content Include="images\af03ff.jpg" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\arrow1.gif" />
+    <Content Include="images\arrowstop.gif" />
+    <Content Include="images\arrow_10.gif" />
+    <Content Include="images\arrow_5.gif" />
+    <Content Include="images\arrow_7.gif" />
+    <Content Include="images\back.png" />
+    <Content Include="images\bar.gif" />
+    <Content Include="images\bar_bottom.gif" />
+    <Content Include="images\BG.gif" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\BG1.gif" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bgh1.gif" />
+    <Content Include="images\bg_header.gif" />
+    <Content Include="images\block.jpg" />
+    <Content Include="images\bottom_bar.gif" />
+    <Content Include="images\bottom_bg.gif" />
+    <Content Include="images\button.gif" />
+    <Content Include="images\button.jpg" />
+    <Content Include="images\buttonimg.jpg" />
+    <Content Include="images\bx_loader.gif" />
+    <Content Include="images\bx_loader1.gif" />
+    <Content Include="images\collapse_blue.jpg" />
+    <Content Include="images\comment.gif" />
+    <Content Include="images\content_article_bg.jpg" />
+    <Content Include="images\content_title_bg.gif" />
+    <Content Include="images\controls.png" />
+    <Content Include="images\Copy %282%29 of bg.jpg" />
+    <Content Include="images\Copy of bg.jpg" />
+    <Content Include="images\Copy of bottom_bg.gif" />
+    <Content Include="images\Copy of mainheading.jpg" />
+    <Content Include="images\Copy of subnav_btn.gif" />
+    <Content Include="images\cross.png" />
+    <Content Include="images\delete_user.png" />
+    <Content Include="images\dockbar.png" />
+    <Content Include="images\dolphin_bg-ON.gif" />
+    <Content Include="images\dolphin_bg-OVER.gif" />
+    <Content Include="images\dolphin_bg.gif" />
+    <Content Include="images\dolphin_left-ON.gif" />
+    <Content Include="images\dolphin_right-ON.gif" />
+    <Content Include="images\dotted.gif" />
+    <Content Include="images\down.gif" />
+    <Content Include="images\download.jpg" />
+    <Content Include="images\dropdown_linkbg.gif" />
+    <Content Include="images\dropdown_linkbg1.gif" />
+    <Content Include="images\e-mail.png" />
+    <Content Include="images\early foundation.jpg" />
+    <Content Include="images\edit_profile.png" />
+    <Content Include="images\exit.png" />
+    <Content Include="images\expand_blue.jpg" />
+    <Content Include="images\f93204.jpg" />
+    <Content Include="images\fd9c03.jpg" />
+    <Content Include="images\footer.jpg" />
+    <Content Include="images\front.png" />
+    <Content Include="images\google_login.png" />
+    <Content Include="images\graduation.jpeg" />
+    <Content Include="images\graybg.png" />
+    <Content Include="images\h.gif" />
+    <Content Include="images\h2bg.gif" />
+    <Content Include="images\h3.jpg" />
+    <Content Include="images\h3bg.gif" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\headerbg.gif" />
+    <Content Include="images\heading.jpg" />
+    <Content Include="images\heading1.jpg" />
+    <Content Include="images\help.png" />
+    <Content Include="images\ico_cat.gif" />
+    <Content Include="images\ico_comments.gif" />
+    <Content Include="images\ico_date.gif" />
+    <Content Include="images\ico_list.gif" />
+    <Content Include="images\ico_user.gif" />
+    <Content Include="images\img.png" />
+    <Content Include="images\indicator-big.gif" />
+    <Content Include="images\input.gif" />
+    <Content Include="images\kwtrans.png" />
+    <Content Include="images\label.gif" />
+    <Content Include="images\left copy.png" />
+    <Content Include="images\Left.jpg" />
+    <Content Include="images\Left1.jpg" />
+    <Content Include="images\Left2.jpg" />
+    <Content Include="images\leftarrow.png" />
+    <Content Include="images\leftbg.jpg" />
+    <Content Include="images\li.gif" />
+    <Content Include="images\li.png" />
+    <Content Include="images\loadingAnimation.gif" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\loginbg.jpg" />
+    <Content Include="images\LOGO.gif" />
+    <Content Include="images\macFFBgHack.png" />
+    <Content Include="images\mainbg.jpg" />
+    <Content Include="images\mainheading.jpg" />
+    <Content Include="images\menu.gif" />
+    <Content Include="images\menubg.gif" />
+    <Content Include="images\menubg.png" />
+    <Content Include="images\menuhover.gif" />
+    <Content Include="images\middile copy.png" />
+    <Content Include="images\middile.jpg" />
+    <Content Include="images\middile1.jpg" />
+    <Content Include="images\middile2.jpg" />
+    <Content Include="images\more.gif" />
+    <Content Include="images\nav.gif" />
+    <Content Include="images\nav_hover.gif" />
+    <Content Include="images\newlogo.gif" />
+    <Content Include="images\note.png" />
+    <Content Include="images\paperdesignblue.jpg" />
+    <Content Include="images\progress.png" />
+    <Content Include="images\pt1_dwn.png" />
+    <Content Include="images\pt1_up.png" />
+    <Content Include="images\pt_dwn.gif" />
+    <Content Include="images\pt_up.gif" />
+    <Content Include="images\right copy.png" />
+    <Content Include="images\right.jpg" />
+    <Content Include="images\right1.jpg" />
+    <Content Include="images\right2.jpg" />
+    <Content Include="images\rightarrow.png" />
+    <Content Include="images\righttop.jpg" />
+    <Content Include="images\school logo.gif" />
+    <Content Include="images\searchbg.gif" />
+    <Content Include="images\select1.jpg" />
+    <Content Include="images\SelectedBack.jpg" />
+    <Content Include="images\slide.gif" />
+    <Content Include="images\smallbox.gif" />
+    <Content Include="images\smallboxtop.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\stdnt.png" />
+    <Content Include="images\stdnt1.png" />
+    <Content Include="images\stripe.gif" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\submitnew.gif" />
+    <Content Include="images\subnav_btn.gif" />
+    <Content Include="images\tanbg.png" />
+    <Content Include="images\timeicon.gif" />
+    <Content Include="images\top.jpg" />
+    <Content Include="images\topnav_bg.gif" />
+    <Content Include="images\topnav_bg1.gif" />
+    <Content Include="images\topnav_hover.gif" />
+    <Content Include="images\topnav_hover2.gif" />
+    <Content Include="images\topnav_hover3.gif" />
+    <Content Include="images\toprepeat.gif" />
+    <Content Include="images\TopStrip.jpg" />
+    <Content Include="images\TopStud.jpg" />
+    <Content Include="images\top_bar _original 2.gif" />
+    <Content Include="images\top_bar.gif" />
+    <Content Include="images\top_bar4.gif" />
+    <Content Include="images\top_barw.gif" />
+    <Content Include="images\top_barxscf.gif" />
+    <Content Include="images\top_bg.gif" />
+    <Content Include="images\up.gif" />
+    <Content Include="images\warning.png" />
+    <Content Include="images\webdesign.png" />
+    <Content Include="images\winceronsmalllogo.png" />
+    <Content Include="images\winerlogo.ico" />
+    <Content Include="images\winersmalllogo.png" />
+    <Content Include="images\winlogo.gif" />
+    <Content Include="js files\bootstrap-datepicker.js" />
+    <Content Include="js files\Bootstrap_v3.3.7.js" />
+    <Content Include="js files\Campusddaccordion.js" />
+    <Content Include="js files\Campusjquery.min.js" />
+    <Content Include="js files\Campusmenu.js" />
+    <Content Include="js files\ClassViewjquery.js" />
+    <Content Include="js files\clienDataProcessor.js" />
+    <Content Include="js files\config.js" />
+    <Content Include="js files\dataTableExport.js" />
+    <Content Include="js files\dataTables.js" />
+    <Content Include="js files\DockMenu.js" />
+    <Content Include="js files\DockSideMenu.js" />
+    <Content Include="js files\helpDocScript.js" />
+    <Content Include="js files\Imageslider-noplugin-withkeyboard.js" />
+    <Content Include="js files\ImageSliderjquery-1.4.2.min.js" />
+    <Content Include="js files\ImageSliderjquery.movingboxes.js" />
+    <Content Include="js files\ImageSliderjquery.movingboxes.min.js" />
+    <Content Include="js files\jquery-1.4.1.min.js" />
+    <Content Include="js files\jquery-1.4.4.min.js" />
+    <Content Include="js files\jquery-3.1.0.min.js" />
+    <Content Include="js files\jquery.hotkeys.js" />
+    <Content Include="js files\jquery.js" />
+    <Content Include="js files\jquery.min.js" />
+    <Content Include="js files\jquery.tools.min.js" />
+    <Content Include="js files\jQueryUI_v1.12.1.js" />
+    <Content Include="js files\jquery_v3.3.1.js" />
+    <Content Include="js files\knockout-3.3.0.js" />
+    <Content Include="js files\matirial_login.js" />
+    <Content Include="js files\menu.js" />
+    <Content Include="js files\metisMenu.min.js" />
+    <Content Include="js files\mobileMenu.js" />
+    <Content Include="js files\moment_v2.22.1.js" />
+    <Content Include="js files\offline.min.js" />
+    <Content Include="js files\OverlayScrollbars.min.js" />
+    <Content Include="js files\pace_ajax_loader.min.js" />
+    <Content Include="js files\RollNoListItem.js" />
+    <Content Include="js files\sb-admin-2.js" />
+    <Content Include="js files\Silverlight.js" />
+    <Content Include="js files\TableResponsive.js" />
+    <Content Include="js files\thickbox.js" />
+    <Content Include="js files\TimetableConfig.js" />
+    <Content Include="js files\toast.js" />
+    <Content Include="js files\ui.datepicker.min.js" />
+    <Content Include="js files\winermenuBlue.js" />
+    <Content Include="js files\winermenuOrange.js" />
+    <Content Include="js files\WINER_v5_Script.js" />
+    <Content Include="js_bootstrap\bootstrap.js" />
+    <Content Include="js_bootstrap\bootstrap.min.js" />
+    <Content Include="js_bootstrap\jquery.min.js" />
+    <Content Include="js_bootstrap\metisMenu.min.js" />
+    <Content Include="js_bootstrap\sb-admin-2.js" />
+    <Content Include="LoginErr.htm" />
+    <Content Include="Logout.aspx" />
+    <Content Include="obj\Debug\WinErParentLogin.csproj.FileListAbsolute.txt" />
+    <Content Include="OpenPdfPage.aspx" />
+    <Content Include="PDF_Files\Image\reportcard.png" />
+    <Content Include="PDF_Files\Image\school.png" />
+    <Content Include="PDF_Files\Image\Schoollogo.png" />
+    <Content Include="PDF_Files\Image\stdnt.png" />
+    <Content Include="PDF_Files\Image\studentstampicon.png" />
+    <Content Include="Pics\3D_cube.gif" />
+    <Content Include="Pics\917177009.png" />
+    <Content Include="Pics\accept.png" />
+    <Content Include="Pics\accept_page.png" />
+    <Content Include="Pics\add.png" />
+    <Content Include="Pics\add_female_user.png" />
+    <Content Include="Pics\add_page.png" />
+    <Content Include="Pics\add_to_folder.png" />
+    <Content Include="Pics\attachment.png" />
+    <Content Include="Pics\Attendance.png" />
+    <Content Include="Pics\back.png" />
+    <Content Include="Pics\block.png" />
+    <Content Include="Pics\book.png" />
+    <Content Include="Pics\bookgreen.png" />
+    <Content Include="Pics\book_accept.png" />
+    <Content Include="Pics\book_download.png" />
+    <Content Include="Pics\book_search.png" />
+    <Content Include="Pics\book_warning.png" />
+    <Content Include="Pics\bottom.png" />
+    <Content Include="Pics\bottomorange.gif" />
+    <Content Include="Pics\Bus.png" />
+    <Content Include="Pics\business_user.png" />
+    <Content Include="Pics\calendar.png" />
+    <Content Include="Pics\calendar_empty.png" />
+    <Content Include="Pics\certificate.png" />
+    <Content Include="Pics\chart.png" />
+    <Content Include="Pics\chart_pie.png" />
+    <Content Include="Pics\Class.png" />
+    <Content Include="Pics\clock.png" />
+    <Content Include="Pics\comment.png" />
+    <Content Include="Pics\comments.png" />
+    <Content Include="Pics\configure1.png" />
+    <Content Include="Pics\currencygreen.png" />
+    <Content Include="Pics\currency_dollargreen.png" />
+    <Content Include="Pics\cut.png" />
+    <Content Include="Pics\default_user_icon.jpg" />
+    <Content Include="Pics\DeleteRed.png" />
+    <Content Include="Pics\delete_folder.png" />
+    <Content Include="Pics\delete_folderqq.png" />
+    <Content Include="Pics\delete_page.png" />
+    <Content Include="Pics\Details.png" />
+    <Content Include="Pics\dollar.png" />
+    <Content Include="Pics\download.png" />
+    <Content Include="Pics\Draft.png" />
+    <Content Include="Pics\edit student.png" />
+    <Content Include="Pics\edit.png" />
+    <Content Include="Pics\EdtPen.jpg" />
+    <Content Include="Pics\email-icon.gif" />
+    <Content Include="Pics\envelope_icon.jpg" />
+    <Content Include="Pics\evolution-tasks.png" />
+    <Content Include="Pics\Exam.png" />
+    <Content Include="Pics\Excel-icon.png" />
+    <Content Include="Pics\Excel.png" />
+    <Content Include="Pics\fileimport.png" />
+    <Content Include="Pics\folder.png" />
+    <Content Include="Pics\folder11.png" />
+    <Content Include="Pics\folder_accept.png" />
+    <Content Include="Pics\folder_full.png" />
+    <Content Include="Pics\folder_up.png" />
+    <Content Include="Pics\full_page.png" />
+    <Content Include="Pics\full_page1.png" />
+    <Content Include="Pics\group.png" />
+    <Content Include="Pics\hand.png" />
+    <Content Include="Pics\help.png" />
+    <Content Include="Pics\home.png" />
+    <Content Include="Pics\home1.png" />
+    <Content Include="Pics\home2.png" />
+    <Content Include="Pics\home3.png" />
+    <Content Include="Pics\home4.png" />
+    <Content Include="Pics\HomeIcon.jpg" />
+    <Content Include="Pics\iconbe6.png" />
+    <Content Include="Pics\icon_hosting_medium.png" />
+    <Content Include="Pics\icon_mail_medium.png" />
+    <Content Include="Pics\icon_pic.png" />
+    <Content Include="Pics\image_icon.png" />
+    <Content Include="Pics\img.png" />
+    <Content Include="Pics\img12.jpeg" />
+    <Content Include="Pics\IncedenceRating.png" />
+    <Content Include="Pics\info.png" />
+    <Content Include="Pics\ip_icon_03_MailSend.png" />
+    <Content Include="Pics\key.png" />
+    <Content Include="Pics\left.png" />
+    <Content Include="Pics\leftbottom.png" />
+    <Content Include="Pics\leftorange.gif" />
+    <Content Include="Pics\lefttop.png" />
+    <Content Include="Pics\link.png" />
+    <Content Include="Pics\lock.png" />
+    <Content Include="Pics\mail.png" />
+    <Content Include="Pics\mail1.png" />
+    <Content Include="Pics\mail2.png" />
+    <Content Include="Pics\mail_icon.231151327_std.JPG" />
+    <Content Include="Pics\mail_lock.png" />
+    <Content Include="Pics\mail_receive.png" />
+    <Content Include="Pics\mail_search.png" />
+    <Content Include="Pics\mail_send.png" />
+    <Content Include="Pics\mail_send1.png" />
+    <Content Include="Pics\Manage.png" />
+    <Content Include="Pics\Misc-Box.png" />
+    <Content Include="Pics\new_page.png" />
+    <Content Include="Pics\next.png" />
+    <Content Include="Pics\orange-folder-image.png" />
+    <Content Include="Pics\page.png" />
+    <Content Include="Pics\page_accept.png" />
+    <Content Include="Pics\page_down.png" />
+    <Content Include="Pics\page_process.png" />
+    <Content Include="Pics\page_process1.png" />
+    <Content Include="Pics\page_process2.png" />
+    <Content Include="Pics\page_remove.png" />
+    <Content Include="Pics\page_up.png" />
+    <Content Include="Pics\payment.jpg" />
+    <Content Include="Pics\payment1.jpg" />
+    <Content Include="Pics\play buttons\black_ffw.png" />
+    <Content Include="Pics\play buttons\black_ffw1.png" />
+    <Content Include="Pics\play buttons\black_first.png" />
+    <Content Include="Pics\play buttons\black_first1.png" />
+    <Content Include="Pics\play buttons\black_last.png" />
+    <Content Include="Pics\play buttons\black_last1.png" />
+    <Content Include="Pics\play buttons\black_play.png" />
+    <Content Include="Pics\play buttons\black_play1.png" />
+    <Content Include="Pics\play buttons\black_rew.png" />
+    <Content Include="Pics\play buttons\black_rew1.png" />
+    <Content Include="Pics\play buttons\black_stop.png" />
+    <Content Include="Pics\play buttons\black_stop1.png" />
+    <Content Include="Pics\play buttons\blue_play.png" />
+    <Content Include="Pics\play buttons\blue_play1.png" />
+    <Content Include="Pics\Points red.png" />
+    <Content Include="Pics\Points.png" />
+    <Content Include="Pics\Points1.png" />
+    <Content Include="Pics\process.png" />
+    <Content Include="Pics\process_accept.png" />
+    <Content Include="Pics\promotion.png" />
+    <Content Include="Pics\protection.png" />
+    <Content Include="Pics\Rating red.png" />
+    <Content Include="Pics\Rating.png" />
+    <Content Include="Pics\Rating1.png" />
+    <Content Include="Pics\recycle_bin.png" />
+    <Content Include="Pics\refresh.png" />
+    <Content Include="Pics\refreshqw.png" />
+    <Content Include="Pics\right.png" />
+    <Content Include="Pics\rightbottom.png" />
+    <Content Include="Pics\rightorange.gif" />
+    <Content Include="Pics\righttop.png" />
+    <Content Include="Pics\rss.png" />
+    <Content Include="Pics\save.png" />
+    <Content Include="Pics\save1.png" />
+    <Content Include="Pics\search_female_user.png" />
+    <Content Include="Pics\search_page.png" />
+    <Content Include="Pics\send_mail.png" />
+    <Content Include="Pics\sessionout.png" />
+    <Content Include="Pics\she_user.png" />
+    <Content Include="Pics\SMS.png" />
+    <Content Include="Pics\Standard-Man-User.png" />
+    <Content Include="Pics\Standard-Woman-User.png" />
+    <Content Include="Pics\Student Female.png" />
+    <Content Include="Pics\Student Male.png" />
+    <Content Include="Pics\Student Total.png" />
+    <Content Include="Pics\tablet.png" />
+    <Content Include="Pics\tag_blue.png" />
+    <Content Include="Pics\tag_green.png" />
+    <Content Include="Pics\text_page.png" />
+    <Content Include="Pics\timetable.gif" />
+    <Content Include="Pics\top.png" />
+    <Content Include="Pics\toporange.gif" />
+    <Content Include="Pics\unlock.png" />
+    <Content Include="Pics\upload.png" />
+    <Content Include="Pics\user1.png" />
+    <Content Include="Pics\user12.png" />
+    <Content Include="Pics\user2.png" />
+    <Content Include="Pics\user3.png" />
+    <Content Include="Pics\user4.png" />
+    <Content Include="Pics\user5.png" />
+    <Content Include="Pics\user51.png" />
+    <Content Include="Pics\user6.png" />
+    <Content Include="Pics\user7.png" />
+    <Content Include="Pics\user9.png" />
+    <Content Include="Pics\users-green.png" />
+    <Content Include="Pics\users-grey.png" />
+    <Content Include="Pics\users11.png" />
+    <Content Include="Pics\video.jpg" />
+    <Content Include="Pics\ViewPdf.png" />
+    <Content Include="Pics\warning.png" />
+    <Content Include="pslogindesign\headerbg.jpg" />
+    <Content Include="pslogindesign\loginbg.jpg" />
+    <Content Include="pslogindesign\psloginhomeimage.jpg" />
+    <Content Include="pslogindesign\psloginhomeimage33.jpg" />
+    <Content Include="pslogindesign\schoollogo.jpg" />
+    <Content Include="sectionerr.htm" />
+    <Content Include="SessionRedirect.htm" />
+    <Content Include="StaffAttendanceReport.aspx" />
+    <Content Include="StudentAttendReportNew.aspx" />
+    <Content Include="StudentDetails.aspx" />
+    <Content Include="StudentPerform.aspx" />
+    <Content Include="StudExamReport.aspx" />
+    <Content Include="SurveyAnswer.aspx" />
+    <Content Include="StudentArea.aspx" />
+    <Content Include="ViewStudFeeDetails.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebControls\ManageStudentControl.ascx" />
+    <Content Include="WebControls\MsgBoxControl.ascx" />
+    <Content Include="winbuttons\add.gif" />
+    <Content Include="winbuttons\add.png" />
+    <Content Include="winbuttons\add1.gif" />
+    <Content Include="winbuttons\addb.gif" />
+    <Content Include="winbuttons\btn_right.png" />
+    <Content Include="winbuttons\cancel.gif" />
+    <Content Include="winbuttons\cancel.png" />
+    <Content Include="winbuttons\cancel1.gif" />
+    <Content Include="winbuttons\cancelb.gif" />
+    <Content Include="winbuttons\edit.gif" />
+    <Content Include="winbuttons\edit1.gif" />
+    <Content Include="winbuttons\editb.gif" />
+    <Content Include="winbuttons\excel.gif" />
+    <Content Include="winbuttons\excel.png" />
+    <Content Include="winbuttons\excel1.gif" />
+    <Content Include="winbuttons\excelb.gif" />
+    <Content Include="winbuttons\Ok.gif" />
+    <Content Include="winbuttons\ok.png" />
+    <Content Include="winbuttons\Ok1.gif" />
+    <Content Include="winbuttons\Okb.gif" />
+    <Content Include="winbuttons\remove.gif" />
+    <Content Include="winbuttons\remove.png" />
+    <Content Include="winbuttons\remove1.gif" />
+    <Content Include="winbuttons\removeb.gif" />
+    <Content Include="winbuttons\save.gif" />
+    <Content Include="winbuttons\save.png" />
+    <Content Include="winbuttons\save1.gif" />
+    <Content Include="winbuttons\saveb.gif" />
+    <Content Include="winbuttons\search.gif" />
+    <Content Include="winbuttons\search.png" />
+    <Content Include="winbuttons\search1.gif" />
+    <Content Include="winbuttons\searchb.gif" />
+    <Content Include="winbuttons\submit.gif" />
+    <Content Include="winbuttons\submit1.gif" />
+    <Content Include="winbuttons\submitb.gif" />
+    <Content Include="WinErWebService.asmx" />
+    <Content Include="Win_Round_Div\NormalDivGray\bottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\cgray1.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\left.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\leftbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\lefttop.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\right.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\rightbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\righttop.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\smallboxmiddile.jpg" />
+    <Content Include="Win_Round_Div\NormalDivGray\top.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\bottomorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\leftbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\leftorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\lefttop.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\middle.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\rightbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\rightorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\righttop.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\toporange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppWebServices\StudentDataService.asmx.cs">
+      <DependentUpon>StudentDataService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Content Include="App_Code\DocumentUpload.cs" />
+    <Content Include="App_Code\ExcelUtility.cs" />
+    <Content Include="App_Code\FeeScheduleReportPdf.cs" />
+    <Content Include="App_Code\Pdf.cs" />
+    <Content Include="App_Code\TCpdf.cs" />
+    <Content Include="App_Code\TimeTableReportPdf.cs" />
+    <Compile Include="ChangeStudentPassword.aspx.cs">
+      <DependentUpon>ChangeStudentPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangeStudentPassword.aspx.designer.cs">
+      <DependentUpon>ChangeStudentPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamReportPdf.cs" />
+    <Compile Include="FeeBillNew.aspx.cs">
+      <DependentUpon>FeeBillNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeBillNew.aspx.designer.cs">
+      <DependentUpon>FeeBillNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GroupApplicationFrom.aspx.cs">
+      <DependentUpon>GroupApplicationFrom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GroupApplicationFrom.aspx.designer.cs">
+      <DependentUpon>GroupApplicationFrom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ImageReturnHandler.ashx.cs">
+      <DependentUpon>ImageReturnHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageUploaderClass.cs" />
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenPdfPage.aspx.cs">
+      <DependentUpon>OpenPdfPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenPdfPage.aspx.designer.cs">
+      <DependentUpon>OpenPdfPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pdf.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffAttendanceReport.aspx.cs">
+      <DependentUpon>StaffAttendanceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffAttendanceReport.aspx.designer.cs">
+      <DependentUpon>StaffAttendanceReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAttendReportNew.aspx.cs">
+      <DependentUpon>StudentAttendReportNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAttendReportNew.aspx.designer.cs">
+      <DependentUpon>StudentAttendReportNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentDetails.aspx.cs">
+      <DependentUpon>StudentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentDetails.aspx.designer.cs">
+      <DependentUpon>StudentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPerform.aspx.cs">
+      <DependentUpon>StudentPerform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPerform.aspx.designer.cs">
+      <DependentUpon>StudentPerform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudExamReport.aspx.cs">
+      <DependentUpon>StudExamReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudExamReport.aspx.designer.cs">
+      <DependentUpon>StudExamReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SurveyAnswer.aspx.cs">
+      <DependentUpon>SurveyAnswer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SurveyAnswer.aspx.designer.cs">
+      <DependentUpon>SurveyAnswer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentArea.aspx.cs">
+      <DependentUpon>StudentArea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentArea.aspx.designer.cs">
+      <DependentUpon>StudentArea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewStudFeeDetails.aspx.cs">
+      <DependentUpon>ViewStudFeeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewStudFeeDetails.aspx.designer.cs">
+      <DependentUpon>ViewStudFeeDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControls\ManageStudentControl.ascx.cs">
+      <DependentUpon>ManageStudentControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\ManageStudentControl.ascx.designer.cs">
+      <DependentUpon>ManageStudentControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControls\MsgBoxControl.ascx.cs">
+      <DependentUpon>MsgBoxControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\MsgBoxControl.ascx.designer.cs">
+      <DependentUpon>MsgBoxControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WinErStudentMaster.master.cs">
+      <DependentUpon>WinErStudentMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WinErStudentMaster.master.designer.cs">
+      <DependentUpon>WinErStudentMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="WinErWebService.asmx.cs">
+      <DependentUpon>WinErWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\AdminTheme\AdminTheme.skin" />
+    <Content Include="App_Themes\AdminTheme\Images\PhotoshopNative\YahooSprite.psd" />
+    <None Include="bin\DotNetOpenAuth.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="css files\navbar.less" />
+    <Content Include="css_bootstrap\fontawesome-webfont.woff2" />
+    <Content Include="elements\skin1\Thumbs.db" />
+    <Content Include="elements\skin5\Thumbs.db" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Handler\ImageReturnHandler.ashx" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <Content Include="PDF_Files\ICSEGrade_Class_Stud_Id_632.pdf" />
+    <Content Include="UpImage\StuMarkReport_V STD- STATE.pdf" />
+    <Content Include="js files\ImageSliderjquery.movingboxes.min.js.map" />
+    <Content Include="css files\Bootstrap_v3.3.7.map" />
+    <Content Include="css files\PreloaderstyleV5.css.map" />
+    <Content Include="css files\PreloaderstyleV5.scss" />
+    <Content Include="config\scool360\favicons\README.md" />
+    <Content Include="config\scool360\favicons\site.webmanifest" />
+    <Content Include="config\scool360\manifest.json" />
+    <Content Include="config\winer\favicons\README.md" />
+    <Content Include="config\winer\favicons\site.webmanifest" />
+    <Content Include="config\winer\manifest.json" />
+    <Content Include="config\winer\README.md" />
+    <Content Include="config\winer\site.webmanifest" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="WinErStudentMaster.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinBase\WinBase.csproj">
+      <Project>{3eb0ae6c-e1f7-47c2-8724-0bc591a4be98}</Project>
+      <Name>WinBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinEr\WinEr.csproj">
+      <Project>{BBA5CA9A-C8D6-44AF-85FD-6EEEC19905DB}</Project>
+      <Name>WinEr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\ar\" />
+    <Folder Include="bin\css files\" />
+    <Folder Include="bin\cs\" />
+    <Folder Include="bin\de\" />
+    <Folder Include="bin\es\" />
+    <Folder Include="bin\fr\" />
+    <Folder Include="bin\he\" />
+    <Folder Include="bin\hi\" />
+    <Folder Include="bin\it\" />
+    <Folder Include="bin\ja\" />
+    <Folder Include="bin\js files\" />
+    <Folder Include="bin\ko\" />
+    <Folder Include="bin\nl\" />
+    <Folder Include="bin\pt\" />
+    <Folder Include="bin\ru\" />
+    <Folder Include="bin\tr-TR\" />
+    <Folder Include="bin\zh-CHS\" />
+    <Folder Include="bin\zh-CHT\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="PDF_Files\TempImg\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7542</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:7337/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

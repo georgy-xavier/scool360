@@ -1,0 +1,83 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="AdminHomeMaster" Codebehind="AdminHomeMaster.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Adminstrator</title>
+    <link rel="stylesheet" type="text/css" href="css files/adminstyle.css" media="screen"/>
+     <link rel="stylesheet" href="css files/StyleSheet.css" type="text/css" />
+    <link rel='stylesheet' type='text/css' href='css files/menu_styles.css'/>
+<script type='text/javascript' src='js files/menu.js'></script>
+</head>
+<body style="margin: 0 10%;">
+    <form id="form1" runat="server">
+    
+    <!-- default margin = default layout -->
+
+<div class="container">
+
+	<div class="header">
+		<a href="#"><span>Administrator</span></a>
+	</div>
+<span class="right"><a style="color:#BBB" href="Logout.aspx">SignOut</a></span>
+<br/>
+	<div class="stripes"><span></span></div>
+	
+	<ul id="qm0" class="qmmc">
+
+	<li><a href="AdminHome.aspx" title="Admin Home">Home</a></li>
+
+	<li><a class="qmparent" href="CreateGroup.aspx">Group</a>
+
+		<ul>
+		<li><a href="CreateGroup.aspx">Create Group</a></li>
+		<li><a href="ManageGroup.aspx">Manage Group</a></li>
+		<li><a href="DeleteGroup.aspx">Delete Group</a></li>
+		<li><a href="AddMembers.aspx">Manage Members</a></li>
+		</ul></li>
+
+	  <li><a class="qmparent" href="CreateRole.aspx">Role</a>
+
+		<ul>
+		<li><a href="CreateRole.aspx">Create Role</a></li>
+		<li><a href="ManageRole.aspx">Manage Role</a></li>
+		<li><a href="DeleteRole.aspx">Delete Role</a></li>
+		</ul></li>
+			<li><a class="qmparent" href="javascript:void(0)">User</a>
+
+		<ul>
+		<li><a href="CreateUser.aspx">Create User</a></li>
+		<li><a href="ManageUser.aspx">Manage User</a></li>
+		</ul></li>
+
+	
+
+<li class="qmclear">&nbsp;</li></ul>
+
+<!-- Create Menu Settings: (Menu ID, Is Vertical, Show Timer, Hide Timer, On Click (options: 'all' * 'all-always-open' * 'main' * 'lev2'), Right to Left, Horizontal Subs, Flush Left, Flush Top) -->
+<script type="text/javascript">qm_create(0,false,0,500,false,false,false,false,false);</script>
+
+	<div class="stripes"><span></span></div>
+
+	<div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+
+<div class="footer">
+			<div class="bottom">
+				
+				<span class="left">&copy; <a href="http://www.winceron.com">2009 Winceron Software Technologies Pvt Ltd.</a></span>
+
+	            <div class="clearer"><span></span></div>
+
+			</div>
+
+	</div>
+
+</div>
+    
+    </form>
+</body>
+</html>

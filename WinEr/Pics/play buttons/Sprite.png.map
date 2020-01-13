@@ -1,0 +1,123 @@
+{
+  "images": [
+    {
+      "name": "/Pics/play buttons/back.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/Pics/play buttons/back1.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 258
+    },
+    {
+      "name": "/Pics/play buttons/black-play.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 323
+    },
+    {
+      "name": "/Pics/play buttons/black-play1.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 580
+    },
+    {
+      "name": "/Pics/play buttons/black_ffw.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 645
+    },
+    {
+      "name": "/Pics/play buttons/black_first.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 774
+    },
+    {
+      "name": "/Pics/play buttons/black_last.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 903
+    },
+    {
+      "name": "/Pics/play buttons/black_play.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 1032
+    },
+    {
+      "name": "/Pics/play buttons/black_rew.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 1161
+    },
+    {
+      "name": "/Pics/play buttons/black_stop.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 1290
+    },
+    {
+      "name": "/Pics/play buttons/blue_play.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 1419
+    },
+    {
+      "name": "/Pics/play buttons/next.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 1548
+    },
+    {
+      "name": "/Pics/play buttons/next1.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 1805
+    },
+    {
+      "name": "/Pics/play buttons/play-button.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 1870
+    },
+    {
+      "name": "/Pics/play buttons/play-button1.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 2127
+    },
+    {
+      "name": "/Pics/play buttons/stop.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 2192
+    },
+    {
+      "name": "/Pics/play buttons/stop1.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 2449
+    }
+  ]
+}

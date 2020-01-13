@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Georgy\Desktop\portal publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/23/2016 17:19:48</publishTime>
+    </File>
+    <File Include="bin/DayPilot.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/GemBox.Spreadsheet.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/MigraDoc.DocumentObjectModel.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/MigraDoc.Rendering.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.Net35.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/PdfSharp.Charting.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/PdfSharp.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/StringParser.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/WebChart.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/WebResourceProvider.dll">
+      <publishTime>02/23/2016 17:19:38</publishTime>
+    </File>
+    <File Include="bin/WinBase.dll">
+      <publishTime>06/12/2017 11:27:56</publishTime>
+    </File>
+    <File Include="bin/WinEr.dll">
+      <publishTime>06/13/2017 11:11:19</publishTime>
+    </File>
+    <File Include="bin/Winer.Portal.dll">
+      <publishTime>06/14/2017 14:12:15</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>06/02/2017 23:18:04</publishTime>
+    </File>
+    <File Include="css files/adminstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/allotment.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/BlueLoginstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/Bluemenu.css">
+      <publishTime>02/23/2016 17:19:00</publishTime>
+    </File>
+    <File Include="css files/Bluestyle.css">
+      <publishTime>10/19/2016 14:26:16</publishTime>
+    </File>
+    <File Include="css files/campusstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/ContentSlide.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/custom.css">
+      <publishTime>05/03/2017 18:17:10</publishTime>
+    </File>
+    <File Include="css files/DockMenuStyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/DockSideMenu.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/flora.datepicker.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/font-awesome.min.css">
+      <publishTime>10/19/2016 16:23:10</publishTime>
+    </File>
+    <File Include="css files/ImageSliderstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/jquery.bxslider.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/Loginstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/MasterStyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/material.min.css">
+      <publishTime>05/30/2017 16:57:08</publishTime>
+    </File>
+    <File Include="css files/materialicons.css">
+      <publishTime>05/29/2017 16:21:06</publishTime>
+    </File>
+    <File Include="css files/mbContainer.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/menu_styles.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/navbar.less">
+      <publishTime>08/16/2016 14:08:54</publishTime>
+    </File>
+    <File Include="css files/NewLoginStyle.css">
+      <publishTime>12/01/2016 16:36:50</publishTime>
+    </File>
+    <File Include="css files/NewMenustyles.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/Orangemenu.css">
+      <publishTime>02/23/2016 17:19:00</publishTime>
+    </File>
+    <File Include="css files/Orangestyle.css">
+      <publishTime>08/15/2016 15:15:14</publishTime>
+    </File>
+    <File Include="css files/PopupcssMaster.css">
+      <publishTime>02/23/2016 17:19:00</publishTime>
+    </File>
+    <File Include="css files/StyleSheet.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/TabStyleSheet.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/thickbox.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/ui.datepicker.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/whitetheme.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/winbuttonstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/winbuttonstyleblue.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/winroundbox.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css files/wschoolstyle.css">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="css/main.css">
+      <publishTime>05/04/2017 15:10:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/angular-wizard.min.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/awesome-bootstrap-checkbox.css">
+      <publishTime>03/24/2017 14:35:28</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap-responsive.min.css">
+      <publishTime>05/08/2017 17:42:16</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.css">
+      <publishTime>05/08/2017 18:13:10</publishTime>
+    </File>
+    <File Include="css_bootstrap/bootstrap.min.css">
+      <publishTime>06/02/2017 17:48:34</publishTime>
+    </File>
+    <File Include="css_bootstrap/buttonLoader.css">
+      <publishTime>08/01/2016 09:49:40</publishTime>
+    </File>
+    <File Include="css_bootstrap/checkbox.css">
+      <publishTime>03/24/2017 14:32:46</publishTime>
+    </File>
+    <File Include="css_bootstrap/custom.min.css">
+      <publishTime>04/26/2017 16:55:54</publishTime>
+    </File>
+    <File Include="css_bootstrap/datepicker.css">
+      <publishTime>03/01/2017 11:40:24</publishTime>
+    </File>
+    <File Include="css_bootstrap/font-awesome.css">
+      <publishTime>04/21/2017 17:11:46</publishTime>
+    </File>
+    <File Include="css_bootstrap/font-awesome.min.css">
+      <publishTime>04/21/2017 17:23:14</publishTime>
+    </File>
+    <File Include="css_bootstrap/fontawesome-webfont.woff2">
+      <publishTime>04/21/2017 16:57:54</publishTime>
+    </File>
+    <File Include="css_bootstrap/form-elements.css">
+      <publishTime>05/30/2017 17:11:02</publishTime>
+    </File>
+    <File Include="css_bootstrap/icons.css">
+      <publishTime>05/04/2017 17:18:10</publishTime>
+    </File>
+    <File Include="css_bootstrap/ladda.css">
+      <publishTime>05/09/2017 13:48:20</publishTime>
+    </File>
+    <File Include="css_bootstrap/loading-bar.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/loginstyle.css">
+      <publishTime>05/30/2017 17:21:04</publishTime>
+    </File>
+    <File Include="css_bootstrap/metisMenu.min.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/morris.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/portal.css">
+      <publishTime>05/25/2017 15:41:56</publishTime>
+    </File>
+    <File Include="css_bootstrap/sb-admin-2.css">
+      <publishTime>05/30/2017 20:57:56</publishTime>
+    </File>
+    <File Include="css_bootstrap/site.min.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="css_bootstrap/social-network social-circle.css">
+      <publishTime>10/21/2016 16:58:44</publishTime>
+    </File>
+    <File Include="css_bootstrap/social-share-kit.css">
+      <publishTime>10/24/2016 11:29:06</publishTime>
+    </File>
+    <File Include="css_bootstrap/style.css">
+      <publishTime>05/30/2017 20:42:38</publishTime>
+    </File>
+    <File Include="css_bootstrap/timeline.css">
+      <publishTime>12/17/2015 15:24:48</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>06/13/2017 17:40:54</publishTime>
+    </File>
+    <File Include="FeeReport.aspx">
+      <publishTime>06/13/2017 17:40:04</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>04/21/2017 17:29:48</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>04/21/2017 17:30:18</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>04/21/2017 17:30:22</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>02/28/2017 14:28:36</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>04/21/2017 17:29:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/28/2017 14:19:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/28/2017 14:30:18</publishTime>
+    </File>
+    <File Include="img/Loading_icon.gif">
+      <publishTime>06/04/2017 17:24:34</publishTime>
+    </File>
+    <File Include="js files/jquery-1.4.1.min.js">
+      <publishTime>08/16/2016 12:17:50</publishTime>
+    </File>
+    <File Include="js files/jquery-1.4.4.min.js">
+      <publishTime>02/23/2016 17:19:06</publishTime>
+    </File>
+    <File Include="js files/jquery-3.1.0.min.js">
+      <publishTime>08/16/2016 13:23:36</publishTime>
+    </File>
+    <File Include="js files/jquery-3.2.1.min.js">
+      <publishTime>05/03/2017 13:58:48</publishTime>
+    </File>
+    <File Include="js files/jquery.bxslider.js">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="js files/jquery.fitvids.js">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="js files/jquery.hotkeys.js">
+      <publishTime>02/23/2016 17:19:46</publishTime>
+    </File>
+    <File Include="js files/knockout-3.3.0.js">
+      <publishTime>02/23/2016 17:19:08</publishTime>
+    </File>
+    <File Include="js files/material.min.js">
+      <publishTime>05/29/2017 17:22:34</publishTime>
+    </File>
+    <File Include="js files/Silverlight.js">
+      <publishTime>02/23/2016 17:19:08</publishTime>
+    </File>
+    <File Include="js files/thickbox.js">
+      <publishTime>02/23/2016 17:19:08</publishTime>
+    </File>
+    <File Include="js files/ui.datepicker.min.js">
+      <publishTime>02/23/2016 17:19:06</publishTime>
+    </File>
+    <File Include="js/api-module.js">
+      <publishTime>03/29/2017 11:53:48</publishTime>
+    </File>
+    <File Include="js/bootstrap-datepicker.js">
+      <publishTime>03/01/2017 11:43:12</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>08/16/2016 13:39:34</publishTime>
+    </File>
+    <File Include="js/config.js">
+      <publishTime>03/29/2017 11:58:36</publishTime>
+    </File>
+    <File Include="js/dashboard.js">
+      <publishTime>06/09/2017 13:02:26</publishTime>
+    </File>
+    <File Include="js/feecollection-report.js">
+      <publishTime>06/09/2017 13:24:00</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.3.min.js">
+      <publishTime>05/09/2017 15:03:52</publishTime>
+    </File>
+    <File Include="js/jquery-3.1.0.min.js">
+      <publishTime>08/16/2016 13:23:36</publishTime>
+    </File>
+    <File Include="js/jquery.buttonLoader.js">
+      <publishTime>08/01/2016 09:49:40</publishTime>
+    </File>
+    <File Include="js/jquery.buttonLoader.min.js">
+      <publishTime>08/01/2016 09:49:40</publishTime>
+    </File>
+    <File Include="js/jquery.js">
+      <publishTime>02/23/2016 17:19:08</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>12/17/2015 15:24:52</publishTime>
+    </File>
+    <File Include="js/jquery.tools.min.js">
+      <publishTime>02/23/2016 17:19:06</publishTime>
+    </File>
+    <File Include="js/ladda.min.js">
+      <publishTime>05/09/2017 13:47:20</publishTime>
+    </File>
+    <File Include="js/schoollist.js">
+      <publishTime>05/30/2017 14:27:20</publishTime>
+    </File>
+    <File Include="js/staff-report.js">
+      <publishTime>06/09/2017 14:05:42</publishTime>
+    </File>
+    <File Include="js/student-report.js">
+      <publishTime>06/09/2017 13:11:08</publishTime>
+    </File>
+    <File Include="js_bootstrap/bootstrap.js">
+      <publishTime>07/25/2016 15:53:28</publishTime>
+    </File>
+    <File Include="js_bootstrap/bootstrap.min.js">
+      <publishTime>05/25/2017 20:49:56</publishTime>
+    </File>
+    <File Include="js_bootstrap/jquery.min.js">
+      <publishTime>12/17/2015 15:24:52</publishTime>
+    </File>
+    <File Include="js_bootstrap/metisMenu.min.js">
+      <publishTime>12/17/2015 15:24:52</publishTime>
+    </File>
+    <File Include="js_bootstrap/sb-admin-2.js">
+      <publishTime>12/17/2015 15:24:52</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>06/05/2017 01:59:44</publishTime>
+    </File>
+    <File Include="Schoollist.aspx">
+      <publishTime>06/02/2017 17:11:46</publishTime>
+    </File>
+    <File Include="sectionerr.htm">
+      <publishTime>05/29/2017 10:54:32</publishTime>
+    </File>
+    <File Include="StaffReport.aspx">
+      <publishTime>06/13/2017 17:40:28</publishTime>
+    </File>
+    <File Include="StudentReport.aspx">
+      <publishTime>06/13/2017 17:39:30</publishTime>
+    </File>
+    <File Include="UserManagement.aspx">
+      <publishTime>06/07/2017 17:24:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/14/2017 13:53:58</publishTime>
+    </File>
+    <File Include="WinerPortalMaster.Master">
+      <publishTime>06/13/2017 17:39:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

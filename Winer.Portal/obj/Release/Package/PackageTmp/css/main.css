@@ -1,0 +1,68 @@
+﻿body {
+}
+.box{
+    width: 300px;
+    border: 1px solid grey;
+    height: 60px;
+}
+.main-text{
+    text-align:center;   
+}
+.sub-text{
+    width: 50%;
+    float:left
+}
+
+.ux-table{
+    width:100%;
+}
+
+@media only screen and (max-width: 700px) {
+	
+	/* Force table to not be like tables anymore */
+	.ux-table table, 
+	.ux-table thead, 
+	.ux-table tbody, 
+	.ux-table th, 
+	.ux-table td, 
+	.ux-table tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.ux-table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	.ux-table tr { border: 1px solid #ccc; }
+ 
+	.ux-table td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	.ux-table td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	.ux-table td:before { content: attr(data-title); }
+}

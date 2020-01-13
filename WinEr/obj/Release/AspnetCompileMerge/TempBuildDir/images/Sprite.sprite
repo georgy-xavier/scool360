@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/sprite.xsd">
+  <settings>
+    <!--Determines if the sprite image should be automatically optimized after creation/update.-->
+    <optimize>true</optimize>
+    <!--Determines the orientation of images to form this sprite. The value must be vertical or horizontal.-->
+    <orientation>vertical</orientation>
+    <!--The margin (in pixel) around and between the constituent images.-->
+    <margin>1</margin>
+    <!--File extension of sprite image.-->
+    <outputType>jpg</outputType>
+    <!--Determine whether to generate/re-generate this sprite on building the solution.-->
+    <runOnBuild>false</runOnBuild>
+    <!--Use full path to generate unique class or mixin name in CSS, LESS and SASS files. Consider disabling this if you want class names to be filename only.-->
+    <fullPathForIdentifierName>true</fullPathForIdentifierName>
+    <!--Use absolute path in the generated CSS-like files. By default, the URLs are relative to sprite image file (and the location of CSS, LESS and SCSS).-->
+    <useAbsoluteUrl>false</useAbsoluteUrl>
+    <!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectory />
+    <!--Specifies a custom subfolder to save CSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForCss />
+    <!--Specifies a custom subfolder to save LESS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForLess />
+    <!--Specifies a custom subfolder to save SCSS files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+    <outputDirectoryForScss />
+  </settings>
+  <!--The order of the <file> elements determines the order of the images in the sprite.-->
+  <files>
+    <file>/images/0277fb.jpg</file>
+    <file>/images/04fd3f.jpg</file>
+    <file>/images/87888a.jpg</file>
+    <file>/images/accept.png</file>
+    <file>/images/accept1.png</file>
+    <file>/images/accordinhead.png</file>
+    <file>/images/af03ff.jpg</file>
+    <file>/images/arrow.gif</file>
+    <file>/images/arrow1.gif</file>
+    <file>/images/arrow_10.gif</file>
+    <file>/images/arrow_5.gif</file>
+    <file>/images/arrow_7.gif</file>
+    <file>/images/back.png</file>
+    <file>/images/bar.gif</file>
+    <file>/images/bell-boy.png</file>
+    <file>/images/bg-feed.gif</file>
+    <file>/images/bg-menu.png</file>
+    <file>/images/bg-sidebar-bottom.gif</file>
+    <file>/images/BG.gif</file>
+    <file>/images/bg.jpg</file>
+    <file>/images/bg1.jpg</file>
+    <file>/images/bgh1.gif</file>
+    <file>/images/birthdaycake.png</file>
+    <file>/images/birthdaycake4.png</file>
+    <file>/images/birthdayCelebration.jpg</file>
+    <file>/images/block.jpg</file>
+    <file>/images/bottom.png</file>
+    <file>/images/bottomorange.gif</file>
+    <file>/images/button.jpg</file>
+    <file>/images/cake.png</file>
+    <file>/images/cake1.png</file>
+    <file>/images/CalenderBackblue.png</file>
+    <file>/images/CalenderBackRed.png</file>
+    <file>/images/comment.gif</file>
+    <file>/images/content_article_bg.jpg</file>
+    <file>/images/content_title_bg.gif</file>
+    <file>/images/cross.png</file>
+    <file>/images/cross1.png</file>
+    <file>/images/cross11.png</file>
+    <file>/images/dockbar.png</file>
+    <file>/images/dolphin_bg-ON.gif</file>
+    <file>/images/dolphin_bg-OVER.gif</file>
+    <file>/images/dolphin_bg.gif</file>
+    <file>/images/dolphin_left-ON.gif</file>
+    <file>/images/dolphin_right-ON.gif</file>
+    <file>/images/dotted.gif</file>
+    <file>/images/down.gif</file>
+    <file>/images/f93204.jpg</file>
+    <file>/images/facebook-logo.png</file>
+    <file>/images/fd9c03.jpg</file>
+    <file>/images/footer.jpg</file>
+    <file>/images/gcm_icon.png</file>
+    <file>/images/google-plus-circular-button.png</file>
+    <file>/images/graduate-student-avatar.png</file>
+    <file>/images/graybg.png</file>
+    <file>/images/GreenButton.png</file>
+    <file>/images/grn.jpg</file>
+    <file>/images/h.gif</file>
+    <file>/images/h2bg.gif</file>
+    <file>/images/h3.jpg</file>
+    <file>/images/h300.png</file>
+    <file>/images/h3bg.gif</file>
+    <file>/images/header.jpg</file>
+    <file>/images/headerbg.gif</file>
+    <file>/images/help_icon.png</file>
+    <file>/images/help_iconol.png</file>
+    <file>/images/hori_large.png</file>
+    <file>/images/icon.png</file>
+    <file>/images/ico_cat.gif</file>
+    <file>/images/ico_comments.gif</file>
+    <file>/images/ico_date.gif</file>
+    <file>/images/ico_list.gif</file>
+    <file>/images/ico_user.gif</file>
+    <file>/images/img.png</file>
+    <file>/images/indicator-big.gif</file>
+    <!--<file>/images/indicator-bigOld.gif</file>-->
+    <file>/images/indnt_srch.png</file>
+    <file>/images/indnt_srch1.png</file>
+    <file>/images/indnt_srch2.png</file>
+    <file>/images/indnt_srch3.png</file>
+    <file>/images/indnt_srch4.png</file>
+    <file>/images/indnt_srch5.png</file>
+    <file>/images/info-button.png</file>
+    <file>/images/input.gif</file>
+    <file>/images/kwtrans.png</file>
+    <file>/images/label.gif</file>
+    <file>/images/left copy.jpg</file>
+    <file>/images/left.png</file>
+    <file>/images/leftarrow.png</file>
+    <file>/images/leftbottom.png</file>
+    <file>/images/leftorange.gif</file>
+    <file>/images/lefttop.png</file>
+    <file>/images/li.gif</file>
+    <file>/images/li.png</file>
+    <file>/images/line.jpg</file>
+    <file>/images/linkedin.png</file>
+    <file>/images/loadingAnimation.gif</file>
+    <file>/images/loginarea.jpg</file>
+    <file>/images/logindetails.gif</file>
+    <file>/images/LOGO.gif</file>
+    <file>/images/logout.png</file>
+    <file>/images/logout1.png</file>
+    <file>/images/l_bg.jpg</file>
+    <file>/images/l_blue.jpg</file>
+    <file>/images/l_dot.jpg</file>
+    <file>/images/l_green.jpg</file>
+    <file>/images/l_loginbg.jpg</file>
+    <file>/images/l_newlogo - Copy.jpg</file>
+    <file>/images/l_newlogo.jpg</file>
+    <file>/images/l_orange.jpg</file>
+    <file>/images/l_point.jpg</file>
+    <file>/images/macFFBgHack.png</file>
+    <file>/images/mainbg.jpg</file>
+    <file>/images/menu.gif</file>
+    <file>/images/menubg.gif</file>
+    <file>/images/menubg.png</file>
+    <file>/images/menuhover.gif</file>
+    <file>/images/middile copy.jpg</file>
+    <file>/images/more.gif</file>
+    <file>/images/nav.gif</file>
+    <file>/images/nav_hover.gif</file>
+    <file>/images/next.png</file>
+    <file>/images/note.png</file>
+    <file>/images/nothing.gif</file>
+    <file>/images/paperdesign.jpg</file>
+    <file>/images/paperdesignblue.jpg</file>
+    <file>/images/pt1_dwn.png</file>
+    <file>/images/pt1_dwn1.png</file>
+    <file>/images/pt1_up.png</file>
+    <file>/images/pt1_up1.png</file>
+    <file>/images/pt1_up11.png</file>
+    <file>/images/ptT_dwn.png</file>
+    <file>/images/ptT_up.png</file>
+    <file>/images/pt_dwn.gif</file>
+    <file>/images/pt_up.gif</file>
+    <file>/images/red.jpg</file>
+    <file>/images/RedButton.png</file>
+    <file>/images/Reportcardtitlebar.png</file>
+    <file>/images/right copy.jpg</file>
+    <file>/images/right-arrow.png</file>
+    <file>/images/right.png</file>
+    <file>/images/rightarrow.png</file>
+    <file>/images/rightbottom.png</file>
+    <file>/images/rightmenuarrow.gif</file>
+    <file>/images/rightmenudesign.jpg</file>
+    <file>/images/rightmenudesign.png</file>
+    <file>/images/rightmenudesign1.jpg</file>
+    <file>/images/rightorange.gif</file>
+    <file>/images/righttop.png</file>
+    <file>/images/schoolmanagement.png</file>
+    <file>/images/schoolmanagementover.png</file>
+    <file>/images/searchbg.gif</file>
+    <file>/images/SearchIcon.jpg</file>
+    <file>/images/SearchIcon1.jpg</file>
+    <file>/images/SelectedBack.jpg</file>
+    <file>/images/slide.gif</file>
+    <file>/images/smallbox.gif</file>
+    <file>/images/smallboxtop.gif</file>
+    <file>/images/social-linkedin-circular-button.png</file>
+    <file>/images/spacer.gif</file>
+    <file>/images/stdnt.png</file>
+    <file>/images/stdnt1.png</file>
+    <file>/images/stdnt2.png</file>
+    <file>/images/stdnt_r.png</file>
+    <file>/images/stripe.gif</file>
+    <file>/images/studentimage.jpg</file>
+    <file>/images/studentmanagement.png</file>
+    <file>/images/studentmanagementover.png</file>
+    <file>/images/submit.gif</file>
+    <file>/images/submitnew.gif</file>
+    <file>/images/tanbg.png</file>
+    <file>/images/timeicon.gif</file>
+    <file>/images/timeout.png</file>
+    <file>/images/top.jpg</file>
+    <file>/images/top.png</file>
+    <file>/images/topbg.jpg</file>
+    <file>/images/topbg12.jpg</file>
+    <file>/images/topbg_old 2.jpg</file>
+    <file>/images/topbg_old.jpg</file>
+    <file>/images/TopBorderBlue.gif</file>
+    <file>/images/TopBorderOrange.gif</file>
+    <file>/images/toporange.gif</file>
+    <file>/images/TopStrip.jpg</file>
+    <file>/images/twitter-circular-button.png</file>
+    <file>/images/up.gif</file>
+    <file>/images/user.png</file>
+    <file>/images/user1.png</file>
+    <file>/images/user5.png</file>
+    <file>/images/user_r.png</file>
+    <file>/images/user_r1.png</file>
+    <file>/images/warning.png</file>
+    <file>/images/warning1.png</file>
+    <file>/images/webdesign.png</file>
+    <file>/images/winceronlogo.png</file>
+    <file>/images/winerlogo2.png</file>
+    <file>/images/winersmalllogo - Copy.png</file>
+    <file>/images/winersmalllogo.png</file>
+    <file>/images/winersmalllogo1.png</file>
+    <file>/images/winersmalllogo2.png</file>
+    <file>/images/winersmalllogo3.png</file>
+    <file>/images/winersmalllogo4.png</file>
+    <file>/images/winersmalllogo5.png</file>
+    <file>/images/winersmalllogo6.png</file>
+    <file>/images/winersmalllogo7.jpg</file>
+    <file>/images/WINER_LOGO.png</file>
+    <file>/images/ylo.jpg</file>
+    <file>/images/YloButton.png</file>
+  </files>
+</sprite>

@@ -1,0 +1,6 @@
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\bin\Debug\OTPLibrary.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\bin\Debug\OTPLibrary.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\bin\Debug\MySql.Data.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\obj\Debug\OTPLibrary.dll
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\obj\Debug\OTPLibrary.pdb
+D:\TFS\Winer\Dev\Live\WC.WinerSchool.Service\OTPLibrary\obj\Debug\OTPLibrary.csprojResolveAssemblyReference.cache

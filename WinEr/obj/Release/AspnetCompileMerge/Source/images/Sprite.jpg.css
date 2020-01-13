@@ -1,0 +1,1245 @@
+﻿/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.images-0277fb {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -1px;
+}
+.images-04fd3f {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -17px;
+}
+.images-87888a {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -33px;
+}
+.images-accept {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -49px;
+}
+.images-accept1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -306px;
+}
+.images-accordinhead {
+/* You may have to set 'display: block' */
+	width: 1139px;
+	height: 110px;
+	background: url('Sprite.jpg') -1px -435px;
+}
+.images-af03ff {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -546px;
+}
+.images-arrow {
+/* You may have to set 'display: block' */
+	width: 7px;
+	height: 7px;
+	background: url('Sprite.jpg') -1px -562px;
+}
+.images-arrow1 {
+/* You may have to set 'display: block' */
+	width: 4px;
+	height: 7px;
+	background: url('Sprite.jpg') -1px -570px;
+}
+.images-arrow_10 {
+/* You may have to set 'display: block' */
+	width: 6px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -578px;
+}
+.images-arrow_5 {
+/* You may have to set 'display: block' */
+	width: 6px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -588px;
+}
+.images-arrow_7 {
+/* You may have to set 'display: block' */
+	width: 9px;
+	height: 6px;
+	background: url('Sprite.jpg') -1px -598px;
+}
+.images-back {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -605px;
+}
+.images-bar {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 30px;
+	background: url('Sprite.jpg') -1px -734px;
+}
+.images-bell-boy {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -765px;
+}
+.images-bg-feed {
+/* You may have to set 'display: block' */
+	width: 152px;
+	height: 25px;
+	background: url('Sprite.jpg') -1px -830px;
+}
+.images-bg-menu {
+/* You may have to set 'display: block' */
+	width: 770px;
+	height: 35px;
+	background: url('Sprite.jpg') -1px -856px;
+}
+.images-bg-sidebar-bottom {
+/* You may have to set 'display: block' */
+	width: 180px;
+	height: 20px;
+	background: url('Sprite.jpg') -1px -892px;
+}
+.images-BG {
+/* You may have to set 'display: block' */
+	width: 6px;
+	height: 178px;
+	background: url('Sprite.jpg') -1px -913px;
+}
+.images-bg {
+/* You may have to set 'display: block' */
+	width: 1000px;
+	height: 5px;
+	background: url('Sprite.jpg') -1px -1092px;
+}
+.images-bg1 {
+/* You may have to set 'display: block' */
+	width: 4px;
+	height: 180px;
+	background: url('Sprite.jpg') -1px -1098px;
+}
+.images-bgh1 {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 2px;
+	background: url('Sprite.jpg') -1px -1279px;
+}
+.images-birthdaycake {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -1282px;
+}
+.images-birthdaycake4 {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -1347px;
+}
+.images-birthdayCelebration {
+/* You may have to set 'display: block' */
+	width: 170px;
+	height: 112px;
+	background: url('Sprite.jpg') -1px -1604px;
+}
+.images-block {
+/* You may have to set 'display: block' */
+	width: 50px;
+	height: 30px;
+	background: url('Sprite.jpg') -1px -1717px;
+}
+.images-bottom {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -1748px;
+}
+.images-bottomorange {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -1763px;
+}
+.images-button {
+/* You may have to set 'display: block' */
+	width: 178px;
+	height: 46px;
+	background: url('Sprite.jpg') -1px -1778px;
+}
+.images-cake {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -1825px;
+}
+.images-cake1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -2082px;
+}
+.images-CalenderBackblue {
+/* You may have to set 'display: block' */
+	width: 40px;
+	height: 40px;
+	background: url('Sprite.jpg') -1px -2211px;
+}
+.images-CalenderBackRed {
+/* You may have to set 'display: block' */
+	width: 40px;
+	height: 40px;
+	background: url('Sprite.jpg') -1px -2252px;
+}
+.images-comment {
+/* You may have to set 'display: block' */
+	width: 9px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -2293px;
+}
+.images-content_article_bg {
+/* You may have to set 'display: block' */
+	width: 754px;
+	height: 300px;
+	background: url('Sprite.jpg') -1px -2303px;
+}
+.images-content_title_bg {
+/* You may have to set 'display: block' */
+	width: 754px;
+	height: 1px;
+	background: url('Sprite.jpg') -1px -2604px;
+}
+.images-cross {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -2606px;
+}
+.images-cross1 {
+/* You may have to set 'display: block' */
+	width: 48px;
+	height: 48px;
+	background: url('Sprite.jpg') -1px -2863px;
+}
+.images-cross11 {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -2912px;
+}
+.images-dockbar {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 69px;
+	background: url('Sprite.jpg') -1px -3169px;
+}
+.images-dolphin_bg-ON {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 33px;
+	background: url('Sprite.jpg') -1px -3239px;
+}
+.images-dolphin_bg-OVER {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 29px;
+	background: url('Sprite.jpg') -1px -3273px;
+}
+.images-dolphin_bg {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 29px;
+	background: url('Sprite.jpg') -1px -3303px;
+}
+.images-dolphin_left-ON {
+/* You may have to set 'display: block' */
+	width: 225px;
+	height: 33px;
+	background: url('Sprite.jpg') -1px -3333px;
+}
+.images-dolphin_right-ON {
+/* You may have to set 'display: block' */
+	width: 225px;
+	height: 33px;
+	background: url('Sprite.jpg') -1px -3367px;
+}
+.images-dotted {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 2px;
+	background: url('Sprite.jpg') -1px -3401px;
+}
+.images-down {
+/* You may have to set 'display: block' */
+	width: 49px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -3404px;
+}
+.images-f93204 {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -3419px;
+}
+.images-facebook-logo {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -3435px;
+}
+.images-fd9c03 {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -3500px;
+}
+.images-footer {
+/* You may have to set 'display: block' */
+	width: 800px;
+	height: 43px;
+	background: url('Sprite.jpg') -1px -3516px;
+}
+.images-gcm_icon {
+/* You may have to set 'display: block' */
+	width: 374px;
+	height: 214px;
+	background: url('Sprite.jpg') -1px -3560px;
+}
+.images-google-plus-circular-button {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -3775px;
+}
+.images-graduate-student-avatar {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -3840px;
+}
+.images-graybg {
+/* You may have to set 'display: block' */
+	width: 4px;
+	height: 127px;
+	background: url('Sprite.jpg') -1px -3905px;
+}
+.images-GreenButton {
+/* You may have to set 'display: block' */
+	width: 130px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -4033px;
+}
+.images-grn {
+/* You may have to set 'display: block' */
+	width: 143px;
+	height: 75px;
+	background: url('Sprite.jpg') -1px -4084px;
+}
+.images-h {
+/* You may have to set 'display: block' */
+	width: 30px;
+	height: 30px;
+	background: url('Sprite.jpg') -1px -4160px;
+}
+.images-h2bg {
+/* You may have to set 'display: block' */
+	width: 46px;
+	height: 29px;
+	background: url('Sprite.jpg') -1px -4191px;
+}
+.images-h3 {
+/* You may have to set 'display: block' */
+	width: 331px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -4221px;
+}
+.images-h300 {
+/* You may have to set 'display: block' */
+	width: 4px;
+	height: 300px;
+	background: url('Sprite.jpg') -1px -4237px;
+}
+.images-h3bg {
+/* You may have to set 'display: block' */
+	width: 45px;
+	height: 29px;
+	background: url('Sprite.jpg') -1px -4538px;
+}
+.images-header {
+/* You may have to set 'display: block' */
+	width: 800px;
+	height: 149px;
+	background: url('Sprite.jpg') -1px -4568px;
+}
+.images-headerbg {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 45px;
+	background: url('Sprite.jpg') -1px -4718px;
+}
+.images-help_icon {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -4764px;
+}
+.images-help_iconol {
+/* You may have to set 'display: block' */
+	width: 96px;
+	height: 96px;
+	background: url('Sprite.jpg') -1px -4893px;
+}
+.images-hori_large {
+/* You may have to set 'display: block' */
+	width: 90px;
+	height: 60px;
+	background: url('Sprite.jpg') -1px -4990px;
+}
+.images-icon {
+/* You may have to set 'display: block' */
+	width: 512px;
+	height: 512px;
+	background: url('Sprite.jpg') -1px -5051px;
+}
+.images-ico_cat {
+/* You may have to set 'display: block' */
+	width: 8px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -5564px;
+}
+.images-ico_comments {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 10px;
+	background: url('Sprite.jpg') -1px -5574px;
+}
+.images-ico_date {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 10px;
+	background: url('Sprite.jpg') -1px -5585px;
+}
+.images-ico_list {
+/* You may have to set 'display: block' */
+	width: 16px;
+	height: 13px;
+	background: url('Sprite.jpg') -1px -5596px;
+}
+.images-ico_user {
+/* You may have to set 'display: block' */
+	width: 8px;
+	height: 10px;
+	background: url('Sprite.jpg') -1px -5610px;
+}
+.images-img {
+/* You may have to set 'display: block' */
+	width: 100px;
+	height: 116px;
+	background: url('Sprite.jpg') -1px -5621px;
+}
+.images-indicator-big {
+/* You may have to set 'display: block' */
+	width: 120px;
+	height: 120px;
+	background: url('Sprite.jpg') -1px -5738px;
+}
+.images-indicator-bigOld {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -5859px;
+}
+.images-indnt_srch {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -5924px;
+}
+.images-indnt_srch1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -6053px;
+}
+.images-indnt_srch2 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -6182px;
+}
+.images-indnt_srch3 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -6311px;
+}
+.images-indnt_srch4 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -6440px;
+}
+.images-indnt_srch5 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -6569px;
+}
+.images-info-button {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -6698px;
+}
+.images-input {
+/* You may have to set 'display: block' */
+	width: 299px;
+	height: 28px;
+	background: url('Sprite.jpg') -1px -6763px;
+}
+.images-kwtrans {
+/* You may have to set 'display: block' */
+	width: 558px;
+	height: 432px;
+	background: url('Sprite.jpg') -1px -6792px;
+}
+.images-label {
+/* You may have to set 'display: block' */
+	width: 255px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -7225px;
+}
+.images-left copy {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 103px;
+	background: url('Sprite.jpg') -1px -7276px;
+}
+.images-left {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -7380px;
+}
+.images-leftarrow {
+/* You may have to set 'display: block' */
+	width: 45px;
+	height: 58px;
+	background: url('Sprite.jpg') -1px -7395px;
+}
+.images-leftbottom {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -7454px;
+}
+.images-leftorange {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -7469px;
+}
+.images-lefttop {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -7484px;
+}
+.images-li {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -7499px;
+}
+.images-li {
+/* You may have to set 'display: block' */
+	width: 6px;
+	height: 25px;
+	background: url('Sprite.jpg') -1px -7509px;
+}
+.images-line {
+/* You may have to set 'display: block' */
+	width: 5px;
+	height: 100px;
+	background: url('Sprite.jpg') -1px -7535px;
+}
+.images-linkedin {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -7636px;
+}
+.images-loadingAnimation {
+/* You may have to set 'display: block' */
+	width: 208px;
+	height: 13px;
+	background: url('Sprite.jpg') -1px -7701px;
+}
+.images-loginarea {
+/* You may have to set 'display: block' */
+	width: 350px;
+	height: 162px;
+	background: url('Sprite.jpg') -1px -7715px;
+}
+.images-logindetails {
+/* You may have to set 'display: block' */
+	width: 269px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -7878px;
+}
+.images-LOGO {
+/* You may have to set 'display: block' */
+	width: 190px;
+	height: 65px;
+	background: url('Sprite.jpg') -1px -7929px;
+}
+.images-logout {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -7995px;
+}
+.images-logout1 {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 10px;
+	background: url('Sprite.jpg') -1px -8010px;
+}
+.images-l_bg {
+/* You may have to set 'display: block' */
+	width: 367px;
+	height: 121px;
+	background: url('Sprite.jpg') -1px -8021px;
+}
+.images-l_blue {
+/* You may have to set 'display: block' */
+	width: 2px;
+	height: 2px;
+	background: url('Sprite.jpg') -1px -8143px;
+}
+.images-l_dot {
+/* You may have to set 'display: block' */
+	width: 8px;
+	height: 8px;
+	background: url('Sprite.jpg') -1px -8146px;
+}
+.images-l_green {
+/* You may have to set 'display: block' */
+	width: 2px;
+	height: 2px;
+	background: url('Sprite.jpg') -1px -8155px;
+}
+.images-l_loginbg {
+/* You may have to set 'display: block' */
+	width: 308px;
+	height: 252px;
+	background: url('Sprite.jpg') -1px -8158px;
+}
+.images-l_newlogo - Copy {
+/* You may have to set 'display: block' */
+	width: 125px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -8411px;
+}
+.images-l_newlogo {
+/* You may have to set 'display: block' */
+	width: 100px;
+	height: 40px;
+	background: url('Sprite.jpg') -1px -8462px;
+}
+.images-l_orange {
+/* You may have to set 'display: block' */
+	width: 2px;
+	height: 2px;
+	background: url('Sprite.jpg') -1px -8503px;
+}
+.images-l_point {
+/* You may have to set 'display: block' */
+	width: 7px;
+	height: 8px;
+	background: url('Sprite.jpg') -1px -8506px;
+}
+.images-macFFBgHack {
+/* You may have to set 'display: block' */
+	width: 25px;
+	height: 25px;
+	background: url('Sprite.jpg') -1px -8515px;
+}
+.images-mainbg {
+/* You may have to set 'display: block' */
+	width: 800px;
+	height: 4px;
+	background: url('Sprite.jpg') -1px -8541px;
+}
+.images-menu {
+/* You may have to set 'display: block' */
+	width: 92px;
+	height: 21px;
+	background: url('Sprite.jpg') -1px -8546px;
+}
+.images-menubg {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 30px;
+	background: url('Sprite.jpg') -1px -8568px;
+}
+.images-menubg {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 36px;
+	background: url('Sprite.jpg') -1px -8599px;
+}
+.images-menuhover {
+/* You may have to set 'display: block' */
+	width: 92px;
+	height: 21px;
+	background: url('Sprite.jpg') -1px -8636px;
+}
+.images-middile copy {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 103px;
+	background: url('Sprite.jpg') -1px -8658px;
+}
+.images-more {
+/* You may have to set 'display: block' */
+	width: 9px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -8762px;
+}
+.images-nav {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 51px;
+	background: url('Sprite.jpg') -1px -8772px;
+}
+.images-nav_hover {
+/* You may have to set 'display: block' */
+	width: 10px;
+	height: 51px;
+	background: url('Sprite.jpg') -1px -8824px;
+}
+.images-next {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -8876px;
+}
+.images-note {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 12px;
+	background: url('Sprite.jpg') -1px -9005px;
+}
+.images-nothing {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 1px;
+	background: url('Sprite.jpg') -1px -9018px;
+}
+.images-paperdesign {
+/* You may have to set 'display: block' */
+	width: 250px;
+	height: 250px;
+	background: url('Sprite.jpg') -1px -9020px;
+}
+.images-paperdesignblue {
+/* You may have to set 'display: block' */
+	width: 250px;
+	height: 250px;
+	background: url('Sprite.jpg') -1px -9271px;
+}
+.images-pt1_dwn {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -9522px;
+}
+.images-pt1_dwn1 {
+/* You may have to set 'display: block' */
+	width: 24px;
+	height: 24px;
+	background: url('Sprite.jpg') -1px -9779px;
+}
+.images-pt1_up {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -9804px;
+}
+.images-pt1_up1 {
+/* You may have to set 'display: block' */
+	width: 24px;
+	height: 24px;
+	background: url('Sprite.jpg') -1px -10061px;
+}
+.images-pt1_up11 {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -10086px;
+}
+.images-ptT_dwn {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -10343px;
+}
+.images-ptT_up {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -10472px;
+}
+.images-pt_dwn {
+/* You may have to set 'display: block' */
+	width: 23px;
+	height: 22px;
+	background: url('Sprite.jpg') -1px -10601px;
+}
+.images-pt_up {
+/* You may have to set 'display: block' */
+	width: 23px;
+	height: 22px;
+	background: url('Sprite.jpg') -1px -10624px;
+}
+.images-red {
+/* You may have to set 'display: block' */
+	width: 119px;
+	height: 75px;
+	background: url('Sprite.jpg') -1px -10647px;
+}
+.images-RedButton {
+/* You may have to set 'display: block' */
+	width: 130px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -10723px;
+}
+.images-Reportcardtitlebar {
+/* You may have to set 'display: block' */
+	width: 269px;
+	height: 46px;
+	background: url('Sprite.jpg') -1px -10774px;
+}
+.images-right copy {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 103px;
+	background: url('Sprite.jpg') -1px -10821px;
+}
+.images-right-arrow {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -10925px;
+}
+.images-right {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 11px;
+	background: url('Sprite.jpg') -1px -10990px;
+}
+.images-rightarrow {
+/* You may have to set 'display: block' */
+	width: 45px;
+	height: 58px;
+	background: url('Sprite.jpg') -1px -11002px;
+}
+.images-rightbottom {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -11061px;
+}
+.images-rightmenuarrow {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -11076px;
+}
+.images-rightmenudesign {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 20px;
+	background: url('Sprite.jpg') -1px -11091px;
+}
+.images-rightmenudesign {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 20px;
+	background: url('Sprite.jpg') -1px -11112px;
+}
+.images-rightmenudesign1 {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 20px;
+	background: url('Sprite.jpg') -1px -11133px;
+}
+.images-rightorange {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 11px;
+	background: url('Sprite.jpg') -1px -11154px;
+}
+.images-righttop {
+/* You may have to set 'display: block' */
+	width: 14px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -11166px;
+}
+.images-schoolmanagement {
+/* You may have to set 'display: block' */
+	width: 140px;
+	height: 35px;
+	background: url('Sprite.jpg') -1px -11181px;
+}
+.images-schoolmanagementover {
+/* You may have to set 'display: block' */
+	width: 140px;
+	height: 35px;
+	background: url('Sprite.jpg') -1px -11217px;
+}
+.images-searchbg {
+/* You may have to set 'display: block' */
+	width: 509px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -11253px;
+}
+.images-SearchIcon {
+/* You may have to set 'display: block' */
+	width: 123px;
+	height: 123px;
+	background: url('Sprite.jpg') -1px -11318px;
+}
+.images-SearchIcon1 {
+/* You may have to set 'display: block' */
+	width: 380px;
+	height: 371px;
+	background: url('Sprite.jpg') -1px -11442px;
+}
+.images-SelectedBack {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 23px;
+	background: url('Sprite.jpg') -1px -11814px;
+}
+.images-slide {
+/* You may have to set 'display: block' */
+	width: 15px;
+	height: 117px;
+	background: url('Sprite.jpg') -1px -11838px;
+}
+.images-smallbox {
+/* You may have to set 'display: block' */
+	width: 202px;
+	height: 300px;
+	background: url('Sprite.jpg') -1px -11956px;
+}
+.images-smallboxtop {
+/* You may have to set 'display: block' */
+	width: 202px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -12257px;
+}
+.images-social-linkedin-circular-button {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -12272px;
+}
+.images-spacer {
+/* You may have to set 'display: block' */
+	width: 1px;
+	height: 1px;
+	background: url('Sprite.jpg') -1px -12337px;
+}
+.images-stdnt {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -12339px;
+}
+.images-stdnt1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -12596px;
+}
+.images-stdnt2 {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -12725px;
+}
+.images-stdnt_r {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -12982px;
+}
+.images-stripe {
+/* You may have to set 'display: block' */
+	width: 3px;
+	height: 6px;
+	background: url('Sprite.jpg') -1px -13111px;
+}
+.images-studentimage {
+/* You may have to set 'display: block' */
+	width: 36px;
+	height: 20px;
+	background: url('Sprite.jpg') -1px -13118px;
+}
+.images-studentmanagement {
+/* You may have to set 'display: block' */
+	width: 140px;
+	height: 35px;
+	background: url('Sprite.jpg') -1px -13139px;
+}
+.images-studentmanagementover {
+/* You may have to set 'display: block' */
+	width: 140px;
+	height: 35px;
+	background: url('Sprite.jpg') -1px -13175px;
+}
+.images-submit {
+/* You may have to set 'display: block' */
+	width: 65px;
+	height: 24px;
+	background: url('Sprite.jpg') -1px -13211px;
+}
+.images-submitnew {
+/* You may have to set 'display: block' */
+	width: 130px;
+	height: 24px;
+	background: url('Sprite.jpg') -1px -13236px;
+}
+.images-tanbg {
+/* You may have to set 'display: block' */
+	width: 4px;
+	height: 127px;
+	background: url('Sprite.jpg') -1px -13261px;
+}
+.images-timeicon {
+/* You may have to set 'display: block' */
+	width: 9px;
+	height: 9px;
+	background: url('Sprite.jpg') -1px -13389px;
+}
+.images-timeout {
+/* You may have to set 'display: block' */
+	width: 512px;
+	height: 512px;
+	background: url('Sprite.jpg') -1px -13399px;
+}
+.images-top {
+/* You may have to set 'display: block' */
+	width: 800px;
+	height: 44px;
+	background: url('Sprite.jpg') -1px -13912px;
+}
+.images-top {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -13957px;
+}
+.images-topbg {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 55px;
+	background: url('Sprite.jpg') -1px -13972px;
+}
+.images-topbg12 {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 55px;
+	background: url('Sprite.jpg') -1px -14028px;
+}
+.images-topbg_old 2 {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 55px;
+	background: url('Sprite.jpg') -1px -14084px;
+}
+.images-topbg_old {
+/* You may have to set 'display: block' */
+	width: 20px;
+	height: 55px;
+	background: url('Sprite.jpg') -1px -14140px;
+}
+.images-TopBorderBlue {
+/* You may have to set 'display: block' */
+	width: 188px;
+	height: 40px;
+	background: url('Sprite.jpg') -1px -14196px;
+}
+.images-TopBorderOrange {
+/* You may have to set 'display: block' */
+	width: 188px;
+	height: 40px;
+	background: url('Sprite.jpg') -1px -14237px;
+}
+.images-toporange {
+/* You may have to set 'display: block' */
+	width: 18px;
+	height: 14px;
+	background: url('Sprite.jpg') -1px -14278px;
+}
+.images-TopStrip {
+/* You may have to set 'display: block' */
+	width: 6px;
+	height: 137px;
+	background: url('Sprite.jpg') -1px -14293px;
+}
+.images-twitter-circular-button {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -14431px;
+}
+.images-up {
+/* You may have to set 'display: block' */
+	width: 49px;
+	height: 15px;
+	background: url('Sprite.jpg') -1px -14496px;
+}
+.images-user {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -14512px;
+}
+.images-user1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -14769px;
+}
+.images-user5 {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -14898px;
+}
+.images-user_r {
+/* You may have to set 'display: block' */
+	width: 64px;
+	height: 64px;
+	background: url('Sprite.jpg') -1px -15155px;
+}
+.images-user_r1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -15220px;
+}
+.images-warning {
+/* You may have to set 'display: block' */
+	width: 256px;
+	height: 256px;
+	background: url('Sprite.jpg') -1px -15349px;
+}
+.images-warning1 {
+/* You may have to set 'display: block' */
+	width: 128px;
+	height: 128px;
+	background: url('Sprite.jpg') -1px -15606px;
+}
+.images-webdesign {
+/* You may have to set 'display: block' */
+	width: 12px;
+	height: 12px;
+	background: url('Sprite.jpg') -1px -15735px;
+}
+.images-winceronlogo {
+/* You may have to set 'display: block' */
+	width: 225px;
+	height: 155px;
+	background: url('Sprite.jpg') -1px -15748px;
+}
+.images-winerlogo2 {
+/* You may have to set 'display: block' */
+	width: 1000px;
+	height: 400px;
+	background: url('Sprite.jpg') -1px -15904px;
+}
+.images-winersmalllogo - Copy {
+/* You may have to set 'display: block' */
+	width: 57px;
+	height: 32px;
+	background: url('Sprite.jpg') -1px -16305px;
+}
+.images-winersmalllogo {
+/* You may have to set 'display: block' */
+	width: 2122px;
+	height: 1688px;
+	background: url('Sprite.jpg') -1px -16338px;
+}
+.images-winersmalllogo1 {
+/* You may have to set 'display: block' */
+	width: 125px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -18027px;
+}
+.images-winersmalllogo2 {
+/* You may have to set 'display: block' */
+	width: 3612px;
+	height: 3128px;
+	background: url('Sprite.jpg') -1px -18078px;
+}
+.images-winersmalllogo3 {
+/* You may have to set 'display: block' */
+	width: 161px;
+	height: 161px;
+	background: url('Sprite.jpg') -1px -21207px;
+}
+.images-winersmalllogo4 {
+/* You may have to set 'display: block' */
+	width: 3612px;
+	height: 3128px;
+	background: url('Sprite.jpg') -1px -21369px;
+}
+.images-winersmalllogo5 {
+/* You may have to set 'display: block' */
+	width: 2076px;
+	height: 1714px;
+	background: url('Sprite.jpg') -1px -24498px;
+}
+.images-winersmalllogo6 {
+/* You may have to set 'display: block' */
+	width: 2122px;
+	height: 1688px;
+	background: url('Sprite.jpg') -1px -26213px;
+}
+.images-winersmalllogo7 {
+/* You may have to set 'display: block' */
+	width: 2122px;
+	height: 1688px;
+	background: url('Sprite.jpg') -1px -27902px;
+}
+.images-WINER_LOGO {
+/* You may have to set 'display: block' */
+	width: 600px;
+	height: 300px;
+	background: url('Sprite.jpg') -1px -29591px;
+}
+.images-ylo {
+/* You may have to set 'display: block' */
+	width: 143px;
+	height: 75px;
+	background: url('Sprite.jpg') -1px -29892px;
+}
+.images-YloButton {
+/* You may have to set 'display: block' */
+	width: 130px;
+	height: 50px;
+	background: url('Sprite.jpg') -1px -29968px;
+}

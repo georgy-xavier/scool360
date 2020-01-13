@@ -1,0 +1,81 @@
+    ul.topnav {  
+        list-style: none;  
+        padding: 0 5px;  
+        margin: 0;  
+        float: left;  
+        width: 970px;  
+         
+        font-size: 12px;  
+       background: url(../images/topnav_bg.gif) repeat-x;  
+       
+   }  
+   ul.topnav li {  
+       float: left;  
+       margin: 0;  
+       padding: 0 10px 0 0;  
+       position: relative; /*--Declare X and Y axis base for sub navigation--*/  
+   }  
+   ul.topnav li a{  
+       padding: 10px 5px;  
+       color: #fff;  
+       display: block;  
+       text-decoration: none;  
+       float: left;  
+   }  
+   ul.topnav li a:hover{  
+      background: url(../images/topnav_hover.gif) no-repeat center top;  
+   }  
+   ul.topnav li span { /*--Drop down trigger styles--*/  
+       width: 17px;  
+       height: 35px;  
+       float: left;  
+       background: url(../images/subnav_btn.gif) no-repeat center top;  
+   }  
+   ul.topnav li span.subhover {background-position: center bottom ; cursor: pointer;} /*--Hover effect for trigger--*/  
+  ul.topnav li ul.subnav {  
+       list-style: none;  
+       position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+       left: 0; top: 35px;  
+       background: #333;  
+       margin: 0; padding: 0;  
+       display: none;  
+       float: left;  
+       width: 150px;  
+       
+        
+   }  
+   ul.topnav li ul.subnav li{  
+       margin: 0; padding: 0;  
+       /*--Create bevel effect--*/  
+       clear: both;  
+       width: 150px;  
+       
+   }  
+   html ul.topnav li ul.subnav li a {  
+       float: left;  
+       width: 140px;  
+       background: #5a5d5a  no-repeat left;  
+       padding-left: 10px; 
+       font-size:11px;
+       text-align:left; 
+       height:6px;
+       line-height:6px;
+       z-index:5;
+       position:relative;
+   }  
+   html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/  
+      background: #a0a0a0 url(../images/dropdown_linkbg.gif) no-repeat 3px center;  
+   }  
+   
+   .newsearchbox { 
+    float: left;
+    clear: both;
+    color: #000;
+    background: #fff url(../images/searchbg.gif) no-repeat;
+    padding: 14px 0 20px 5px;
+    width: 500px;
+    margin: 5px 0 0 0;
+    text-align: center;
+}
+    .newsearchbox p { padding: 0; margin: 0; }
+    

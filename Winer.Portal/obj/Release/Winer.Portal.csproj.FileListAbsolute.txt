@@ -1,0 +1,42 @@
+E:\Georgy\Winer\Winer.Portal\bin\Winer.Portal.dll.config
+E:\Georgy\Winer\Winer.Portal\bin\Winer.Portal.dll
+E:\Georgy\Winer\Winer.Portal\bin\Winer.Portal.pdb
+E:\Georgy\Winer\Winer.Portal\bin\WinBase.dll
+E:\Georgy\Winer\Winer.Portal\bin\WinEr.dll
+E:\Georgy\Winer\Winer.Portal\bin\WebResourceProvider.dll
+E:\Georgy\Winer\Winer.Portal\bin\WebChart.dll
+E:\Georgy\Winer\Winer.Portal\bin\MigraDoc.DocumentObjectModel.dll
+E:\Georgy\Winer\Winer.Portal\bin\DayPilot.dll
+E:\Georgy\Winer\Winer.Portal\bin\itextsharp.dll
+E:\Georgy\Winer\Winer.Portal\bin\MigraDoc.Rendering.dll
+E:\Georgy\Winer\Winer.Portal\bin\PdfSharp.dll
+E:\Georgy\Winer\Winer.Portal\bin\GemBox.Spreadsheet.dll
+E:\Georgy\Winer\Winer.Portal\bin\Newtonsoft.Json.Net35.dll
+E:\Georgy\Winer\Winer.Portal\bin\StringParser.dll
+E:\Georgy\Winer\Winer.Portal\bin\PdfSharp.Charting.dll
+E:\Georgy\Winer\Winer.Portal\bin\WinBase.pdb
+E:\Georgy\Winer\Winer.Portal\bin\WinEr.pdb
+E:\Georgy\Winer\Winer.Portal\obj\Release\Winer.Portal.csprojResolveAssemblyReference.cache
+E:\Georgy\Winer\Winer.Portal\obj\Release\Winer.Portal.dll
+E:\Georgy\Winer\Winer.Portal\obj\Release\Winer.Portal.pdb
+D:\SVN Area\Winer\Winer.Portal\bin\Winer.Portal.dll.config
+D:\SVN Area\Winer\Winer.Portal\bin\Winer.Portal.dll
+D:\SVN Area\Winer\Winer.Portal\bin\Winer.Portal.pdb
+D:\SVN Area\Winer\Winer.Portal\bin\WinBase.dll
+D:\SVN Area\Winer\Winer.Portal\bin\WinEr.dll
+D:\SVN Area\Winer\Winer.Portal\bin\WebResourceProvider.dll
+D:\SVN Area\Winer\Winer.Portal\bin\WebChart.dll
+D:\SVN Area\Winer\Winer.Portal\bin\MigraDoc.DocumentObjectModel.dll
+D:\SVN Area\Winer\Winer.Portal\bin\DayPilot.dll
+D:\SVN Area\Winer\Winer.Portal\bin\itextsharp.dll
+D:\SVN Area\Winer\Winer.Portal\bin\MigraDoc.Rendering.dll
+D:\SVN Area\Winer\Winer.Portal\bin\PdfSharp.dll
+D:\SVN Area\Winer\Winer.Portal\bin\GemBox.Spreadsheet.dll
+D:\SVN Area\Winer\Winer.Portal\bin\Newtonsoft.Json.Net35.dll
+D:\SVN Area\Winer\Winer.Portal\bin\StringParser.dll
+D:\SVN Area\Winer\Winer.Portal\bin\PdfSharp.Charting.dll
+D:\SVN Area\Winer\Winer.Portal\bin\WinBase.pdb
+D:\SVN Area\Winer\Winer.Portal\bin\WinEr.pdb
+D:\SVN Area\Winer\Winer.Portal\obj\Release\Winer.Portal.csprojResolveAssemblyReference.cache
+D:\SVN Area\Winer\Winer.Portal\obj\Release\Winer.Portal.dll
+D:\SVN Area\Winer\Winer.Portal\obj\Release\Winer.Portal.pdb

@@ -1,0 +1,61 @@
+﻿.backward, .forward, .images {
+    cursor: pointer;
+}
+
+.images {
+    background-color: #fff;
+    position: relative;
+    height: 250px;
+    width: 95%;
+    float: left;
+    margin: 10px 0 0 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 0 25px #666;
+    -webkit-box-shadow: 0 1px 0 0 #b9b9b9;
+}
+
+    .images div {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 3px;
+        padding: 5px;
+        height: 235px;
+        font-size: 12px;
+    }
+
+    .images h3 {
+        font-size: 17px;
+        margin: 0 0 20px;
+        color: #456;
+        font-weight: 500;
+    }
+
+.slidetabs {
+    clear: both;
+}
+
+    .slidetabs a {
+       width: 7px;
+    height: 7px;
+    float: left;
+    margin: 2px;
+    display: block;
+    font-size: 0;
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    }
+
+        .slidetabs a:hover {
+            background-position: top;
+        }
+
+        .slidetabs a.current {
+            background-color: #006be4;
+        }
+
+.disabled {
+    visibility: hidden !important;
+}

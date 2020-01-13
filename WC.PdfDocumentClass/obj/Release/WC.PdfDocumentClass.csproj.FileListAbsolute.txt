@@ -1,0 +1,5 @@
+D:\OFFICEWORK\WinerPdfCreateApp\WC.PdfDocumentClass\bin\Release\WC.PdfDocumentClass.dll
+D:\OFFICEWORK\WinerPdfCreateApp\WC.PdfDocumentClass\bin\Release\WC.PdfDocumentClass.pdb
+D:\OFFICEWORK\WinerPdfCreateApp\WC.PdfDocumentClass\obj\Release\ResolveAssemblyReference.cache
+D:\OFFICEWORK\WinerPdfCreateApp\WC.PdfDocumentClass\obj\Release\WC.PdfDocumentClass.dll
+D:\OFFICEWORK\WinerPdfCreateApp\WC.PdfDocumentClass\obj\Release\WC.PdfDocumentClass.pdb

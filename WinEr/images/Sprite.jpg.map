@@ -1,0 +1,1447 @@
+{
+  "images": [
+    {
+      "name": "/images/0277fb.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 1
+    },
+    {
+      "name": "/images/04fd3f.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 17
+    },
+    {
+      "name": "/images/87888a.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 33
+    },
+    {
+      "name": "/images/accept.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 49
+    },
+    {
+      "name": "/images/accept1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 306
+    },
+    {
+      "name": "/images/accordinhead.png",
+      "width": 1139,
+      "height": 110,
+      "offsetX": 1,
+      "offsetY": 435
+    },
+    {
+      "name": "/images/af03ff.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 546
+    },
+    {
+      "name": "/images/arrow.gif",
+      "width": 7,
+      "height": 7,
+      "offsetX": 1,
+      "offsetY": 562
+    },
+    {
+      "name": "/images/arrow1.gif",
+      "width": 4,
+      "height": 7,
+      "offsetX": 1,
+      "offsetY": 570
+    },
+    {
+      "name": "/images/arrow_10.gif",
+      "width": 6,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 578
+    },
+    {
+      "name": "/images/arrow_5.gif",
+      "width": 6,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 588
+    },
+    {
+      "name": "/images/arrow_7.gif",
+      "width": 9,
+      "height": 6,
+      "offsetX": 1,
+      "offsetY": 598
+    },
+    {
+      "name": "/images/back.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 605
+    },
+    {
+      "name": "/images/bar.gif",
+      "width": 1,
+      "height": 30,
+      "offsetX": 1,
+      "offsetY": 734
+    },
+    {
+      "name": "/images/bell-boy.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 765
+    },
+    {
+      "name": "/images/bg-feed.gif",
+      "width": 152,
+      "height": 25,
+      "offsetX": 1,
+      "offsetY": 830
+    },
+    {
+      "name": "/images/bg-menu.png",
+      "width": 770,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 856
+    },
+    {
+      "name": "/images/bg-sidebar-bottom.gif",
+      "width": 180,
+      "height": 20,
+      "offsetX": 1,
+      "offsetY": 892
+    },
+    {
+      "name": "/images/BG.gif",
+      "width": 6,
+      "height": 178,
+      "offsetX": 1,
+      "offsetY": 913
+    },
+    {
+      "name": "/images/bg.jpg",
+      "width": 1000,
+      "height": 5,
+      "offsetX": 1,
+      "offsetY": 1092
+    },
+    {
+      "name": "/images/bg1.jpg",
+      "width": 4,
+      "height": 180,
+      "offsetX": 1,
+      "offsetY": 1098
+    },
+    {
+      "name": "/images/bgh1.gif",
+      "width": 1,
+      "height": 2,
+      "offsetX": 1,
+      "offsetY": 1279
+    },
+    {
+      "name": "/images/birthdaycake.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 1282
+    },
+    {
+      "name": "/images/birthdaycake4.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 1347
+    },
+    {
+      "name": "/images/birthdayCelebration.jpg",
+      "width": 170,
+      "height": 112,
+      "offsetX": 1,
+      "offsetY": 1604
+    },
+    {
+      "name": "/images/block.jpg",
+      "width": 50,
+      "height": 30,
+      "offsetX": 1,
+      "offsetY": 1717
+    },
+    {
+      "name": "/images/bottom.png",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 1748
+    },
+    {
+      "name": "/images/bottomorange.gif",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 1763
+    },
+    {
+      "name": "/images/button.jpg",
+      "width": 178,
+      "height": 46,
+      "offsetX": 1,
+      "offsetY": 1778
+    },
+    {
+      "name": "/images/cake.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 1825
+    },
+    {
+      "name": "/images/cake1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 2082
+    },
+    {
+      "name": "/images/CalenderBackblue.png",
+      "width": 40,
+      "height": 40,
+      "offsetX": 1,
+      "offsetY": 2211
+    },
+    {
+      "name": "/images/CalenderBackRed.png",
+      "width": 40,
+      "height": 40,
+      "offsetX": 1,
+      "offsetY": 2252
+    },
+    {
+      "name": "/images/comment.gif",
+      "width": 9,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 2293
+    },
+    {
+      "name": "/images/content_article_bg.jpg",
+      "width": 754,
+      "height": 300,
+      "offsetX": 1,
+      "offsetY": 2303
+    },
+    {
+      "name": "/images/content_title_bg.gif",
+      "width": 754,
+      "height": 1,
+      "offsetX": 1,
+      "offsetY": 2604
+    },
+    {
+      "name": "/images/cross.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 2606
+    },
+    {
+      "name": "/images/cross1.png",
+      "width": 48,
+      "height": 48,
+      "offsetX": 1,
+      "offsetY": 2863
+    },
+    {
+      "name": "/images/cross11.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 2912
+    },
+    {
+      "name": "/images/dockbar.png",
+      "width": 10,
+      "height": 69,
+      "offsetX": 1,
+      "offsetY": 3169
+    },
+    {
+      "name": "/images/dolphin_bg-ON.gif",
+      "width": 1,
+      "height": 33,
+      "offsetX": 1,
+      "offsetY": 3239
+    },
+    {
+      "name": "/images/dolphin_bg-OVER.gif",
+      "width": 1,
+      "height": 29,
+      "offsetX": 1,
+      "offsetY": 3273
+    },
+    {
+      "name": "/images/dolphin_bg.gif",
+      "width": 1,
+      "height": 29,
+      "offsetX": 1,
+      "offsetY": 3303
+    },
+    {
+      "name": "/images/dolphin_left-ON.gif",
+      "width": 225,
+      "height": 33,
+      "offsetX": 1,
+      "offsetY": 3333
+    },
+    {
+      "name": "/images/dolphin_right-ON.gif",
+      "width": 225,
+      "height": 33,
+      "offsetX": 1,
+      "offsetY": 3367
+    },
+    {
+      "name": "/images/dotted.gif",
+      "width": 1,
+      "height": 2,
+      "offsetX": 1,
+      "offsetY": 3401
+    },
+    {
+      "name": "/images/down.gif",
+      "width": 49,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 3404
+    },
+    {
+      "name": "/images/f93204.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 3419
+    },
+    {
+      "name": "/images/facebook-logo.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 3435
+    },
+    {
+      "name": "/images/fd9c03.jpg",
+      "width": 15,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 3500
+    },
+    {
+      "name": "/images/footer.jpg",
+      "width": 800,
+      "height": 43,
+      "offsetX": 1,
+      "offsetY": 3516
+    },
+    {
+      "name": "/images/gcm_icon.png",
+      "width": 374,
+      "height": 214,
+      "offsetX": 1,
+      "offsetY": 3560
+    },
+    {
+      "name": "/images/google-plus-circular-button.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 3775
+    },
+    {
+      "name": "/images/graduate-student-avatar.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 3840
+    },
+    {
+      "name": "/images/graybg.png",
+      "width": 4,
+      "height": 127,
+      "offsetX": 1,
+      "offsetY": 3905
+    },
+    {
+      "name": "/images/GreenButton.png",
+      "width": 130,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 4033
+    },
+    {
+      "name": "/images/grn.jpg",
+      "width": 143,
+      "height": 75,
+      "offsetX": 1,
+      "offsetY": 4084
+    },
+    {
+      "name": "/images/h.gif",
+      "width": 30,
+      "height": 30,
+      "offsetX": 1,
+      "offsetY": 4160
+    },
+    {
+      "name": "/images/h2bg.gif",
+      "width": 46,
+      "height": 29,
+      "offsetX": 1,
+      "offsetY": 4191
+    },
+    {
+      "name": "/images/h3.jpg",
+      "width": 331,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 4221
+    },
+    {
+      "name": "/images/h300.png",
+      "width": 4,
+      "height": 300,
+      "offsetX": 1,
+      "offsetY": 4237
+    },
+    {
+      "name": "/images/h3bg.gif",
+      "width": 45,
+      "height": 29,
+      "offsetX": 1,
+      "offsetY": 4538
+    },
+    {
+      "name": "/images/header.jpg",
+      "width": 800,
+      "height": 149,
+      "offsetX": 1,
+      "offsetY": 4568
+    },
+    {
+      "name": "/images/headerbg.gif",
+      "width": 1,
+      "height": 45,
+      "offsetX": 1,
+      "offsetY": 4718
+    },
+    {
+      "name": "/images/help_icon.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 4764
+    },
+    {
+      "name": "/images/help_iconol.png",
+      "width": 96,
+      "height": 96,
+      "offsetX": 1,
+      "offsetY": 4893
+    },
+    {
+      "name": "/images/hori_large.png",
+      "width": 90,
+      "height": 60,
+      "offsetX": 1,
+      "offsetY": 4990
+    },
+    {
+      "name": "/images/icon.png",
+      "width": 512,
+      "height": 512,
+      "offsetX": 1,
+      "offsetY": 5051
+    },
+    {
+      "name": "/images/ico_cat.gif",
+      "width": 8,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 5564
+    },
+    {
+      "name": "/images/ico_comments.gif",
+      "width": 10,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 5574
+    },
+    {
+      "name": "/images/ico_date.gif",
+      "width": 10,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 5585
+    },
+    {
+      "name": "/images/ico_list.gif",
+      "width": 16,
+      "height": 13,
+      "offsetX": 1,
+      "offsetY": 5596
+    },
+    {
+      "name": "/images/ico_user.gif",
+      "width": 8,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 5610
+    },
+    {
+      "name": "/images/img.png",
+      "width": 100,
+      "height": 116,
+      "offsetX": 1,
+      "offsetY": 5621
+    },
+    {
+      "name": "/images/indicator-big.gif",
+      "width": 120,
+      "height": 120,
+      "offsetX": 1,
+      "offsetY": 5738
+    },
+    
+    {
+      "name": "/images/indnt_srch.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 5924
+    },
+    {
+      "name": "/images/indnt_srch1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 6053
+    },
+    {
+      "name": "/images/indnt_srch2.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 6182
+    },
+    {
+      "name": "/images/indnt_srch3.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 6311
+    },
+    {
+      "name": "/images/indnt_srch4.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 6440
+    },
+    {
+      "name": "/images/indnt_srch5.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 6569
+    },
+    {
+      "name": "/images/info-button.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 6698
+    },
+    {
+      "name": "/images/input.gif",
+      "width": 299,
+      "height": 28,
+      "offsetX": 1,
+      "offsetY": 6763
+    },
+    {
+      "name": "/images/kwtrans.png",
+      "width": 558,
+      "height": 432,
+      "offsetX": 1,
+      "offsetY": 6792
+    },
+    {
+      "name": "/images/label.gif",
+      "width": 255,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 7225
+    },
+    {
+      "name": "/images/left copy.jpg",
+      "width": 20,
+      "height": 103,
+      "offsetX": 1,
+      "offsetY": 7276
+    },
+    {
+      "name": "/images/left.png",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 7380
+    },
+    {
+      "name": "/images/leftarrow.png",
+      "width": 45,
+      "height": 58,
+      "offsetX": 1,
+      "offsetY": 7395
+    },
+    {
+      "name": "/images/leftbottom.png",
+      "width": 14,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 7454
+    },
+    {
+      "name": "/images/leftorange.gif",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 7469
+    },
+    {
+      "name": "/images/lefttop.png",
+      "width": 14,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 7484
+    },
+    {
+      "name": "/images/li.gif",
+      "width": 12,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 7499
+    },
+    {
+      "name": "/images/li.png",
+      "width": 6,
+      "height": 25,
+      "offsetX": 1,
+      "offsetY": 7509
+    },
+    {
+      "name": "/images/line.jpg",
+      "width": 5,
+      "height": 100,
+      "offsetX": 1,
+      "offsetY": 7535
+    },
+    {
+      "name": "/images/linkedin.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 7636
+    },
+    {
+      "name": "/images/loadingAnimation.gif",
+      "width": 208,
+      "height": 13,
+      "offsetX": 1,
+      "offsetY": 7701
+    },
+    {
+      "name": "/images/loginarea.jpg",
+      "width": 350,
+      "height": 162,
+      "offsetX": 1,
+      "offsetY": 7715
+    },
+    {
+      "name": "/images/logindetails.gif",
+      "width": 269,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 7878
+    },
+    {
+      "name": "/images/LOGO.gif",
+      "width": 190,
+      "height": 65,
+      "offsetX": 1,
+      "offsetY": 7929
+    },
+    {
+      "name": "/images/logout.png",
+      "width": 14,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 7995
+    },
+    {
+      "name": "/images/logout1.png",
+      "width": 10,
+      "height": 10,
+      "offsetX": 1,
+      "offsetY": 8010
+    },
+    {
+      "name": "/images/l_bg.jpg",
+      "width": 367,
+      "height": 121,
+      "offsetX": 1,
+      "offsetY": 8021
+    },
+    {
+      "name": "/images/l_blue.jpg",
+      "width": 2,
+      "height": 2,
+      "offsetX": 1,
+      "offsetY": 8143
+    },
+    {
+      "name": "/images/l_dot.jpg",
+      "width": 8,
+      "height": 8,
+      "offsetX": 1,
+      "offsetY": 8146
+    },
+    {
+      "name": "/images/l_green.jpg",
+      "width": 2,
+      "height": 2,
+      "offsetX": 1,
+      "offsetY": 8155
+    },
+    {
+      "name": "/images/l_loginbg.jpg",
+      "width": 308,
+      "height": 252,
+      "offsetX": 1,
+      "offsetY": 8158
+    },
+    {
+      "name": "/images/l_newlogo - Copy.jpg",
+      "width": 125,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 8411
+    },
+    {
+      "name": "/images/l_newlogo.jpg",
+      "width": 100,
+      "height": 40,
+      "offsetX": 1,
+      "offsetY": 8462
+    },
+    {
+      "name": "/images/l_orange.jpg",
+      "width": 2,
+      "height": 2,
+      "offsetX": 1,
+      "offsetY": 8503
+    },
+    {
+      "name": "/images/l_point.jpg",
+      "width": 7,
+      "height": 8,
+      "offsetX": 1,
+      "offsetY": 8506
+    },
+    {
+      "name": "/images/macFFBgHack.png",
+      "width": 25,
+      "height": 25,
+      "offsetX": 1,
+      "offsetY": 8515
+    },
+    {
+      "name": "/images/mainbg.jpg",
+      "width": 800,
+      "height": 4,
+      "offsetX": 1,
+      "offsetY": 8541
+    },
+    {
+      "name": "/images/menu.gif",
+      "width": 92,
+      "height": 21,
+      "offsetX": 1,
+      "offsetY": 8546
+    },
+    {
+      "name": "/images/menubg.gif",
+      "width": 1,
+      "height": 30,
+      "offsetX": 1,
+      "offsetY": 8568
+    },
+    {
+      "name": "/images/menubg.png",
+      "width": 14,
+      "height": 36,
+      "offsetX": 1,
+      "offsetY": 8599
+    },
+    {
+      "name": "/images/menuhover.gif",
+      "width": 92,
+      "height": 21,
+      "offsetX": 1,
+      "offsetY": 8636
+    },
+    {
+      "name": "/images/middile copy.jpg",
+      "width": 20,
+      "height": 103,
+      "offsetX": 1,
+      "offsetY": 8658
+    },
+    {
+      "name": "/images/more.gif",
+      "width": 9,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 8762
+    },
+    {
+      "name": "/images/nav.gif",
+      "width": 10,
+      "height": 51,
+      "offsetX": 1,
+      "offsetY": 8772
+    },
+    {
+      "name": "/images/nav_hover.gif",
+      "width": 10,
+      "height": 51,
+      "offsetX": 1,
+      "offsetY": 8824
+    },
+    {
+      "name": "/images/next.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 8876
+    },
+    {
+      "name": "/images/note.png",
+      "width": 12,
+      "height": 12,
+      "offsetX": 1,
+      "offsetY": 9005
+    },
+    {
+      "name": "/images/nothing.gif",
+      "width": 1,
+      "height": 1,
+      "offsetX": 1,
+      "offsetY": 9018
+    },
+    {
+      "name": "/images/paperdesign.jpg",
+      "width": 250,
+      "height": 250,
+      "offsetX": 1,
+      "offsetY": 9020
+    },
+    {
+      "name": "/images/paperdesignblue.jpg",
+      "width": 250,
+      "height": 250,
+      "offsetX": 1,
+      "offsetY": 9271
+    },
+    {
+      "name": "/images/pt1_dwn.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 9522
+    },
+    {
+      "name": "/images/pt1_dwn1.png",
+      "width": 24,
+      "height": 24,
+      "offsetX": 1,
+      "offsetY": 9779
+    },
+    {
+      "name": "/images/pt1_up.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 9804
+    },
+    {
+      "name": "/images/pt1_up1.png",
+      "width": 24,
+      "height": 24,
+      "offsetX": 1,
+      "offsetY": 10061
+    },
+    {
+      "name": "/images/pt1_up11.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 10086
+    },
+    {
+      "name": "/images/ptT_dwn.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 10343
+    },
+    {
+      "name": "/images/ptT_up.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 10472
+    },
+    {
+      "name": "/images/pt_dwn.gif",
+      "width": 23,
+      "height": 22,
+      "offsetX": 1,
+      "offsetY": 10601
+    },
+    {
+      "name": "/images/pt_up.gif",
+      "width": 23,
+      "height": 22,
+      "offsetX": 1,
+      "offsetY": 10624
+    },
+    {
+      "name": "/images/red.jpg",
+      "width": 119,
+      "height": 75,
+      "offsetX": 1,
+      "offsetY": 10647
+    },
+    {
+      "name": "/images/RedButton.png",
+      "width": 130,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 10723
+    },
+    {
+      "name": "/images/Reportcardtitlebar.png",
+      "width": 269,
+      "height": 46,
+      "offsetX": 1,
+      "offsetY": 10774
+    },
+    {
+      "name": "/images/right copy.jpg",
+      "width": 20,
+      "height": 103,
+      "offsetX": 1,
+      "offsetY": 10821
+    },
+    {
+      "name": "/images/right-arrow.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 10925
+    },
+    {
+      "name": "/images/right.png",
+      "width": 14,
+      "height": 11,
+      "offsetX": 1,
+      "offsetY": 10990
+    },
+    {
+      "name": "/images/rightarrow.png",
+      "width": 45,
+      "height": 58,
+      "offsetX": 1,
+      "offsetY": 11002
+    },
+    {
+      "name": "/images/rightbottom.png",
+      "width": 14,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 11061
+    },
+    {
+      "name": "/images/rightmenuarrow.gif",
+      "width": 12,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 11076
+    },
+    {
+      "name": "/images/rightmenudesign.jpg",
+      "width": 20,
+      "height": 20,
+      "offsetX": 1,
+      "offsetY": 11091
+    },
+    {
+      "name": "/images/rightmenudesign.png",
+      "width": 20,
+      "height": 20,
+      "offsetX": 1,
+      "offsetY": 11112
+    },
+    {
+      "name": "/images/rightmenudesign1.jpg",
+      "width": 20,
+      "height": 20,
+      "offsetX": 1,
+      "offsetY": 11133
+    },
+    {
+      "name": "/images/rightorange.gif",
+      "width": 14,
+      "height": 11,
+      "offsetX": 1,
+      "offsetY": 11154
+    },
+    {
+      "name": "/images/righttop.png",
+      "width": 14,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 11166
+    },
+    {
+      "name": "/images/schoolmanagement.png",
+      "width": 140,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 11181
+    },
+    {
+      "name": "/images/schoolmanagementover.png",
+      "width": 140,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 11217
+    },
+    {
+      "name": "/images/searchbg.gif",
+      "width": 509,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 11253
+    },
+    {
+      "name": "/images/SearchIcon.jpg",
+      "width": 123,
+      "height": 123,
+      "offsetX": 1,
+      "offsetY": 11318
+    },
+    {
+      "name": "/images/SearchIcon1.jpg",
+      "width": 380,
+      "height": 371,
+      "offsetX": 1,
+      "offsetY": 11442
+    },
+    {
+      "name": "/images/SelectedBack.jpg",
+      "width": 20,
+      "height": 23,
+      "offsetX": 1,
+      "offsetY": 11814
+    },
+    {
+      "name": "/images/slide.gif",
+      "width": 15,
+      "height": 117,
+      "offsetX": 1,
+      "offsetY": 11838
+    },
+    {
+      "name": "/images/smallbox.gif",
+      "width": 202,
+      "height": 300,
+      "offsetX": 1,
+      "offsetY": 11956
+    },
+    {
+      "name": "/images/smallboxtop.gif",
+      "width": 202,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 12257
+    },
+    {
+      "name": "/images/social-linkedin-circular-button.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 12272
+    },
+    {
+      "name": "/images/spacer.gif",
+      "width": 1,
+      "height": 1,
+      "offsetX": 1,
+      "offsetY": 12337
+    },
+    {
+      "name": "/images/stdnt.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 12339
+    },
+    {
+      "name": "/images/stdnt1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 12596
+    },
+    {
+      "name": "/images/stdnt2.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 12725
+    },
+    {
+      "name": "/images/stdnt_r.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 12982
+    },
+    {
+      "name": "/images/stripe.gif",
+      "width": 3,
+      "height": 6,
+      "offsetX": 1,
+      "offsetY": 13111
+    },
+    {
+      "name": "/images/studentimage.jpg",
+      "width": 36,
+      "height": 20,
+      "offsetX": 1,
+      "offsetY": 13118
+    },
+    {
+      "name": "/images/studentmanagement.png",
+      "width": 140,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 13139
+    },
+    {
+      "name": "/images/studentmanagementover.png",
+      "width": 140,
+      "height": 35,
+      "offsetX": 1,
+      "offsetY": 13175
+    },
+    {
+      "name": "/images/submit.gif",
+      "width": 65,
+      "height": 24,
+      "offsetX": 1,
+      "offsetY": 13211
+    },
+    {
+      "name": "/images/submitnew.gif",
+      "width": 130,
+      "height": 24,
+      "offsetX": 1,
+      "offsetY": 13236
+    },
+    {
+      "name": "/images/tanbg.png",
+      "width": 4,
+      "height": 127,
+      "offsetX": 1,
+      "offsetY": 13261
+    },
+    {
+      "name": "/images/timeicon.gif",
+      "width": 9,
+      "height": 9,
+      "offsetX": 1,
+      "offsetY": 13389
+    },
+    {
+      "name": "/images/timeout.png",
+      "width": 512,
+      "height": 512,
+      "offsetX": 1,
+      "offsetY": 13399
+    },
+    {
+      "name": "/images/top.jpg",
+      "width": 800,
+      "height": 44,
+      "offsetX": 1,
+      "offsetY": 13912
+    },
+    {
+      "name": "/images/top.png",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 13957
+    },
+    {
+      "name": "/images/topbg.jpg",
+      "width": 20,
+      "height": 55,
+      "offsetX": 1,
+      "offsetY": 13972
+    },
+    {
+      "name": "/images/topbg12.jpg",
+      "width": 20,
+      "height": 55,
+      "offsetX": 1,
+      "offsetY": 14028
+    },
+    {
+      "name": "/images/topbg_old 2.jpg",
+      "width": 20,
+      "height": 55,
+      "offsetX": 1,
+      "offsetY": 14084
+    },
+    {
+      "name": "/images/topbg_old.jpg",
+      "width": 20,
+      "height": 55,
+      "offsetX": 1,
+      "offsetY": 14140
+    },
+    {
+      "name": "/images/TopBorderBlue.gif",
+      "width": 188,
+      "height": 40,
+      "offsetX": 1,
+      "offsetY": 14196
+    },
+    {
+      "name": "/images/TopBorderOrange.gif",
+      "width": 188,
+      "height": 40,
+      "offsetX": 1,
+      "offsetY": 14237
+    },
+    {
+      "name": "/images/toporange.gif",
+      "width": 18,
+      "height": 14,
+      "offsetX": 1,
+      "offsetY": 14278
+    },
+    {
+      "name": "/images/TopStrip.jpg",
+      "width": 6,
+      "height": 137,
+      "offsetX": 1,
+      "offsetY": 14293
+    },
+    {
+      "name": "/images/twitter-circular-button.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 14431
+    },
+    {
+      "name": "/images/up.gif",
+      "width": 49,
+      "height": 15,
+      "offsetX": 1,
+      "offsetY": 14496
+    },
+    {
+      "name": "/images/user.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 14512
+    },
+    {
+      "name": "/images/user1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 14769
+    },
+    {
+      "name": "/images/user5.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 14898
+    },
+    {
+      "name": "/images/user_r.png",
+      "width": 64,
+      "height": 64,
+      "offsetX": 1,
+      "offsetY": 15155
+    },
+    {
+      "name": "/images/user_r1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 15220
+    },
+    {
+      "name": "/images/warning.png",
+      "width": 256,
+      "height": 256,
+      "offsetX": 1,
+      "offsetY": 15349
+    },
+    {
+      "name": "/images/warning1.png",
+      "width": 128,
+      "height": 128,
+      "offsetX": 1,
+      "offsetY": 15606
+    },
+    {
+      "name": "/images/webdesign.png",
+      "width": 12,
+      "height": 12,
+      "offsetX": 1,
+      "offsetY": 15735
+    },
+    {
+      "name": "/images/winceronlogo.png",
+      "width": 225,
+      "height": 155,
+      "offsetX": 1,
+      "offsetY": 15748
+    },
+    {
+      "name": "/images/winerlogo2.png",
+      "width": 1000,
+      "height": 400,
+      "offsetX": 1,
+      "offsetY": 15904
+    },
+    {
+      "name": "/images/winersmalllogo - Copy.png",
+      "width": 57,
+      "height": 32,
+      "offsetX": 1,
+      "offsetY": 16305
+    },
+    {
+      "name": "/images/winersmalllogo.png",
+      "width": 2122,
+      "height": 1688,
+      "offsetX": 1,
+      "offsetY": 16338
+    },
+    {
+      "name": "/images/winersmalllogo1.png",
+      "width": 125,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 18027
+    },
+    {
+      "name": "/images/winersmalllogo2.png",
+      "width": 3612,
+      "height": 3128,
+      "offsetX": 1,
+      "offsetY": 18078
+    },
+    {
+      "name": "/images/winersmalllogo3.png",
+      "width": 161,
+      "height": 161,
+      "offsetX": 1,
+      "offsetY": 21207
+    },
+    {
+      "name": "/images/winersmalllogo4.png",
+      "width": 3612,
+      "height": 3128,
+      "offsetX": 1,
+      "offsetY": 21369
+    },
+    {
+      "name": "/images/winersmalllogo5.png",
+      "width": 2076,
+      "height": 1714,
+      "offsetX": 1,
+      "offsetY": 24498
+    },
+    {
+      "name": "/images/winersmalllogo6.png",
+      "width": 2122,
+      "height": 1688,
+      "offsetX": 1,
+      "offsetY": 26213
+    },
+    {
+      "name": "/images/winersmalllogo7.jpg",
+      "width": 2122,
+      "height": 1688,
+      "offsetX": 1,
+      "offsetY": 27902
+    },
+    {
+      "name": "/images/WINER_LOGO.png",
+      "width": 600,
+      "height": 300,
+      "offsetX": 1,
+      "offsetY": 29591
+    },
+    {
+      "name": "/images/ylo.jpg",
+      "width": 143,
+      "height": 75,
+      "offsetX": 1,
+      "offsetY": 29892
+    },
+    {
+      "name": "/images/YloButton.png",
+      "width": 130,
+      "height": 50,
+      "offsetX": 1,
+      "offsetY": 29968
+    }
+  ]
+}

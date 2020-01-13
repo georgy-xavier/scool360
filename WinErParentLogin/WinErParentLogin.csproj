@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA507CCD-D496-48A4-9F8F-E5F0D8E89C90}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinErParentLogin</RootNamespace>
+    <AssemblyName>WinErParentLogin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="DotNetOpenAuth, Version=4.2.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=4.1.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="MigraDoc.Rendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="MigraDoc.RtfRendering, Version=1.31.3066.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.6.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="PdfSharp.Charting, Version=1.31.1789.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="WC.PdfDocumentClass, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="WebChart, Version=1.1.1.4, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WinEr\bin\WebChart.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminlogin.aspx.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adminlogin.aspx.designer.cs">
+      <DependentUpon>Adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceReport.aspx.cs">
+      <DependentUpon>AttendanceReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AttendanceReport.aspx.designer.cs">
+      <DependentUpon>AttendanceReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CCEUtility.cs" />
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComposeMessage.aspx.cs">
+      <DependentUpon>ComposeMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComposeMessage.aspx.designer.cs">
+      <DependentUpon>ComposeMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Examreports.aspx.cs">
+      <DependentUpon>Examreports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Examreports.aspx.designer.cs">
+      <DependentUpon>Examreports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamTimeTable.aspx.cs">
+      <DependentUpon>ExamTimeTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExamTimeTable.aspx.designer.cs">
+      <DependentUpon>ExamTimeTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeBillNew.aspx.cs">
+      <DependentUpon>FeeBillNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeBillNew.aspx.designer.cs">
+      <DependentUpon>FeeBillNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ImageReturnHandler.ashx.cs">
+      <DependentUpon>ImageReturnHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageUploaderClass.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MakePayment.aspx.cs">
+      <DependentUpon>MakePayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MakePayment.aspx.designer.cs">
+      <DependentUpon>MakePayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parentmaster.Master.designer.cs">
+      <DependentUpon>parentmaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentFailure.aspx.cs">
+      <DependentUpon>PaymentFailure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentFailure.aspx.designer.cs">
+      <DependentUpon>PaymentFailure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSuccess.aspx.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentSuccess.aspx.designer.cs">
+      <DependentUpon>PaymentSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceFeedBack.aspx.cs">
+      <DependentUpon>ServiceFeedBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Servicecomplaints.aspx.cs">
+      <DependentUpon>Servicecomplaints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Servicecomplaints.aspx.designer.cs">
+      <DependentUpon>Servicecomplaints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventsArea.aspx.cs">
+      <DependentUpon>EventsArea.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventsArea.aspx.designer.cs">
+      <DependentUpon>EventsArea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExamReportPdf.cs" />
+    <Compile Include="ExamReportYearly.aspx.cs">
+      <DependentUpon>ExamReportYearly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExamReportYearly.aspx.designer.cs">
+      <DependentUpon>ExamReportYearly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExcelUtility.cs" />
+    <Compile Include="fb.aspx.cs">
+      <DependentUpon>fb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fb.aspx.designer.cs">
+      <DependentUpon>fb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeBillLogoNoBorder.aspx.cs">
+      <DependentUpon>FeeBillLogoNoBorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeBillLogoNoBorder.aspx.designer.cs">
+      <DependentUpon>FeeBillLogoNoBorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeBillNoLogoNoBorder.aspx.cs">
+      <DependentUpon>FeeBillNoLogoNoBorder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeBillNoLogoNoBorder.aspx.designer.cs">
+      <DependentUpon>FeeBillNoLogoNoBorder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeBillWithLogoAndHeader.aspx.cs">
+      <DependentUpon>FeeBillWithLogoAndHeader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeBillWithLogoAndHeader.aspx.designer.cs">
+      <DependentUpon>FeeBillWithLogoAndHeader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FeeDetails.aspx.cs">
+      <DependentUpon>FeeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FeeDetails.aspx.designer.cs">
+      <DependentUpon>FeeDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IncidentRating.aspx.cs">
+      <DependentUpon>IncidentRating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IncidentRating.aspx.designer.cs">
+      <DependentUpon>IncidentRating.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageHome.aspx.designer.cs">
+      <DependentUpon>MessageHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessagePage.aspx.cs">
+      <DependentUpon>MessagePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessagePage.aspx.designer.cs">
+      <DependentUpon>MessagePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageThread.aspx.cs">
+      <DependentUpon>MessageThread.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MessageThread.aspx.designer.cs">
+      <DependentUpon>MessageThread.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OpenPdfPage.aspx.cs">
+      <DependentUpon>OpenPdfPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OpenPdfPage.aspx.designer.cs">
+      <DependentUpon>OpenPdfPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentLoginMaster.Master.cs">
+      <DependentUpon>ParentLoginMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ParentLoginMaster.Master.designer.cs">
+      <DependentUpon>ParentLoginMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="parentmaster.Master.cs">
+      <DependentUpon>parentmaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pdf.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSLogin.aspx.cs">
+      <DependentUpon>PSLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PSLogin.aspx.designer.cs">
+      <DependentUpon>PSLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MessageHome.aspx.cs">
+      <DependentUpon>MessageHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceFeedBack.aspx.designer.cs">
+      <DependentUpon>ServiceFeedBack.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceReq.aspx.cs">
+      <DependentUpon>ServiceReq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceReq.aspx.designer.cs">
+      <DependentUpon>ServiceReq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAttendanceYearly.aspx.cs">
+      <DependentUpon>StudentAttendanceYearly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentAttendanceYearly.aspx.designer.cs">
+      <DependentUpon>StudentAttendanceYearly.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentConsolidate.aspx.cs">
+      <DependentUpon>StudentConsolidate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentConsolidate.aspx.designer.cs">
+      <DependentUpon>StudentConsolidate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentPerform.aspx.cs">
+      <DependentUpon>StudentPerform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentPerform.aspx.designer.cs">
+      <DependentUpon>StudentPerform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudExamReport.aspx.cs">
+      <DependentUpon>StudExamReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudExamReport.aspx.designer.cs">
+      <DependentUpon>StudExamReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudTimeTable.aspx.cs">
+      <DependentUpon>StudTimeTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudTimeTable.aspx.designer.cs">
+      <DependentUpon>StudTimeTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="supportlink.aspx.cs">
+      <DependentUpon>supportlink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="supportlink.aspx.designer.cs">
+      <DependentUpon>supportlink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersFeedback.aspx.cs">
+      <DependentUpon>TeachersFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TeachersFeedback.aspx.designer.cs">
+      <DependentUpon>TeachersFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UnclearedBill.aspx.cs">
+      <DependentUpon>UnclearedBill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UnclearedBill.aspx.designer.cs">
+      <DependentUpon>UnclearedBill.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Viewincidents.aspx.cs">
+      <DependentUpon>Viewincidents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewincidents.aspx.designer.cs">
+      <DependentUpon>Viewincidents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebControls\MsgBoxControl.ascx.cs">
+      <DependentUpon>MsgBoxControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\MsgBoxControl.ascx.designer.cs">
+      <DependentUpon>MsgBoxControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeWork.aspx.cs">
+      <DependentUpon>HomeWork.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeWork.aspx.designer.cs">
+      <DependentUpon>HomeWork.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WinerSchoolSelectionold.aspx.cs">
+      <DependentUpon>WinerSchoolSelectionold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WinerSchoolSelectionold.aspx.designer.cs">
+      <DependentUpon>WinerSchoolSelectionold.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinBase\WinBase.csproj">
+      <Project>{3EB0AE6C-E1F7-47C2-8724-0BC591A4BE98}</Project>
+      <Name>WinBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css files\adminstyle.css" />
+    <Content Include="css files\allotment.css" />
+    <Content Include="css files\campusstyle.css" />
+    <Content Include="css files\DockMenuStyle.css" />
+    <Content Include="css files\DockSideMenu.css" />
+    <Content Include="css files\flora.datepicker.css" />
+    <Content Include="css files\ImageSliderstyle.css" />
+    <Content Include="css files\Loginstyle.css" />
+    <Content Include="css files\MasterStyle.css" />
+    <Content Include="css files\mbContainer.css" />
+    <Content Include="css files\menu_styles.css" />
+    <Content Include="css files\NewMenustyles.css" />
+    <Content Include="css files\StyleSheet.css" />
+    <Content Include="css files\TabStyleSheet.css" />
+    <Content Include="css files\thickbox.css" />
+    <Content Include="css files\ui.datepicker.css" />
+    <Content Include="css files\whitetheme.css" />
+    <Content Include="css files\winroundbox.css" />
+    <Content Include="css files\wschoolstyle.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\0277fb.jpg" />
+    <Content Include="images\04fd3f.jpg" />
+    <Content Include="images\07_Grads.jpg" />
+    <Content Include="images\1288159630_user1.png" />
+    <Content Include="images\87888a.jpg" />
+    <Content Include="images\accept.png" />
+    <Content Include="images\add_user.png" />
+    <Content Include="images\af03ff.jpg" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\arrow1.gif" />
+    <Content Include="images\arrowstop.gif" />
+    <Content Include="images\arrow_10.gif" />
+    <Content Include="images\arrow_5.gif" />
+    <Content Include="images\arrow_7.gif" />
+    <Content Include="images\back.png" />
+    <Content Include="images\bar.gif" />
+    <Content Include="images\BG.gif" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\BG1.gif" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bgh1.gif" />
+    <Content Include="images\block.jpg" />
+    <Content Include="images\bottom_bar.gif" />
+    <Content Include="images\bottom_bg.gif" />
+    <Content Include="images\collapse_blue.jpg" />
+    <Content Include="images\comment.gif" />
+    <Content Include="images\content_article_bg.jpg" />
+    <Content Include="images\content_title_bg.gif" />
+    <Content Include="images\cross.png" />
+    <Content Include="images\delete_user.png" />
+    <Content Include="images\dockbar.png" />
+    <Content Include="images\dolphin_bg-ON.gif" />
+    <Content Include="images\dolphin_bg-OVER.gif" />
+    <Content Include="images\dolphin_bg.gif" />
+    <Content Include="images\dolphin_left-ON.gif" />
+    <Content Include="images\dolphin_right-ON.gif" />
+    <Content Include="images\dotted.gif" />
+    <Content Include="images\down.gif" />
+    <Content Include="images\dropdown_linkbg.gif" />
+    <Content Include="images\dropdown_linkbg1.gif" />
+    <Content Include="images\edit_profile.png" />
+    <Content Include="images\exit.png" />
+    <Content Include="images\expand_blue.jpg" />
+    <Content Include="images\f93204.jpg" />
+    <Content Include="images\fd9c03.jpg" />
+    <Content Include="images\footer.jpg" />
+    <Content Include="images\front.png" />
+    <Content Include="images\graduation.jpeg" />
+    <Content Include="images\graybg.png" />
+    <Content Include="images\h.gif" />
+    <Content Include="images\h2bg.gif" />
+    <Content Include="images\h3.jpg" />
+    <Content Include="images\h3bg.gif" />
+    <Content Include="images\header.jpg" />
+    <Content Include="images\headerbg.gif" />
+    <Content Include="images\help.png" />
+    <Content Include="images\ico_cat.gif" />
+    <Content Include="images\ico_comments.gif" />
+    <Content Include="images\ico_date.gif" />
+    <Content Include="images\ico_list.gif" />
+    <Content Include="images\ico_user.gif" />
+    <Content Include="images\img.png" />
+    <Content Include="images\indicator-big.gif" />
+    <Content Include="images\input.gif" />
+    <Content Include="images\kwtrans.png" />
+    <Content Include="images\label.gif" />
+    <Content Include="images\left copy.png" />
+    <Content Include="images\Left.jpg" />
+    <Content Include="images\Left1.jpg" />
+    <Content Include="images\Left2.jpg" />
+    <Content Include="images\leftarrow.png" />
+    <Content Include="images\li.gif" />
+    <Content Include="images\li.png" />
+    <Content Include="images\loadingAnimation.gif" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\LOGO.gif" />
+    <Content Include="images\macFFBgHack.png" />
+    <Content Include="images\mainbg.jpg" />
+    <Content Include="images\menu.gif" />
+    <Content Include="images\menubg.gif" />
+    <Content Include="images\menuhover.gif" />
+    <Content Include="images\middile copy.png" />
+    <Content Include="images\middile.jpg" />
+    <Content Include="images\middile1.jpg" />
+    <Content Include="images\middile2.jpg" />
+    <Content Include="images\more.gif" />
+    <Content Include="images\nav.gif" />
+    <Content Include="images\nav_hover.gif" />
+    <Content Include="images\newlogo.gif" />
+    <Content Include="images\note.png" />
+    <Content Include="images\progress.png" />
+    <Content Include="images\right copy.png" />
+    <Content Include="images\right.jpg" />
+    <Content Include="images\right1.jpg" />
+    <Content Include="images\right2.jpg" />
+    <Content Include="images\rightarrow.png" />
+    <Content Include="images\school logo.gif" />
+    <Content Include="images\searchbg.gif" />
+    <Content Include="images\select1.jpg" />
+    <Content Include="images\SelectedBack.jpg" />
+    <Content Include="images\smallbox.gif" />
+    <Content Include="images\smallboxtop.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\stripe.gif" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\submitnew.gif" />
+    <Content Include="images\subnav_btn.gif" />
+    <Content Include="images\tanbg.png" />
+    <Content Include="images\timeicon.gif" />
+    <Content Include="images\top.jpg" />
+    <Content Include="images\topnav_bg.gif" />
+    <Content Include="images\topnav_hover.gif" />
+    <Content Include="images\toprepeat.gif" />
+    <Content Include="images\TopStrip.jpg" />
+    <Content Include="images\TopStud.jpg" />
+    <Content Include="images\top_bar.gif" />
+    <Content Include="images\top_bg.gif" />
+    <Content Include="images\up.gif" />
+    <Content Include="images\warning.png" />
+    <Content Include="images\webdesign.png" />
+    <Content Include="images\winerlogo.ico" />
+    <Content Include="images\winlogo.gif" />
+    <Content Include="js files\Campusddaccordion.js" />
+    <Content Include="js files\Campusjquery.min.js" />
+    <Content Include="js files\Campusmenu.js" />
+    <Content Include="js files\DockMenu.js" />
+    <Content Include="js files\DockSideMenu.js" />
+    <Content Include="js files\ImageSliderjquery-1.4.2.min.js" />
+    <Content Include="js files\ImageSliderjquery.movingboxes.min.js" />
+    <Content Include="js files\jquery.js" />
+    <Content Include="js files\menu.js" />
+    <Content Include="js files\RollNoListItem.js" />
+    <Content Include="js files\thickbox.js" />
+    <Content Include="js files\ui.datepicker.min.js" />
+    <Content Include="ParentLoginMaster.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\AdminTheme\AdminTheme.css" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderChrome.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderChromeBlack.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderGamer.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderGlassBlack.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderSoftGrey.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\HeaderWhiteChrome.png" />
+    <Content Include="App_Themes\AdminTheme\Images\FireworksNative\PagerGamer.png" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderChrome.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderChromeBlack.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer_Hover.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGamer_left.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderGlassBlack.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderSoftGrey.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\HeaderWhiteChrome.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\PagerGamer.jpg" />
+    <Content Include="App_Themes\AdminTheme\Images\YahooSprite.gif" />
+    <Content Include="AttendanceReport.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="css files\BlueLoginstyle.css" />
+    <Content Include="css files\ContentSlide.css" />
+    <Content Include="css files\winbuttonstyle.css" />
+    <Content Include="css files\winbuttonstyleblue.css" />
+    <Content Include="elements\skin1\c.png" />
+    <Content Include="elements\skin1\e.png" />
+    <Content Include="elements\skin1\n.png" />
+    <Content Include="elements\skin1\ne.png" />
+    <Content Include="elements\skin1\no.png" />
+    <Content Include="elements\skin1\o.png" />
+    <Content Include="elements\skin1\s.png" />
+    <Content Include="elements\skin1\se.png" />
+    <Content Include="elements\skin1\so.png" />
+    <Content Include="elements\skin5\c.png" />
+    <Content Include="elements\skin5\e.png" />
+    <Content Include="elements\skin5\n.png" />
+    <Content Include="elements\skin5\ne.png" />
+    <Content Include="elements\skin5\no.png" />
+    <Content Include="elements\skin5\o.png" />
+    <Content Include="elements\skin5\s.png" />
+    <Content Include="elements\skin5\se.png" />
+    <Content Include="elements\skin5\so.png" />
+    <Content Include="Error.aspx" />
+    <Content Include="ExamReportYearly.aspx" />
+    <Content Include="FeeDetails.aspx" />
+    <Content Include="images\bar_bottom.gif" />
+    <Content Include="images\bg_header.gif" />
+    <Content Include="images\button.gif" />
+    <Content Include="images\button.jpg" />
+    <Content Include="images\buttonimg.jpg" />
+    <Content Include="images\Copy %282%29 of bg.jpg" />
+    <Content Include="images\Copy of bg.jpg" />
+    <Content Include="images\Copy of bottom_bg.gif" />
+    <Content Include="images\Copy of mainheading.jpg" />
+    <Content Include="images\Copy of subnav_btn.gif" />
+    <Content Include="images\heading.jpg" />
+    <Content Include="images\heading1.jpg" />
+    <Content Include="images\leftbg.jpg" />
+    <Content Include="images\loginbg.jpg" />
+    <Content Include="images\mainheading.jpg" />
+    <Content Include="images\menubg.png" />
+    <Content Include="images\paperdesignblue.jpg" />
+    <Content Include="images\pt1_dwn.png" />
+    <Content Include="images\pt1_up.png" />
+    <Content Include="images\pt_dwn.gif" />
+    <Content Include="images\pt_up.gif" />
+    <Content Include="images\righttop.jpg" />
+    <Content Include="images\slide.gif" />
+    <Content Include="images\stdnt.png" />
+    <Content Include="images\topnav_bg1.gif" />
+    <Content Include="images\topnav_hover2.gif" />
+    <Content Include="images\topnav_hover3.gif" />
+    <Content Include="images\top_bar _original 2.gif" />
+    <Content Include="images\top_bar4.gif" />
+    <Content Include="images\top_barw.gif" />
+    <Content Include="images\top_barxscf.gif" />
+    <Content Include="IncidentRating.aspx" />
+    <Content Include="js files\jquery.tools.min.js" />
+    <Content Include="Logout.aspx" />
+    <Content Include="OpenPdfPage.aspx" />
+    <Content Include="Pics\3D_cube.gif" />
+    <Content Include="Pics\917177009.png" />
+    <Content Include="Pics\accept.png" />
+    <Content Include="Pics\accept_page.png" />
+    <Content Include="Pics\add.png" />
+    <Content Include="Pics\add_female_user.png" />
+    <Content Include="Pics\add_page.png" />
+    <Content Include="Pics\add_to_folder.png" />
+    <Content Include="Pics\attachment.png" />
+    <Content Include="Pics\Attendance.png" />
+    <Content Include="Pics\back.png" />
+    <Content Include="Pics\block.png" />
+    <Content Include="Pics\book.png" />
+    <Content Include="Pics\bookgreen.png" />
+    <Content Include="Pics\book_accept.png" />
+    <Content Include="Pics\book_download.png" />
+    <Content Include="Pics\book_search.png" />
+    <Content Include="Pics\book_warning.png" />
+    <Content Include="Pics\bottom.png" />
+    <Content Include="Pics\bottomorange.gif" />
+    <Content Include="Pics\Bus.png" />
+    <Content Include="Pics\business_user.png" />
+    <Content Include="Pics\calendar.png" />
+    <Content Include="Pics\calendar_empty.png" />
+    <Content Include="Pics\certificate.png" />
+    <Content Include="Pics\chart.png" />
+    <Content Include="Pics\chart_pie.png" />
+    <Content Include="Pics\Class.png" />
+    <Content Include="Pics\clock.png" />
+    <Content Include="Pics\comment.png" />
+    <Content Include="Pics\comments.png" />
+    <Content Include="Pics\configure1.png" />
+    <Content Include="Pics\currencygreen.png" />
+    <Content Include="Pics\currency_dollargreen.png" />
+    <Content Include="Pics\cut.png" />
+    <Content Include="Pics\default_user_icon.jpg" />
+    <Content Include="Pics\DeleteRed.png" />
+    <Content Include="Pics\delete_folder.png" />
+    <Content Include="Pics\delete_folderqq.png" />
+    <Content Include="Pics\delete_page.png" />
+    <Content Include="Pics\Details.png" />
+    <Content Include="Pics\dollar.png" />
+    <Content Include="Pics\download.png" />
+    <Content Include="Pics\edit student.png" />
+    <Content Include="Pics\edit.png" />
+    <Content Include="Pics\EdtPen.jpg" />
+    <Content Include="Pics\email-icon.gif" />
+    <Content Include="Pics\envelope_icon.jpg" />
+    <Content Include="Pics\evolution-tasks.png" />
+    <Content Include="Pics\Exam.png" />
+    <Content Include="Pics\Excel-icon.png" />
+    <Content Include="Pics\Excel.png" />
+    <Content Include="Pics\fileimport.png" />
+    <Content Include="Pics\folder.png" />
+    <Content Include="Pics\folder11.png" />
+    <Content Include="Pics\folder_accept.png" />
+    <Content Include="Pics\folder_full.png" />
+    <Content Include="Pics\folder_up.png" />
+    <Content Include="Pics\full_page.png" />
+    <Content Include="Pics\group.png" />
+    <Content Include="Pics\hand.png" />
+    <Content Include="Pics\help.png" />
+    <Content Include="Pics\home.png" />
+    <Content Include="Pics\home1.png" />
+    <Content Include="Pics\home2.png" />
+    <Content Include="Pics\home3.png" />
+    <Content Include="Pics\home4.png" />
+    <Content Include="Pics\HomeIcon.jpg" />
+    <Content Include="Pics\iconbe6.png" />
+    <Content Include="Pics\icon_hosting_medium.png" />
+    <Content Include="Pics\icon_mail_medium.png" />
+    <Content Include="Pics\icon_pic.png" />
+    <Content Include="Pics\image_icon.png" />
+    <Content Include="Pics\img.png" />
+    <Content Include="Pics\img12.jpeg" />
+    <Content Include="Pics\IncedenceRating.png" />
+    <Content Include="Pics\info.png" />
+    <Content Include="Pics\ip_icon_03_MailSend.png" />
+    <Content Include="Pics\key.png" />
+    <Content Include="Pics\left.png" />
+    <Content Include="Pics\leftbottom.png" />
+    <Content Include="Pics\leftorange.gif" />
+    <Content Include="Pics\lefttop.png" />
+    <Content Include="Pics\link.png" />
+    <Content Include="Pics\lock.png" />
+    <Content Include="Pics\mail.png" />
+    <Content Include="Pics\mail1.png" />
+    <Content Include="Pics\mail_icon.231151327_std.JPG" />
+    <Content Include="Pics\mail_lock.png" />
+    <Content Include="Pics\mail_receive.png" />
+    <Content Include="Pics\mail_search.png" />
+    <Content Include="Pics\mail_send.png" />
+    <Content Include="Pics\mail_send1.png" />
+    <Content Include="Pics\Manage.png" />
+    <Content Include="Pics\Misc-Box.png" />
+    <Content Include="Pics\new_page.png" />
+    <Content Include="Pics\next.png" />
+    <Content Include="Pics\orange-folder-image.png" />
+    <Content Include="Pics\page.png" />
+    <Content Include="Pics\page_accept.png" />
+    <Content Include="Pics\page_down.png" />
+    <Content Include="Pics\page_process.png" />
+    <Content Include="Pics\page_process1.png" />
+    <Content Include="Pics\page_process2.png" />
+    <Content Include="Pics\page_remove.png" />
+    <Content Include="Pics\page_up.png" />
+    <Content Include="Pics\play buttons\black_ffw.png" />
+    <Content Include="Pics\play buttons\black_first.png" />
+    <Content Include="Pics\play buttons\black_last.png" />
+    <Content Include="Pics\play buttons\black_play.png" />
+    <Content Include="Pics\play buttons\black_rew.png" />
+    <Content Include="Pics\play buttons\black_stop.png" />
+    <Content Include="Pics\play buttons\blue_play.png" />
+    <Content Include="Pics\Points red.png" />
+    <Content Include="Pics\Points.png" />
+    <Content Include="Pics\process.png" />
+    <Content Include="Pics\process_accept.png" />
+    <Content Include="Pics\promotion.png" />
+    <Content Include="Pics\protection.png" />
+    <Content Include="Pics\Rating red.png" />
+    <Content Include="Pics\Rating.png" />
+    <Content Include="Pics\recycle_bin.png" />
+    <Content Include="Pics\refresh.png" />
+    <Content Include="Pics\refreshqw.png" />
+    <Content Include="Pics\right.png" />
+    <Content Include="Pics\rightbottom.png" />
+    <Content Include="Pics\rightorange.gif" />
+    <Content Include="Pics\righttop.png" />
+    <Content Include="Pics\rss.png" />
+    <Content Include="Pics\save.png" />
+    <Content Include="Pics\save1.png" />
+    <Content Include="Pics\search_female_user.png" />
+    <Content Include="Pics\search_page.png" />
+    <Content Include="Pics\send_mail.png" />
+    <Content Include="Pics\sessionout.png" />
+    <Content Include="Pics\she_user.png" />
+    <Content Include="Pics\SMS.png" />
+    <Content Include="Pics\Standard-Man-User.png" />
+    <Content Include="Pics\Standard-Woman-User.png" />
+    <Content Include="Pics\Student Female.png" />
+    <Content Include="Pics\Student Male.png" />
+    <Content Include="Pics\Student Total.png" />
+    <Content Include="Pics\tablet.png" />
+    <Content Include="Pics\tag_blue.png" />
+    <Content Include="Pics\tag_green.png" />
+    <Content Include="Pics\text_page.png" />
+    <Content Include="Pics\timetable.gif" />
+    <Content Include="Pics\top.png" />
+    <Content Include="Pics\toporange.gif" />
+    <Content Include="Pics\unlock.png" />
+    <Content Include="Pics\upload.png" />
+    <Content Include="Pics\user1.png" />
+    <Content Include="Pics\user12.png" />
+    <Content Include="Pics\user2.png" />
+    <Content Include="Pics\user3.png" />
+    <Content Include="Pics\user4.png" />
+    <Content Include="Pics\user5.png" />
+    <Content Include="Pics\user6.png" />
+    <Content Include="Pics\user7.png" />
+    <Content Include="Pics\user9.png" />
+    <Content Include="Pics\users-green.png" />
+    <Content Include="Pics\users-grey.png" />
+    <Content Include="Pics\users11.png" />
+    <Content Include="Pics\ViewPdf.png" />
+    <Content Include="Pics\warning.png" />
+    <Content Include="PSLogin.aspx" />
+    <Content Include="StudentAttendanceYearly.aspx" />
+    <Content Include="StudentPerform.aspx" />
+    <Content Include="StudExamReport.aspx" />
+    <Content Include="StudTimeTable.aspx" />
+    <Content Include="Viewincidents.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebControls\MsgBoxControl.ascx" />
+    <Content Include="winbuttons\add.gif" />
+    <Content Include="winbuttons\add.png" />
+    <Content Include="winbuttons\add1.gif" />
+    <Content Include="winbuttons\addb.gif" />
+    <Content Include="winbuttons\btn_right.png" />
+    <Content Include="winbuttons\cancel.gif" />
+    <Content Include="winbuttons\cancel.png" />
+    <Content Include="winbuttons\cancel1.gif" />
+    <Content Include="winbuttons\cancelb.gif" />
+    <Content Include="winbuttons\edit.gif" />
+    <Content Include="winbuttons\edit1.gif" />
+    <Content Include="winbuttons\editb.gif" />
+    <Content Include="winbuttons\excel.gif" />
+    <Content Include="winbuttons\excel.png" />
+    <Content Include="winbuttons\excel1.gif" />
+    <Content Include="winbuttons\excelb.gif" />
+    <Content Include="winbuttons\Ok.gif" />
+    <Content Include="winbuttons\ok.png" />
+    <Content Include="winbuttons\Ok1.gif" />
+    <Content Include="winbuttons\Okb.gif" />
+    <Content Include="winbuttons\remove.gif" />
+    <Content Include="winbuttons\remove.png" />
+    <Content Include="winbuttons\remove1.gif" />
+    <Content Include="winbuttons\removeb.gif" />
+    <Content Include="winbuttons\save.gif" />
+    <Content Include="winbuttons\save.png" />
+    <Content Include="winbuttons\save1.gif" />
+    <Content Include="winbuttons\saveb.gif" />
+    <Content Include="winbuttons\search.gif" />
+    <Content Include="winbuttons\search.png" />
+    <Content Include="winbuttons\search1.gif" />
+    <Content Include="winbuttons\searchb.gif" />
+    <Content Include="winbuttons\submit.gif" />
+    <Content Include="winbuttons\submit1.gif" />
+    <Content Include="winbuttons\submitb.gif" />
+    <Content Include="Win_Round_Div\NormalDivGray\bottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\cgray1.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\left.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\leftbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\lefttop.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\right.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\rightbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\righttop.png" />
+    <Content Include="Win_Round_Div\NormalDivGray\smallboxmiddile.jpg" />
+    <Content Include="Win_Round_Div\NormalDivGray\top.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\bottomorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\leftbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\leftorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\lefttop.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\middle.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\rightbottom.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\rightorange.gif" />
+    <Content Include="Win_Round_Div\NormalDivOrange\righttop.png" />
+    <Content Include="Win_Round_Div\NormalDivOrange\toporange.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Adminlogin.aspx" />
+    <Content Include="App_Themes\AdminTheme\AdminTheme.skin" />
+    <Content Include="Bin\AjaxControlToolkit.dll" />
+    <Content Include="Bin\DotNetOpenAuth.dll" />
+    <Content Include="Bin\itextsharp.dll" />
+    <Content Include="Bin\MigraDoc.DocumentObjectModel.dll" />
+    <Content Include="Bin\MigraDoc.Rendering.dll" />
+    <Content Include="Bin\MigraDoc.RtfRendering.dll" />
+    <Content Include="Bin\MySql.Data.dll" />
+    <Content Include="Bin\PdfSharp.Charting.dll" />
+    <Content Include="Bin\PdfSharp.dll" />
+    <Content Include="Bin\WC.PdfDocumentClass.dll" />
+    <Content Include="Bin\WC.PdfDocumentClass.pdb" />
+    <Content Include="Bin\WebChart.dll" />
+    <Content Include="Bin\WinBase.dll" />
+    <Content Include="Bin\WinBase.pdb" />
+    <Content Include="ComposeMessage.aspx" />
+    <Content Include="css files\Bluemenu.css" />
+    <Content Include="css files\Bluestyle.css" />
+    <Content Include="css files\custom.css" />
+    <Content Include="css files\font-awesome.min.css" />
+    <Content Include="css files\jquery.bxslider.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="css files\NewLoginStyle.css" />
+    <Content Include="css files\Orangemenu.css" />
+    <Content Include="css files\Orangestyle.css" />
+    <Content Include="css files\PopupcssMaster.css" />
+    <Content Include="css_bootstrap\angular-wizard.min.css" />
+    <Content Include="css_bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="css_bootstrap\bootstrap.css" />
+    <Content Include="css_bootstrap\bootstrap.min.css" />
+    <Content Include="css_bootstrap\checkbox.css" />
+    <Content Include="css_bootstrap\custom.min.css" />
+    <Content Include="css_bootstrap\font-awesome.css" />
+    <Content Include="css_bootstrap\font-awesome.min.css" />
+    <Content Include="css_bootstrap\loading-bar.css" />
+    <Content Include="css_bootstrap\metisMenu.min.css" />
+    <Content Include="css_bootstrap\morris.css" />
+    <Content Include="css_bootstrap\sb-admin-2.css" />
+    <Content Include="css_bootstrap\site.min.css" />
+    <Content Include="css_bootstrap\social-network social-circle.css" />
+    <Content Include="css_bootstrap\social-share-kit.css" />
+    <Content Include="css_bootstrap\timeline.css" />
+    <Content Include="Examreports.aspx" />
+    <Content Include="ExamTimeTable.aspx" />
+    <Content Include="FeeBillNew.aspx" />
+    <Content Include="images\bx_loader.gif" />
+    <Content Include="images\controls.png" />
+    <Content Include="images\early foundation.jpg" />
+    <Content Include="images\winceronsmalllogo.png" />
+    <Content Include="images\winersmalllogo.png" />
+    <Content Include="js files\ClassViewjquery.js" />
+    <Content Include="js files\Imageslider-noplugin-withkeyboard.js" />
+    <Content Include="js files\ImageSliderjquery.movingboxes.js" />
+    <Content Include="js files\jquery-1.4.1.min.js" />
+    <Content Include="js files\jquery-1.4.4.min.js" />
+    <Content Include="js files\jquery-3.1.0.min.js" />
+    <Content Include="js files\jquery.bxslider.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js files\jquery.fitvids.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js files\jquery.hotkeys.js" />
+    <Content Include="js files\jquery.min.js" />
+    <Content Include="js files\winermenuBlue.js" />
+    <Content Include="js files\winermenuOrange.js" />
+    <Content Include="js_bootstrap\bootstrap.js" />
+    <Content Include="js_bootstrap\bootstrap.min.js" />
+    <Content Include="js_bootstrap\jquery.min.js" />
+    <Content Include="js_bootstrap\metisMenu.min.js" />
+    <Content Include="js_bootstrap\sb-admin-2.js" />
+    <Content Include="MakePayment.aspx" />
+    <Content Include="obj\Debug\WinErParentLogin.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\WinErParentLogin.dll" />
+    <Content Include="obj\Debug\WinErParentLogin.pdb" />
+    <Content Include="obj\Release\WinErParentLogin.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\WinErParentLogin.dll" />
+    <Content Include="obj\Release\WinErParentLogin.pdb" />
+    <Content Include="PaymentFailure.aspx" />
+    <Content Include="PaymentSuccess.aspx" />
+    <Content Include="Pics\video.jpg" />
+    <Content Include="sectionerr.htm" />
+    <Content Include="ServiceFeedBack.aspx" />
+    <Content Include="Servicecomplaints.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="EventsArea.aspx" />
+    <Content Include="fb.aspx" />
+    <Content Include="FeeBillLogoNoBorder.aspx" />
+    <Content Include="FeeBillNoLogoNoBorder.aspx" />
+    <Content Include="FeeBillWithLogoAndHeader.aspx" />
+    <Content Include="images\e-mail.png" />
+    <Content Include="images\google_login.png" />
+    <Content Include="pslogindesign\headerbg.jpg" />
+    <Content Include="pslogindesign\psloginhomeimage.jpg" />
+    <Content Include="MessagePage.aspx" />
+    <Content Include="MessageHome.aspx" />
+    <Content Include="MessageThread.aspx" />
+    <Content Include="Pics\Draft.png" />
+    <Content Include="pslogindesign\loginbg.jpg" />
+    <Content Include="pslogindesign\schoollogo.jpg" />
+    <Content Include="ServiceReq.aspx" />
+    <Content Include="StudentConsolidate.aspx" />
+    <Content Include="supportlink.aspx" />
+    <Content Include="TeachersFeedback.aspx" />
+    <Content Include="UnclearedBill.aspx" />
+    <None Include="App_Themes\AdminTheme\Images\PhotoshopNative\YahooSprite.psd" />
+    <None Include="Bin\DotNetOpenAuth.xsd" />
+    <None Include="css files\navbar.less" />
+    <None Include="css_bootstrap\fontawesome-webfont.woff2" />
+    <None Include="elements\skin1\Thumbs.db" />
+    <None Include="elements\skin5\Thumbs.db" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="obj\Release\ResolveAssemblyReference.cache" />
+    <None Include="Properties\PublishProfiles\scool360.pubxml" />
+    <None Include="UpImage\StuMarkReport_V STD- STATE.pdf" />
+    <Content Include="Handler\ImageReturnHandler.ashx" />
+    <Content Include="parentmaster.Master" />
+    <Content Include="HomeWork.aspx" />
+    <Content Include="WinerSchoolSelectionold.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Bin\ar\" />
+    <Folder Include="Bin\cs\" />
+    <Folder Include="Bin\de\" />
+    <Folder Include="Bin\es\" />
+    <Folder Include="Bin\fr\" />
+    <Folder Include="Bin\he\" />
+    <Folder Include="Bin\hi\" />
+    <Folder Include="Bin\it\" />
+    <Folder Include="Bin\ja\" />
+    <Folder Include="Bin\ko\" />
+    <Folder Include="Bin\nl\" />
+    <Folder Include="Bin\pt\" />
+    <Folder Include="Bin\ru\" />
+    <Folder Include="Bin\tr-TR\" />
+    <Folder Include="Bin\zh-CHS\" />
+    <Folder Include="Bin\zh-CHT\" />
+    <Folder Include="obj\Debug\Refactor\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\Refactor\" />
+    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="PDF_Files\" />
+    <Folder Include="TemporaryFileManager\" />
+    <Folder Include="WebCharts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2098</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WinErParentLogin</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,200 @@
+E:\WorkArea\SVN\Winer\Source\WinEr\WinBase\bin\Debug\WinBase.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinBase\bin\Debug\WinBase.pdb
+E:\WorkArea\SVN\Winer\Source\WinEr\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkArea\SVN\Winer\Source\WinEr\WinBase\obj\Debug\WinBase.dll
+E:\WorkArea\SVN\Winer\Source\WinEr\WinBase\obj\Debug\WinBase.pdb
+E:\Work Area\School New\new winer\WinEr\WinBase\bin\Debug\WinBase.dll
+E:\Work Area\School New\new winer\WinEr\WinBase\bin\Debug\WinBase.pdb
+E:\Work Area\School New\new winer\WinEr\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\Work Area\School New\new winer\WinEr\WinBase\obj\Debug\WinBase.dll
+E:\Work Area\School New\new winer\WinEr\WinBase\obj\Debug\WinBase.pdb
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\WinBase.dll
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\WinBase.pdb
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\OFFICEWORK\WinerSchool\WinBase\bin\Debug\PdfSharp.dll
+D:\OFFICEWORK\WinerSchool\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\OFFICEWORK\WinerSchool\WinBase\obj\Debug\WinBase.dll
+D:\OFFICEWORK\WinerSchool\WinBase\obj\Debug\WinBase.pdb
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\WinBase.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\WinBase.pdb
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\MigraDoc.Rendering.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\PdfSharp.Charting.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\PdfSharp.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+E:\Georgy\Project file\Winer\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+E:\Georgy\Project file\Winer\WinBase\obj\Debug\ResolveAssemblyReference.cache
+E:\Georgy\Project file\Winer\WinBase\obj\Debug\WinBase.dll
+E:\Georgy\Project file\Winer\WinBase\obj\Debug\WinBase.pdb
+D:\SVN Area\Winer\WinBase\obj\Debug\ResolveAssemblyReference.cache
+D:\SVN Area\Winer\WinBase\bin\Debug\WinBase.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\WinBase.pdb
+D:\SVN Area\Winer\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\PdfSharp.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\SVN Area\Winer\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\SVN Area\Winer\WinBase\obj\Debug\WinBase.dll
+D:\SVN Area\Winer\WinBase\obj\Debug\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\MigraDoc.Rendering.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\PdfSharp.Charting.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\PdfSharp.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\obj\Debug\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinBase\obj\Debug\WinBase.pdb
+E:\SVN\winer new backup\WinBase\bin\Debug\WinBase.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\WinBase.pdb
+E:\SVN\winer new backup\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\MigraDoc.Rendering.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\PdfSharp.Charting.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\PdfSharp.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+E:\SVN\winer new backup\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+E:\SVN\winer new backup\WinBase\obj\Debug\WinBase.dll
+E:\SVN\winer new backup\WinBase\obj\Debug\WinBase.pdb
+E:\SVN\winer new backup\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\MigraDoc.Rendering.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\PdfSharp.Charting.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\PdfSharp.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\obj\Debug\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\WINER_SCHOOL_v4.9_CODE_vs_2013\Packages\WinBase\obj\Debug\WinBase.pdb
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\WinBase.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\WinBase.pdb
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.Rendering.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\PdfSharp.Charting.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\PdfSharp.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\obj\Debug\WinBase.dll
+E:\SVN\OneDrive\Winer Ver5.0\WinBase\obj\Debug\WinBase.pdb
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\WinBase.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\WinBase.pdb
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.Rendering.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\PdfSharp.Charting.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\PdfSharp.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+E:\SVN\Winer Ver5.0\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+E:\SVN\Winer Ver5.0\WinBase\obj\Debug\WinBase.dll
+E:\SVN\Winer Ver5.0\WinBase\obj\Debug\WinBase.pdb
+E:\SVN\Winer Ver5.0\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\WinBase.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\WinBase.pdb
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.Rendering.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\PdfSharp.Charting.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\PdfSharp.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.dll
+F:\WINCERON\SVN_VS\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\WinBase.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\WinBase.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.Rendering.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\PdfSharp.Charting.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\PdfSharp.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\WinBase.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\WinBase.pdb
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\PdfSharp.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\My WorkArea\WINER V5\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\My WorkArea\WINER V5\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\My WorkArea\WINER V5\WinBase\obj\Debug\WinBase.dll
+D:\My WorkArea\WINER V5\WinBase\obj\Debug\WinBase.pdb
+D:\Project backup\WinBase\bin\Debug\WinBase.dll
+D:\Project backup\WinBase\bin\Debug\WinBase.pdb
+D:\Project backup\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\Project backup\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\Project backup\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\Project backup\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\Project backup\WinBase\bin\Debug\PdfSharp.dll
+D:\Project backup\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\Project backup\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\Project backup\WinBase\obj\Debug\WinBase.dll
+D:\Project backup\WinBase\obj\Debug\WinBase.pdb
+D:\Project backup\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\WinBase.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\WinBase.pdb
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\PdfSharp.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\TFS\Winer\Dev\Live\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\TFS\Winer\Dev\Live\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WinBase\obj\Debug\WinBase.dll
+D:\TFS\Winer\Dev\Live\WinBase\obj\Debug\WinBase.pdb
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\WinBase.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\WinBase.pdb
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\PdfSharp.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\bckup\scool36028-12-2019\Live\WinBase\obj\Debug\WinBase.dll
+D:\bckup\scool36028-12-2019\Live\WinBase\obj\Debug\WinBase.pdb
+D:\bckup\scool36028-12-2019\Live\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\WinBase.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\WinBase.pdb
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\PdfSharp.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\vignesh\scool360\Live\Live\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\vignesh\scool360\Live\Live\WinBase\obj\Debug\WinBase.csprojAssemblyReference.cache
+D:\vignesh\scool360\Live\Live\WinBase\obj\Debug\WinBase.csproj.CoreCompileInputs.cache
+D:\vignesh\scool360\Live\Live\WinBase\obj\Debug\WinBase.csproj.CopyComplete
+D:\vignesh\scool360\Live\Live\WinBase\obj\Debug\WinBase.dll
+D:\vignesh\scool360\Live\Live\WinBase\obj\Debug\WinBase.pdb
+D:\bckup\vignesh\Live\WinBase\bin\Debug\WinBase.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\WinBase.pdb
+D:\bckup\vignesh\Live\WinBase\bin\Debug\MigraDoc.DocumentObjectModel.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\MigraDoc.Rendering.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\MigraDoc.RtfRendering.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\PdfSharp.Charting.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\PdfSharp.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\WC.PdfDocumentClass.dll
+D:\bckup\vignesh\Live\WinBase\bin\Debug\WC.PdfDocumentClass.pdb
+D:\bckup\vignesh\Live\WinBase\obj\Debug\WinBase.dll
+D:\bckup\vignesh\Live\WinBase\obj\Debug\WinBase.pdb
+D:\bckup\vignesh\Live\WinBase\obj\Debug\WinBase.csprojResolveAssemblyReference.cache

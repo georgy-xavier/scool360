@@ -1,0 +1,129 @@
+E:\Work Area\School New\new winer\WinEr\WinEr\bin\WinEr.dll
+E:\Work Area\School New\new winer\WinEr\WinEr\bin\WinEr.pdb
+E:\Work Area\School New\new winer\WinEr\WinEr\bin\WinBase.dll
+E:\Work Area\School New\new winer\WinEr\WinEr\bin\WinBase.pdb
+E:\Work Area\School New\new winer\WinEr\WinEr\obj\Release\ResolveAssemblyReference.cache
+E:\Work Area\School New\new winer\WinEr\WinEr\obj\Release\WinEr.dll
+E:\Work Area\School New\new winer\WinEr\WinEr\obj\Release\WinEr.pdb
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinEr.dll
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinEr.pdb
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinBase.dll
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinEr.CCE.ReportLibrary.dll
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinBase.pdb
+D:\OFFICEWORK\WinerSchool\WinEr\bin\WinEr.CCE.ReportLibrary.pdb
+D:\OFFICEWORK\WinerSchool\WinEr\obj\Release\ResolveAssemblyReference.cache
+D:\OFFICEWORK\WinerSchool\WinEr\obj\Release\WinEr.dll
+D:\OFFICEWORK\WinerSchool\WinEr\obj\Release\WinEr.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr\bin\WinEr.dll
+E:\SAI_SHARE_FOLDER\Central new\WinEr\bin\WinEr.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr\bin\WinBase.dll
+E:\SAI_SHARE_FOLDER\Central new\WinEr\bin\WinBase.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr\bin\WC.PdfDocumentClass.pdb
+E:\SAI_SHARE_FOLDER\Central new\WinEr\obj\Release\ResolveAssemblyReference.cache
+E:\SAI_SHARE_FOLDER\Central new\WinEr\obj\Release\WinEr.dll
+E:\SAI_SHARE_FOLDER\Central new\WinEr\obj\Release\WinEr.pdb
+D:\SVN Area\Winer\WinEr\bin\WinEr.dll
+D:\SVN Area\Winer\WinEr\bin\WinEr.pdb
+D:\SVN Area\Winer\WinEr\bin\WinBase.dll
+D:\SVN Area\Winer\WinEr\bin\WinBase.pdb
+D:\SVN Area\Winer\WinEr\obj\Release\ResolveAssemblyReference.cache
+D:\SVN Area\Winer\WinEr\obj\Release\WinEr.dll
+D:\SVN Area\Winer\WinEr\obj\Release\WinEr.pdb
+D:\SVN Area\Winer\WinEr\bin\WC.PdfDocumentClass.pdb
+D:\winer in 2013\Winer\WinEr\bin\WinEr.dll.config
+D:\winer in 2013\Winer\WinEr\bin\WinEr.dll
+D:\winer in 2013\Winer\WinEr\bin\WinEr.pdb
+D:\winer in 2013\Winer\WinEr\bin\WinBase.dll
+D:\winer in 2013\Winer\WinEr\bin\WinBase.pdb
+D:\winer in 2013\Winer\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\winer in 2013\Winer\WinEr\obj\Release\WinEr.dll
+D:\winer in 2013\Winer\WinEr\obj\Release\WinEr.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\bin\WinEr.dll.config
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\bin\WinEr.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\bin\WinEr.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\bin\WinBase.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\bin\WinBase.pdb
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\obj\Release\WinEr.dll
+F:\WINCERON\WINER_SCHOOL\winer in 2013\WinEr\obj\Release\WinEr.pdb
+E:\SVN\winer new backup\WinEr\bin\WinEr.dll.config
+E:\SVN\winer new backup\WinEr\bin\WinEr.dll
+E:\SVN\winer new backup\WinEr\bin\WinEr.pdb
+E:\SVN\winer new backup\WinEr\bin\WinBase.dll
+E:\SVN\winer new backup\WinEr\bin\WinBase.pdb
+E:\SVN\winer new backup\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+E:\SVN\winer new backup\WinEr\obj\Release\WinEr.dll
+E:\SVN\winer new backup\WinEr\obj\Release\WinEr.pdb
+E:\SVN\Winer Ver5.0\WinEr\bin\WinEr.dll.config
+E:\SVN\Winer Ver5.0\WinEr\bin\WinEr.dll
+E:\SVN\Winer Ver5.0\WinEr\bin\WinEr.pdb
+E:\SVN\Winer Ver5.0\WinEr\bin\WinBase.dll
+E:\SVN\Winer Ver5.0\WinEr\bin\WinBase.pdb
+E:\SVN\Winer Ver5.0\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+E:\SVN\Winer Ver5.0\WinEr\obj\Release\WinEr.dll
+E:\SVN\Winer Ver5.0\WinEr\obj\Release\WinEr.pdb
+D:\My WorkArea\Winer Ver5.0\WinEr\bin\WinEr.dll.config
+D:\My WorkArea\Winer Ver5.0\WinEr\bin\WinEr.dll
+D:\My WorkArea\Winer Ver5.0\WinEr\bin\WinEr.pdb
+D:\My WorkArea\Winer Ver5.0\WinEr\bin\WinBase.dll
+D:\My WorkArea\Winer Ver5.0\WinEr\bin\WinBase.pdb
+D:\My WorkArea\Winer Ver5.0\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\My WorkArea\Winer Ver5.0\WinEr\obj\Release\WinEr.dll
+D:\My WorkArea\Winer Ver5.0\WinEr\obj\Release\WinEr.pdb
+E:\SVN\WINER 04-07-2018\WinEr\bin\sw.js
+E:\SVN\WINER 04-07-2018\WinEr\bin\WinEr.dll.config
+E:\SVN\WINER 04-07-2018\WinEr\bin\WinEr.dll
+E:\SVN\WINER 04-07-2018\WinEr\bin\WinEr.pdb
+E:\SVN\WINER 04-07-2018\WinEr\bin\WinBase.dll
+E:\SVN\WINER 04-07-2018\WinEr\bin\WinBase.pdb
+E:\SVN\WINER 04-07-2018\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+E:\SVN\WINER 04-07-2018\WinEr\obj\Release\WinEr.dll
+E:\SVN\WINER 04-07-2018\WinEr\obj\Release\WinEr.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\sw.js
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\WinEr.dll.config
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\WinEr.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\WinEr.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\WinBase.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\bin\WinBase.pdb
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\obj\Release\WinEr.dll
+E:\TFS LTST\Winer\Release\WINER V5\WinEr\obj\Release\WinEr.pdb
+D:\My WorkArea\WINER V5\WinEr\bin\sw.js
+D:\My WorkArea\WINER V5\WinEr\bin\WinEr.dll.config
+D:\My WorkArea\WINER V5\WinEr\bin\WinEr.dll
+D:\My WorkArea\WINER V5\WinEr\bin\WinEr.pdb
+D:\My WorkArea\WINER V5\WinEr\bin\WinBase.dll
+D:\My WorkArea\WINER V5\WinEr\bin\WinBase.pdb
+D:\My WorkArea\WINER V5\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\My WorkArea\WINER V5\WinEr\obj\Release\WinEr.dll
+D:\My WorkArea\WINER V5\WinEr\obj\Release\WinEr.pdb
+D:\TFS\Winer\Dev\Live\WinEr\bin\sw.js
+D:\TFS\Winer\Dev\Live\WinEr\bin\WinEr.dll.config
+D:\TFS\Winer\Dev\Live\WinEr\bin\WinEr.dll
+D:\TFS\Winer\Dev\Live\WinEr\bin\WinEr.pdb
+D:\TFS\Winer\Dev\Live\WinEr\bin\WinBase.dll
+D:\TFS\Winer\Dev\Live\WinEr\bin\WinBase.pdb
+D:\TFS\Winer\Dev\Live\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\TFS\Winer\Dev\Live\WinEr\obj\Release\WinEr.dll
+D:\TFS\Winer\Dev\Live\WinEr\obj\Release\WinEr.pdb
+D:\TFS\Winer\Dev\Live\WinEr\bin\System.Threading.Tasks.NET35.dll
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\sw.js
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\WinEr.dll.config
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\WinEr.dll
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\WinEr.pdb
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\System.Threading.Tasks.NET35.dll
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\WinBase.dll
+D:\bckup\scool36028-12-2019\Live\WinEr\bin\WinBase.pdb
+D:\bckup\scool36028-12-2019\Live\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\bckup\scool36028-12-2019\Live\WinEr\obj\Release\WinEr.dll
+D:\bckup\scool36028-12-2019\Live\WinEr\obj\Release\WinEr.pdb
+D:\bckup\vignesh\Live\WinEr\bin\sw.js
+D:\bckup\vignesh\Live\WinEr\bin\WinEr.dll.config
+D:\bckup\vignesh\Live\WinEr\bin\WinEr.dll
+D:\bckup\vignesh\Live\WinEr\bin\WinEr.pdb
+D:\bckup\vignesh\Live\WinEr\bin\System.Threading.Tasks.NET35.dll
+D:\bckup\vignesh\Live\WinEr\bin\WinBase.dll
+D:\bckup\vignesh\Live\WinEr\bin\WinBase.pdb
+D:\bckup\vignesh\Live\WinEr\obj\Release\WinEr.csprojResolveAssemblyReference.cache
+D:\bckup\vignesh\Live\WinEr\obj\Release\WinEr.dll
+D:\bckup\vignesh\Live\WinEr\obj\Release\WinEr.pdb
